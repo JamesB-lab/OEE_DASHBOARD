@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<! link to css stylesheet>
+<link rel ="stylesheet" type="text/css" href="{%static '\\css\\main.css' %}">
+
+<! Title >
+<h1>DA6</h1>
+
+<! create grid divs for css>
+<div class="grid-container">
+    <div class="grid-item"><img src="{% static 'images/evo_2200.jpg' %} "></div>
+    <div class="grid-item"><img src="{% static 'images/oee_gauge_test.png' %}"></div>
+    <div class="grid-item"><img src="{% static 'images/oee_graph.png' %} " ></div>
+    <div class="grid-item"><img src="{% static 'images/availability_gauge_test.png' %} " ></div>
+    <div class="grid-item"><img src="{% static 'images/quality_gauge_test.png' %} "></div>
+    <div class="grid-item"><img src="{% static 'images/performance_gauge_test.png' %} "></div>
+</div>
+
+
+<! Datacon image>
+
+
+
+<! plotly OEE graph example>
+
+
+{% endblock content %}

@@ -1,0 +1,29 @@
+ 641MJX-Single Axis - part 3  17.02.2022  08:00
+Time period         	17:51:20	Since	16.02.2022  14:09
+                          System 1    System 2
+Down time             	     0:35:49	     0:35:49
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    17:15:31	    17:15:31
+ Engineering time     	     0:45:12	     0:45:12
+Standby time          	     9:11:31	     9:07:27
+Productive time       	     7:18:48	     7:22:52
+  Loop time           	     0:58:39	     2:12:48
+  Operator            	     0:23:11	     2:30:25
+  Handling            	     5:56:58	     2:39:39
+Operational uptime    	       96.6%	       96.6%
+Operational utilization	       40.9%	       41.3%
+Total utilization     	       40.9%	       41.3%
+MTBA                  	     0:13:04	     0:14:37
+MTTA                  	     0:00:37	     0:00:35
+MTBF                  	     0:29:44	     0:02:56
+MTTR                  	     0:00:15	     0:00:42
+
+Picked up components            0        1765                        
+Placed components               0        1759                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+         SLSA Riser-c     815        791          6          0         24          0          6          0          0          0          0
+
+

@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<! link to css stylesheet>
+<link rel ="stylesheet" type="text/css" href="{%static '\\css\\main.css' %}">
+
+<! create grid divs for css>
+{% comment %} <div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+    <div class="grid-item">9</div>
+</div> {% endcomment %}
+
+<! Title >
+<h1>DA5</h1>
+<! Datacon image>
+<img src="{% static 'images/evo_2200.jpg' %} " height="350px" width="350px">
+
+
+<! plotly OEE graph example>
+<div>
+    <a href="https://plotly.com/~altamir/39/" target="_blank" title="OEE Chart" style="display: block; text-align: center;"><img src="https://plotly.com/~altamir/39.png" alt="OEE Chart" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="altamir:39" src="https://plotly.com/embed.js" async></script>
+</div>
+
+
+<div>
+    <a href="https://plotly.com/~charleyferrari/622/" target="_blank" title="gauge" style="display: block; text-align: center;"><img src="https://plotly.com/~charleyferrari/622.png" alt="gauge" style="max-width: 100%;width: 1000px;"  width="1000" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="charleyferrari:622" src="https://plotly.com/embed.js" async></script>
+</div>
+
+
+{% endblock content %}
