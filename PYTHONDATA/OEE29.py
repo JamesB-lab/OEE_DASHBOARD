@@ -12,6 +12,8 @@ import os.path
 import pprint
 from datetime import date
 
+print('opened function file')
+
 def run_OEE_29(file):
 
 
@@ -21,24 +23,25 @@ def run_OEE_29(file):
     # file_exists = os.path.exists(f'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\RAMFILES\\keeps\\{file}')
     # print(f'File Exists? {file_exists}')
 
-    basename = os.path.basename(f'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\RAMFILES\\keeps\\{file}')
+    basename = os.path.basename(f'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\EDITS\\{file}')
 
-    # basename = basename.replace('.ram', '')
-    # print(f'basename: {basename}')
+    basename = basename.replace('.ram', '')
+    print(f'basename: {basename}')
 
     ##Import raw data as fixed width file (fwf)###
-    data = pd.read_fwf(f'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\EDITS\\{file}', skiprows=3, skipfooter=7, colspecs=[(0,23), (23,37), (37,-1)], names=['Category', 'System 1', 'System 2'])
-
+    data = pd.read_fwf(f'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\EDITS\\{file}', skiprows=3, skipfooter=6, colspecs=[(0,23), (23,37), (37,-1)], names=['Category', 'System 1', 'System 2'])
+    print(f'OEE29 Data{data}')
 
     ###AVAILABILITY Convert raw data to dataFrame, subset for timedelata###
     dftd = pd.DataFrame(data)
     dftd = dftd.drop(axis=0, index =[9,10,11, 12, 13, 14, 15, 16, 17])
-
+    print(f'dftd data: {dftd}')
 
     ###AVAILABILITY Cast Types convert from Object to string/timedelta###
-    dftd['Category'] = dftd['Category'].astype('string')
+    dftd['Category'] = dftd['Category'].astype('string') #Error#
     dftd['System 1'] = pd.to_timedelta(dftd['System 1'])
     dftd['System 2'] = pd.to_timedelta(dftd['System 2'])
+    print(f'dftd data post cast: {dftd}')
 
     ###AVAILABILITY Add extra column for plotting, convert timedelata to float64###
     dftd['System 1'] = dftd['System 1'] / pd.Timedelta(hours =1)
@@ -64,8 +67,9 @@ def run_OEE_29(file):
     ###QUALITY Subset for Quality Statistics ###
 
     dfq = pd.DataFrame(data)
+    # print(f'OEE29 rawdataframe: {dfq}')
     dfq = dfq.drop(axis=0, index =[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15])
-
+    # print(f'OEE29 dfq dataset: {dfq}')
 
 
     ###QUALITY Cast Types convert from Object to string/int64###
@@ -86,7 +90,7 @@ def run_OEE_29(file):
 
     ###PERFORMANCE Subset for Performance Statistics ###
 
-    data2 = pd.read_fwf(f'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\EDITS\\{file}', skiprows=25, skipfooter=0,   colspecs=[(1,23), (25,33), (36, 45), (47, 56), (57, 65), (65, 76), (76, 87), (87, 98), (98, 109), (109, 120), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
+    data2 = pd.read_fwf(f'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\EDITS\\{file}', skiprows=24, skipfooter=0,   colspecs=[(1,23), (25,33), (36, 45), (47, 56), (57, 65), (65, 76), (76, 87), (87, 98), (98, 109), (109, 120), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
     dfp = pd.DataFrame(data2)
 
 
@@ -95,12 +99,14 @@ def run_OEE_29(file):
 
 
     actualOut = dfp.loc[dfp.index[1], 'Total']
+    actualOut = int(actualOut)
     PossibleOut = 840
     print(f'Actual Out: {actualOut}')
+    print(type(actualOut))
 
 
 
-    performance = actualOut / PossibleOut
+    performance = actualOut / PossibleOut #error
 
 
 
@@ -137,7 +143,7 @@ def run_OEE_29(file):
 
     ###Write to csv###
 
-    resultsTransp.to_csv(r'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\OEE_DASHBOARD\\DATABASE\\datalog.csv', index=False, mode='a', header=False)
+    resultsTransp.to_csv(r'C:\\vs_code\\OEE_DASHBOARD\\DATABASE\\datalog.csv', index=False, mode='a', header=False)
 
 
 

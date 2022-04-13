@@ -1,0 +1,77 @@
+OEE29 rawdataframe:                    Category System 1 System 2
+0                 Down time  0:01:43  0:01:43
+1        Scheduled downtime  0:00:00  0:00:00
+2                   Up time  8:13:05  8:13:05
+3          Engineering time  8:00:41  8:00:41
+4              Standby time  0:06:47  0:06:47
+5           Productive time  0:05:37  0:05:37
+6                 Loop time  0:00:53  0:00:04
+7                  Operator  0:01:05  0:03:19
+8                  Handling  0:03:39  0:02:14
+9        Operational uptime    99.6%    99.6%
+10  Operational utilization     1.1%     1.1%
+11        Total utilization     1.1%     1.1%
+12                     MTBA  0:00:00  0:00:00
+13                     MTTA  0:00:00  0:00:00
+14                     MTBF  0:00:10  0:00:00
+15                     MTTR  0:00:02  0:00:00
+
+
+
+OEECOPY rawdataframe:                    Category  System 1  System 2
+0                 Down time   0:09:35   0:09:35
+1        Scheduled downtime   0:00:00   0:00:00
+2                   Up time  17:28:08  17:28:08
+3          Engineering time   1:02:37   1:02:37
+4              Standby time  10:46:17  10:37:00
+5           Productive time   5:39:14   5:48:31
+6                 Loop time   0:35:53   1:26:16
+7                  Operator   0:58:57   1:30:53
+8                  Handling   4:04:24   2:51:22
+9        Operational uptime     99.0%     99.0%
+10  Operational utilization     32.0%     32.9%
+11        Total utilization     32.0%     32.9%
+12                     MTBA   0:10:34   0:13:01
+13                     MTTA   0:01:47   0:01:56
+14                     MTBF   0:12:31   0:04:05
+15                     MTTR   0:00:26   0:00:48
+16     Picked up components         0       928
+17        Placed components         0       928
+
+OEE Copy Data                   Category  System 1  System 2
+0                 Down time   0:09:35   0:09:35
+1        Scheduled downtime   0:00:00   0:00:00
+2                   Up time  17:28:08  17:28:08
+3          Engineering time   1:02:37   1:02:37
+4              Standby time  10:46:17  10:37:00
+5           Productive time   5:39:14   5:48:31
+6                 Loop time   0:35:53   1:26:16
+7                  Operator   0:58:57   1:30:53
+8                  Handling   4:04:24   2:51:22
+9        Operational uptime     99.0%     99.0%
+10  Operational utilization     32.0%     32.9%
+11        Total utilization     32.0%     32.9%
+12                     MTBA   0:10:34   0:13:01
+13                     MTTA   0:01:47   0:01:56
+14                     MTBF   0:12:31   0:04:05
+15                     MTTR   0:00:26   0:00:48
+16     Picked up components         0       928
+17        Placed components         0       928
+
+OEE29 Data                   Category System 1 System 2
+0                 Down time  0:01:43  0:01:43
+1        Scheduled downtime  0:00:00  0:00:00
+2                   Up time  8:13:05  8:13:05
+3          Engineering time  8:00:41  8:00:41
+4              Standby time  0:06:47  0:06:47
+5           Productive time  0:05:37  0:05:37
+6                 Loop time  0:00:53  0:00:04
+7                  Operator  0:01:05  0:03:19
+8                  Handling  0:03:39  0:02:14
+9        Operational uptime    99.6%    99.6%
+10  Operational utilization     1.1%     1.1%
+11        Total utilization     1.1%     1.1%
+12                     MTBA  0:00:00  0:00:00
+13                     MTTA  0:00:00  0:00:00
+14                     MTBF  0:00:10  0:00:00
+15                     MTTR  0:00:02  0:00:00
