@@ -2,13 +2,15 @@ import pandas as pd
 import numpy as np
 import os
 from OEE29 import run_OEE_29
-# from OEE_DASHBOARD import OEE57
-# from OEE_DASHBOARD import OEE85
+from OEE57 import run_OEE_57
+from OEE85 import run_OEE_85
 
 
 def main():
 
-    file = '22_03.ram'
+    #file = '04_03.ram' #29 lines
+    file = '02_03.ram' #57 lines
+    #file = '07_03.ram' #85 lines
 
     os.path.join( "C:", "meshes", "as" ) #Add to future versions for correct method
     file_exists = os.path.exists(f'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\EDITS\\{file}')
@@ -33,8 +35,10 @@ def main():
         run_OEE_29(file)
     elif count == 57:
         print('File is 57 lines long')
+        run_OEE_57(file)
     elif count == 85:
         print('File is 85 lines long')
+        run_OEE_85(file)
     else:
         print('Syntax Error file length')
 
