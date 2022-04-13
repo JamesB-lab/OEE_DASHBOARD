@@ -152,24 +152,35 @@ def run_OEE_57(file):
 
     ###PERFORMANCE Subset for Performance Statistics ###
 
-    # data2 = pd.read_fwf(f'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\EDITS\\{file}', skiprows=24, skipfooter=0,   colspecs=[(1,23), (25,33), (36, 45), (47, 56), (57, 65), (65, 76), (76, 87), (87, 98), (98, 109), (109, 120), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
-    # dfp = pd.DataFrame(data2)
+    data2_a = pd.read_fwf(f'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\EDITS\\{file}', skiprows=25, skipfooter=28,   colspecs=[(1,23), (25,33), (36, 45), (47, 56), (57, 65), (65, 76), (76, 87), (87, 98), (98, 109), (109, 120), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
+    dfp_a = pd.DataFrame(data2_a)
+    print(f'{dfp_a}')
+
+    data2_b = pd.read_fwf(f'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\EDITS\\{file}', skiprows=53, skipfooter=0,   colspecs=[(1,23), (25,33), (36, 45), (47, 56), (57, 65), (65, 76), (76, 87), (87, 98), (98, 109), (109, 120), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
+    dfp_b = pd.DataFrame(data2_b)
+    print(f'{dfp_b}')
+
+    ###PERFORMANCE OEE Quality Calcs###
+
+
+    actualOut_a = dfp_a.loc[dfp_a.index[0], 'Total']
+    actualOut_a = int(actualOut_a)
+    PossibleOut = 840
+    print(f'Actual Out: {actualOut_a}')
+    print(type(actualOut_a))
 
 
 
-    # ###PERFORMANCE OEE Quality Calcs###
+    performance_a = actualOut_a / PossibleOut #error
+    print(f'Performance_a: {performance_a}')
 
+    actualOut_b = dfp_b.loc[dfp_a.index[0], 'Total']
+    actualOut_b = int(actualOut_b)
+    print(f'Actual Out: {actualOut_b}')
+    print(type(actualOut_b))
 
-    # actualOut = dfp.loc[dfp.index[1], 'Total']
-    # actualOut = int(actualOut)
-    # PossibleOut = 840
-    # print(f'Actual Out: {actualOut}')
-    # print(type(actualOut))
-
-
-
-    # performance = actualOut / PossibleOut #error
-
+    performance_b = actualOut_b / PossibleOut #error
+    print(f'Performance_b: {performance_b}')
 
 
     # ###FINAL OEE CACLULATION###
