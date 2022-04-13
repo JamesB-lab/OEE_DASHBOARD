@@ -101,37 +101,56 @@ def run_OEE_57(file):
     print(f'possibleProd_b: {possibleProd_b}')
     print(f'actualProd_b: {actualProd_b}')
 
-
     availability_b = actualProd_b / possibleProd_b
     print(f'availability_b: {availability_b}')
 
 
 
-    # ###QUALITY Subset for Quality Statistics ###
+    ###QUALITY Subset for Quality Statistics ###
 
-    # dfq = pd.DataFrame(data)
-    # # print(f'OEE29 rawdataframe: {dfq}')
-    # dfq = dfq.drop(axis=0, index =[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15])
-    # # print(f'OEE29 dfq dataset: {dfq}')
+    dfq_a = pd.DataFrame(data_a)
+    dfq_a = dfq_a.drop(axis=0, index =[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15])
+    print(f'OEE57 dfq_a quality dataset: {dfq_a}')
 
-
-    # ###QUALITY Cast Types convert from Object to string/int64###
-    # dfq['Category'] = dfq['Category'].astype('string')
-    # dfq['System 2'] = dfq['System 2'].astype('int')
+    dfq_b = pd.DataFrame(data_b)
+    dfq_b = dfq_b.drop(axis=0, index =[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15])
+    print(f'OEE57 dfq_b quality dataset: {dfq_b}')
 
 
+    ###QUALITY Cast Types convert from Object to string/int64###
+    dfq_a['Category'] = dfq_a['Category'].astype('string')
+    dfq_a['System 2'] = dfq_a['System 2'].astype('int')
 
-    # ###QUALITY OEE Quality Calcs###
-    # ###QUALITY Quality = Good Count/Total Count * 100 == Placed/Picked#
+    print(f'dfq_a {dfq_a}')
+    print(f'dfq_a type {dfq_a.dtypes}')
 
-    # pickup = dfq.loc[dfq.index[0], 'System 2']
-    # place = dfq.loc[dfq.index[1], 'System 2']
+    dfq_b['Category'] = dfq_b['Category'].astype('string')
+    dfq_b['System 2'] = dfq_b['System 2'].astype('int')
+
+    print(f'dfq_b {dfq_b}')
+    print(f'dfq_b type {dfq_b.dtypes}')
 
 
-    # quality = place / pickup
+    ###QUALITY OEE Quality Calcs###
+    ###QUALITY Quality = Good Count/Total Count * 100 == Placed/Picked#
 
+    pickup_a = dfq_a.loc[dfq_a.index[0], 'System 2']
+    place_a = dfq_a.loc[dfq_a.index[1], 'System 2']
+    quality_a = place_a / pickup_a
 
-    # ###PERFORMANCE Subset for Performance Statistics ###
+    print(f'pickup_a {pickup_a}')
+    print(f'place_a {place_a}')
+    print(f'quality_a {quality_a}')
+
+    pickup_b = dfq_b.loc[dfq_b.index[0], 'System 2']
+    place_b = dfq_b.loc[dfq_b.index[1], 'System 2']
+    quality_b = place_b / pickup_b
+
+    print(f'pickup_b {pickup_b}')
+    print(f'place_b {place_b}')
+    print(f'quality_b {quality_b}')
+
+    ###PERFORMANCE Subset for Performance Statistics ###
 
     # data2 = pd.read_fwf(f'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\EDITS\\{file}', skiprows=24, skipfooter=0,   colspecs=[(1,23), (25,33), (36, 45), (47, 56), (57, 65), (65, 76), (76, 87), (87, 98), (98, 109), (109, 120), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
     # dfp = pd.DataFrame(data2)
