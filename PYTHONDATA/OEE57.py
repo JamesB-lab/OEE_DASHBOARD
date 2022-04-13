@@ -84,14 +84,26 @@ def run_OEE_57(file):
     ###AVAILABILITY OEE Availability Calcs###
     ###AVAILABILITY Availability = Actual Production Time / Possible Production Time * 100###
 
-    # possibleProd = dftd.loc[dftd.index[2], 'System 2']
+    possibleProd_a = dftd_a.loc[dftd_a.index[2], 'System 2']
+
+    actualProd_a = dftd_a.loc[dftd_a.index[5], 'System 2']
+    print(f'possibleProd_a: {possibleProd_a}')
+    print(f'actualProd_a: {actualProd_a}')
 
 
-    # actualProd = dftd.loc[dftd.index[5], 'System 2']
+    availability_a = actualProd_a / possibleProd_a
+    print(f'availability_a: {availability_a}')
 
 
-    # availability = actualProd / possibleProd
+    possibleProd_b = dftd_b.loc[dftd_b.index[2], 'System 2']
 
+    actualProd_b = dftd_b.loc[dftd_b.index[5], 'System 2']
+    print(f'possibleProd_b: {possibleProd_b}')
+    print(f'actualProd_b: {actualProd_b}')
+
+
+    availability_b = actualProd_b / possibleProd_b
+    print(f'availability_b: {availability_b}')
 
 
 
