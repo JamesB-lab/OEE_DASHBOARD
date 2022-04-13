@@ -30,31 +30,59 @@ def run_OEE_57(file):
 
     ##Import raw data as fixed width file (fwf)### #not ok, need to fix import drops and merge two dataframes#
     data_a = pd.read_fwf(f'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\EDITS\\{file}', skiprows=3, skipfooter=34, colspecs=[(0,23), (23,37), (37,-1)], names=['Category', 'System 1', 'System 2'])
-    print(f'OEE57 Data{data_a}')
+    #print(f'OEE57 Data{data_a}')
 
     data_b = pd.read_fwf(f'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\EDITS\\{file}', skiprows=31, skipfooter=6, colspecs=[(0,23), (23,37), (37,-1)], names=['Category', 'System 1', 'System 2'])
     # print(f'OEE57 Data{data_b}')
 
-    # ###AVAILABILITY Convert raw data to dataFrame, subset for timedelata###
-    # dftd = pd.DataFrame(data)
-    # dftd = dftd.drop(axis=0, index =[9,10,11, 12, 13, 14, 15, 16, 17])
-    # print(f'dftd data: {dftd}')
+    ###CONVERT data_a and data_b to dataframe. Agregate into single datafram###
+
+    data_a = pd.DataFrame(data_a)
+    data_b = pd.DataFrame(data_b)
+
+    print(data_a)
+    print(data_b)
+
+    # data_a = data_a.add(data_b, fill_value=0)
+    # print(f'summed datframe {data_a}')
+
+
+    # ###AVAILABILITY DATA_A Convert raw data to dataFrame, subset for timedelata###
+    dftd_a = pd.DataFrame(data_a)
+    dftd_a = dftd_a.drop(axis=0, index =[9,10,11, 12, 13, 14, 15, 16, 17])
+    # print(f'dftd_a data: {dftd_a}')
+
+    # ###AVAILABILITY DATA_B###
+    dftd_b = pd.DataFrame(data_b)
+    dftd_b = dftd_b.drop(axis=0, index =[9,10,11, 12, 13, 14, 15, 16, 17])
+    # print(f'dftd_b data: {dftd_b}')
 
     # ###AVAILABILITY Cast Types convert from Object to string/timedelta###
-    # dftd['Category'] = dftd['Category'].astype('string') #Error#
-    # dftd['System 1'] = pd.to_timedelta(dftd['System 1'])
-    # dftd['System 2'] = pd.to_timedelta(dftd['System 2'])
-    # print(f'dftd data post cast: {dftd}')
+    dftd_a['Category'] = dftd_a['Category'].astype('string') #Error#
+    dftd_a['System 1'] = pd.to_timedelta(dftd_a['System 1'])
+    dftd_a['System 2'] = pd.to_timedelta(dftd_a['System 2'])
+    print(f'dftd_a data post cast: {dftd_a}')
+
+    dftd_b['Category'] = dftd_b['Category'].astype('string') #Error#
+    dftd_b['System 1'] = pd.to_timedelta(dftd_b['System 1'])
+    dftd_b['System 2'] = pd.to_timedelta(dftd_b['System 2'])
+    print(f'dftd_b data post cast: {dftd_b}')
 
     # ###AVAILABILITY Add extra column for plotting, convert timedelata to float64###
-    # dftd['System 1'] = dftd['System 1'] / pd.Timedelta(hours =1)
-    # dftd['System 2'] = dftd['System 2'] / pd.Timedelta(hours =1)
+    dftd_a['System 1'] = dftd_a['System 1'] / pd.Timedelta(hours =1)
+    dftd_a['System 2'] = dftd_a['System 2'] / pd.Timedelta(hours =1)
 
-    # # print(dftd)
-    # # print(dftd.dtypes)
+    print(f'dftd_a {dftd_a}')
+    print(f'dftf_a type {dftd_a.dtypes}')
 
-    # ###AVAILABILITY OEE Availability Calcs###
-    # ###AVAILABILITY Availability = Actual Production Time / Possible Production Time * 100###
+    dftd_b['System 1'] = dftd_b['System 1'] / pd.Timedelta(hours =1)
+    dftd_b['System 2'] = dftd_b['System 2'] / pd.Timedelta(hours =1)
+
+    print(f'dftd_b {dftd_b}')
+    print(f'dftf_b type {dftd_b.dtypes}')
+
+    ###AVAILABILITY OEE Availability Calcs###
+    ###AVAILABILITY Availability = Actual Production Time / Possible Production Time * 100###
 
     # possibleProd = dftd.loc[dftd.index[2], 'System 2']
 
