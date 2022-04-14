@@ -9,8 +9,8 @@ from OEE85 import run_OEE_85
 def main():
 
     #file = '04_03.ram' #29 lines
-    file = '02_03.ram' #57 lines
-    #file = '07_03.ram' #85 lines
+    #file = '02_03.ram' #57 lines
+    file = '07_03.ram' #85 lines
 
     os.path.join( "C:", "meshes", "as" ) #Add to future versions for correct method
     file_exists = os.path.exists(f'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\EDITS\\{file}')
