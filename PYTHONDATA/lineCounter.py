@@ -6,17 +6,18 @@ from OEE57 import run_OEE_57
 from OEE85 import run_OEE_85
 
 
-def main():
+def run_line_counter(file):
 
     #file = '04_03.ram' #29 lines
     #file = '02_03.ram' #57 lines
-    file = '07_03.ram' #85 lines
+    #file = '07_03.ram' #85 lines
+    #file = file
 
     os.path.join( "C:", "meshes", "as" ) #Add to future versions for correct method
-    file_exists = os.path.exists(f'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\EDITS\\{file}')
-    print(f'File Exists? {file_exists}')
+    file_exists = os.path.exists(file)
+    print(f'File Exists? {file}')
 
-    basename = os.path.basename(f'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\EDITS\\{file}')
+    basename = os.path.basename(file)
 
     basename = basename.replace('.ram', '')
     print(f'basename: {basename}')
@@ -24,7 +25,7 @@ def main():
 
     ###Count number of lines in the file###
 
-    count = len(open(f'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\EDITS\\{file}').readlines(  ))
+    count = len(open(file).readlines(  ))
     count = count +1
     print(count)
     ##Import raw data as fixed width file (fwf)###
@@ -42,4 +43,7 @@ def main():
     else:
         print('Syntax Error file length')
 
-main()
+if __name__ == '__main__':
+    run_line_counter('07_03.ram')
+
+#run_line_counter()
