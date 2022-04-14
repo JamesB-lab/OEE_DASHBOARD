@@ -183,7 +183,23 @@ def run_OEE_57(file):
     print(f'Performance_b: {performance_b}')
 
 
-    # ###FINAL OEE CACLULATION###
+    ###MERGE Dataframe_a & Dataframe_b###
+    ###FIX THIS MATHS ERROR###
+    
+    availability = (actualProd_a + actualProd_b) / (possibleProd_a + possibleProd_b)
+    print(f'overall availability {availability}')
+
+    quality = (place_a + place_b) / (pickup_a + pickup_b)
+    print(f'overall quality {quality}')
+
+    performance = (actualOut_a + actualOut_b) / (PossibleOut + PossibleOut)
+    print(f'overall performance {performance}')
+
+
+
+
+
+    ###FINAL OEE CACLULATION###
 
     # OEE = availability * performance * quality * 100
 
