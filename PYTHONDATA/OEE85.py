@@ -266,29 +266,29 @@ def run_OEE_85(file):
 
 
 
-    # ###Save Results to csv###
+    ###Save Results to csv###
 
-    # ###Create DataFrame of the results: availability, performance, quality, OEE###
+    ###Create DataFrame of the results: availability, performance, quality, OEE###
 
-    # today = date.today()
+    today = date.today()
 
-    # # dd/mm/YY
-    # dateCurrent = today.strftime("%d/%m/%Y")
-
-
-    # dict = {'Date': basename, 'Availability': availability*100, 'Performance': performance*100, 'Quality': quality*100, 'OEE': OEE}
+    # dd/mm/YY
+    dateCurrent = today.strftime("%d/%m/%Y")
 
 
-    # resultsDF = pd.DataFrame.from_dict(dict, orient='index')
+    dict = {'Date': basename, 'Availability': availability*100, 'Performance': performance*100, 'Quality': quality*100, 'OEE': OEE}
+
+
+    resultsDF = pd.DataFrame.from_dict(dict, orient='index')
 
 
 
-    # resultsTransp = resultsDF.transpose()
+    resultsTransp = resultsDF.transpose()
 
 
-    # ###Write to csv###
+    ###Write to csv###
 
-    # resultsTransp.to_csv(r'C:\\vs_code\\OEE_DASHBOARD\\DATABASE\\datalog.csv', index=False, mode='a', header=False)
+    resultsTransp.to_csv(r'C:\\vs_code\\OEE_DASHBOARD\\DATABASE\\datalog.csv', index=False, mode='a', header=False)
 
 
 
