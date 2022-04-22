@@ -1,3 +1,4 @@
+from turtle import width
 import plotly.express as px
 import pandas as pd
 import datetime
@@ -9,7 +10,7 @@ import matplotlib.pyplot as plt
 #To do: join dataframes on the date-time column
 
 datalog = pd.read_csv(f'C:\\vs_code\\OEE_DASHBOARD\\DATABASE\\datalog.csv')
-# print(datalog)
+
 
 df = pd.DataFrame(datalog)
 print(f'df shape: {df.shape}')
@@ -21,7 +22,7 @@ print(f'df shape: {df.shape}')
 ramYear = str(datetime.datetime.now().year)
 # Create Business Date Ranges #
 start_date = datetime.datetime(day=25, month=2, year=2022)
-end_date = datetime.datetime(day=5, month=4, year=2022)
+end_date = datetime.datetime(day=20, month=4, year=2022)
 brange = pd.bdate_range(start=start_date, end=end_date)
 brange = pd.DataFrame(brange, columns =['DateBrange'])
 print(f'brange shape: {brange.shape}')
@@ -29,29 +30,16 @@ print(f'brange shape: {brange.shape}')
 
 date_text = df['Date'].replace('_','/', regex=True) + '/' + ramYear
 df['Datetime'] = pd.to_datetime(date_text, format='%d/%m/%Y')
-#df['Date_brange'] = df['Datetime'].dt.strftime('%Y-%m-%d').astype('string') #string type
-#print(df)
-# print(df.dtypes)
+
 
 ##Sort Dataframe by Date##
 df = df.sort_values(by='Datetime', ascending=True)
-#print(df)
-
-#print(brange.dtypes)
-#print(df.dtypes)
-
 
 result = pd.merge(left=brange, right = df, how='outer', left_on='DateBrange', right_on='Datetime')
-#print(result)
-#print(result.to_markdown())
-#print(result.to_string())
 
 print(result)
 print(result.shape)
 
-###Write to csv###
-
-#result.to_csv(r'C:\\vs_code\\OEE_DASHBOARD\\DATABASE\\datalogDF.csv', index=False, mode='a', header=True)
 
 
 
@@ -69,10 +57,21 @@ print(result.shape)
 
 # plt.show()
 
-
+##This works sort of###
 series = pd.read_csv(f'C:\\vs_code\\OEE_DASHBOARD\\DATABASE\\datalogDF.csv', header=0, index_col=0, parse_dates=True, squeeze=True)
-series.plot()
-series.plot.bar(rot=90, stacked =True)
+series.plot.bar(rot=90, stacked =False, width = 1.0)
+plt.ylim(0, 100)
+
+###
+# series = pd.read_csv(f'C:\\vs_code\\OEE_DASHBOARD\\DATABASE\\datalogDF.csv', header=0, index_col=0, parse_dates=True, squeeze=True)
+# # series.plot()
+# # series.plot.bar(rot=90, stacked =False, width = 1.0)
+
+# #series_2 = pd.read_csv(f'C:\\vs_code\\OEE_DASHBOARD\\DATABASE\\datalogDF.csv', header=0, index_col=0, parse_dates=True, squeeze=True)
+
+# series[['Availability','Performance','Quality']].plot(kind='bar', rot=90, width=1.0)
+# series[['OEE']].plot(secondary_y=False, rot=90, color = 'red')
+# plt.ylim(0, 100)
 
 ###A failed experiment###
 # N = len(result['Datetime'])
