@@ -216,7 +216,7 @@ def run_OEE_85(file):
 
     actualOut_a = dfp_a.loc[dfp_a.index[0], 'Total']
     actualOut_a = int(actualOut_a)
-    PossibleOut = 840
+    PossibleOut = 7010
     # print(f'Actual Out: {actualOut_a}')
     # print(type(actualOut_a))
 
