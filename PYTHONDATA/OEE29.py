@@ -1,7 +1,8 @@
-###OEE Calculation Tool for use in OEE Dashboard. Beta Version 1.1###
+###OEE Calculation Tool for use in OEE Dashboard. Beta Version 1.2###
+###Updated to create datetime object when logging each dataframe for easier plotting##
 ###Developed by James Booth###
 ###For parsing Datacon Evo FWF files of line length 29 only###
-###Last updated 25/04/2022###
+###Last updated 26/04/2022###
 
 
 from turtle import color
@@ -10,6 +11,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os.path
 import pprint
+import datetime
 from datetime import date
 
 print('opened function file')
@@ -124,20 +126,17 @@ def run_OEE_29(file):
     ###Save Results to csv###
 
     ###Create DataFrame of the results: availability, performance, quality, OEE###
+    ramYear = str(datetime.datetime.now().year)
+    date_text = basename.replace('_','/')
+    date_text = date_text.replace('.RAM','/') + ramYear
+    date_time = pd.to_datetime(date_text, format='%d/%m/%Y').date()
+    print(f' Date_Text = {date_text}')
+    print(f' Date_Time = {date_time}')
 
-    today = date.today()
-
-    # dd/mm/YY
-    dateCurrent = today.strftime("%d/%m/%Y")
-
-
-    dict = {'Date': basename, 'Availability': availability*100, 'Performance': performance*100, 'Quality': quality*100, 'OEE': OEE}
+    dict = {'Datetime': date_time, 'RamDate': basename, 'Availability': availability*100, 'Performance': performance*100, 'Quality': quality*100, 'OEE': OEE}
 
 
     resultsDF = pd.DataFrame.from_dict(dict, orient='index')
-
-
-
     resultsTransp = resultsDF.transpose()
 
 
