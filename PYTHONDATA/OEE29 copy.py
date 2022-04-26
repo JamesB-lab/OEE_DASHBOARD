@@ -152,7 +152,7 @@ print(f'OEE = {OEE} %')
 ###Create DataFrame of the results: availability, performance, quality, OEE###
 ramYear = str(datetime.datetime.now().year)
 date_text = basename.replace('_','/')
-date_text = date_text.replace('.RAM','/') + ramYear
+date_text = date_text.replace('.RAM','') + '/' + ramYear
 date_time = pd.to_datetime(date_text, format='%d/%m/%Y').date()
 # date_text = df['Date'].replace({'_':'/', '.RAM': ''}, regex=True) + '/' + ramYear
 print(f' Date_Text = {date_text}')
