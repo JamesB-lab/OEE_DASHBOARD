@@ -1,7 +1,7 @@
-###OEE Calculation Tool for use in OEE Dashboard. Alpha Version 0.2###
+###OEE Calculation Tool for use in OEE Dashboard. Beta Version 1.1###
 ###Developed by James Booth###
 ###For parsing Datacon Evo FWF files of line length 57 only###
-###Last updated 16/03/202###
+###Last updated 25/04/2022###
 
 
 from turtle import color

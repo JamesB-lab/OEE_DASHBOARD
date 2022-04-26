@@ -3,7 +3,9 @@ import pandas as pd
 from datetime import date
 
 
-df = pd.read_csv(f'C:\\vs_code\\OEE_DASHBOARD\\DATABASE\\datalogDF.csv', header=0, index_col=0, parse_dates=True, squeeze=True)
+# df = pd.read_csv(f'C:\\vs_code\\OEE_DASHBOARD\\DATABASE\\datalogDF.csv', header=0, index_col=0, parse_dates=True, squeeze=True)
+# df = pd.read_csv(f'C:\\vs_code\\OEE_DASHBOARD\\DATABASE\\datalog.csv', header=0, index_col=0, squeeze=True)
+df = pd.read_csv(f'C:\\vs_code\\OEE_DASHBOARD\\DATABASE\\datalog.csv', header=0, index_col=0, parse_dates=True, squeeze=True)
 df = pd.DataFrame(df)
 
 now = date.today()
