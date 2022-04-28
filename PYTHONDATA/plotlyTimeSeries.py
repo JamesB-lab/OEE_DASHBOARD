@@ -57,9 +57,12 @@ rollingDate = pd.DataFrame(rollingDate, columns =['RollingDate'])
 
 #merge for rolling date, use inner join to only plot within the rolling date range#
 mergedRolling = pd.merge(left=rollingDate, right = merged, how='inner', left_on='RollingDate', right_on='DateBrange')
+
+
+##Apply fillna() to OEE column##7
+
+mergedRolling['OEE'] = mergedRolling['OEE'].fillna(0)
 print(mergedRolling)
-
-
 
 
 #df = px.data.stocks(indexed=True)-1
@@ -78,4 +81,19 @@ fig.add_trace(
         name='OEE',
         line_shape='hvh'
     ))
+
+fig.update_layout(
+    title=f"Datacon Evo [DA5] 2200+ OEE Trend {lower_date} to {upper_date}",
+    xaxis_title="Date",
+    yaxis_title="%",
+    legend_title="Legend Title",
+    font=dict(
+        family="Helvetica",
+        size=18,
+        color="Black"
+    )
+)
+
+
+
 fig.show() 
