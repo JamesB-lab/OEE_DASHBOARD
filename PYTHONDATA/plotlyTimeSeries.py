@@ -1,4 +1,5 @@
 import plotly.express as px
+import plotly.graph_objects as go
 import pandas as pd
 from datetime import date
 import datetime
@@ -43,7 +44,7 @@ print(f'merged shape = {merged.shape}')
 #Subset for rolling date range#
 
 now = date.today()
-lower_date = now - datetime.timedelta(days = 15)
+lower_date = now - datetime.timedelta(days = 30)
 upper_date = now + datetime.timedelta(days = 15)
 # print(now)
 # print(lower_date)
@@ -54,14 +55,27 @@ rollingDate = pd.bdate_range(start=lower_date, end=upper_date)
 rollingDate = pd.DataFrame(rollingDate, columns =['RollingDate'])
 
 
-#merge for rolling date
-mergedRolling = pd.merge(left=rollingDate, right = merged, how='outer', left_on='RollingDate', right_on='DateBrange')
+#merge for rolling date, use inner join to only plot within the rolling date range#
+mergedRolling = pd.merge(left=rollingDate, right = merged, how='inner', left_on='RollingDate', right_on='DateBrange')
 print(mergedRolling)
 
 
 
 
-# #df = px.data.stocks(indexed=True)-1
-# fig = px.bar(df, x=df.index, y=["Availability", "Performance", "Quality", "OEE"], barmode='group')
-# fig.update_traces(xperiod0=now, selector=dict(type='bar')) #Adds a marker for the current date to the graph could be x or y
-# fig.show() 
+#df = px.data.stocks(indexed=True)-1
+fig = px.bar(mergedRolling, x=mergedRolling['RollingDate'], y=["Availability", "Performance", "Quality"], barmode='group')
+fig.update_layout(title = 'Datacon Evo [DA5] 2200+ OEE Trend', xaxis_tickformat = '%d/%m/%Y')
+#xaxis=dict(tickvals=mergedRolling['RollingDate'], title='Deliveries by Vehicle', titlefont=dict(family='Courier New, monospace', size=18, color='#7f7f7f'),type='category')
+fig.update_xaxes(tickangle= -90, nticks = 50)
+
+fig.update_traces(xperiod0=now, selector=dict(type='bar')) #Adds a marker for the current date to the graph could be x or y
+
+
+fig.add_trace(
+    go.Scatter(
+        x=mergedRolling['RollingDate'],
+        y=mergedRolling['OEE'],
+        name='OEE',
+        line_shape='hvh'
+    ))
+fig.show() 
