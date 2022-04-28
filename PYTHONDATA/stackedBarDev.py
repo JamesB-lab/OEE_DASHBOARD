@@ -35,10 +35,15 @@ df['Datetime'] = pd.to_datetime(date_text, format='%d/%m/%Y')
 ##Sort Dataframe by Date##
 df = df.sort_values(by='Datetime', ascending=True)
 
-result = pd.merge(left=brange, right = df, how='outer', left_on='DateBrange', right_on='Datetime')
 
-print(result)
-print(result.shape)
+
+print(df['Datetime'].dtypes)
+print(brange['DateBrange'].dtypes)
+
+#result = pd.merge(left=brange, right = df, how='outer', left_on='DateBrange', right_on='Datetime')
+
+#print(result)
+#print(f' results shape = {result.shape}')
 
 
 
