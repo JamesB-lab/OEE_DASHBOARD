@@ -18,7 +18,7 @@ df = df.sort_values(by='Datetime', ascending=True)
 
 
 ###Create variable for dateYesterday##
-dateYesterday = date.today() - datetime.timedelta(days = 13) #19
+dateYesterday = date.today() - datetime.timedelta(days = 19) #19
 deltaDate = dateYesterday - datetime.timedelta(days = 1)
 dateYesterday = str(dateYesterday)
 deltaDate = str(deltaDate)
@@ -33,14 +33,16 @@ print(f'Delta Date = {deltaDate}')
 yesterdayPlot = df.loc[df.Datetime == dateYesterday]
 print(yesterdayPlot)
 deltaPlot = df.loc[df.Datetime == deltaDate]
+print(f'deltaplot = {deltaPlot}')
 
 OEE = yesterdayPlot['OEE']
 OEE = float(OEE)
 print(f'TYPE {type(OEE)}')
 
-# OEE_Delta = deltaPlot['OEE']
-# OEE_Delta = float(OEE_Delta)
-# print(f'TYPE {type(OEE_Delta)}')
+OEE_Delta = deltaPlot['OEE']
+OEE_Delta = OEE_Delta.astype('float')
+#OEE_Delta = {'reference': OEE_Delta}
+print(f'TYPE Delta = {type(OEE_Delta)}')
 
 
 
@@ -54,7 +56,7 @@ fig = go.Figure(go.Indicator(
     value = OEE,
     mode = "gauge+number+delta",
     title = {'text': "OEE"},
-    delta = {'reference': 380},
+    delta = {'reference': 100},
     gauge = {'axis': {'range': [None, 100]},
              'steps' : [
                  {'range': [0, 50], 'color': "lightgray"},
