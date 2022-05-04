@@ -4,6 +4,14 @@ import pandas as pd
 from datetime import date
 import datetime
 pd.options.display.max_rows = 3000
+import chart_studio.plotly as py
+import chart_studio
+
+
+username = 'james.booth' # your username
+api_key = 'cCmuSWNFC4GOKnshMCr2' # your api key - go to profile > settings > regenerate key
+chart_studio.tools.set_credentials_file(username=username, api_key=api_key)
+
 
 #pd.set_option("display.max_rows", None, "display.max_columns", None)
 
@@ -94,6 +102,7 @@ fig.update_layout(
     )
 )
 
+py.plot(fig, filename = 'plotlyTimeSeries', auto_open=True)
 
 
 fig.show() 

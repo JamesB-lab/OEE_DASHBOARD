@@ -4,37 +4,30 @@
 
 <! link to css stylesheet>
 <link rel ="stylesheet" type="text/css" href="{%static '\\css\\main.css' %}">
-
-<! create grid divs for css>
-{% comment %} <div class="grid-container">
-    <div class="grid-item">1</div>
-    <div class="grid-item">2</div>
-    <div class="grid-item">3</div>
-    <div class="grid-item">4</div>
-    <div class="grid-item">5</div>
-    <div class="grid-item">6</div>
-    <div class="grid-item">7</div>
-    <div class="grid-item">8</div>
-    <div class="grid-item">9</div>
-</div> {% endcomment %}
-
 <! Title >
 <h1>DA5</h1>
-<! Datacon image>
-<img src="{% static 'images/evo_2200.jpg' %} " height="350px" width="350px">
 
 
-<! plotly OEE graph example>
-<div>
-    <a href="https://plotly.com/~altamir/39/" target="_blank" title="OEE Chart" style="display: block; text-align: center;"><img src="https://plotly.com/~altamir/39.png" alt="OEE Chart" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
-    <script data-plotly="altamir:39" src="https://plotly.com/embed.js" async></script>
+<! create grid divs for css>
+<div class="grid">
+    <div class="image"><img src="{% static 'images/evo_2200.jpg' %} " height="350px" width="350px"></div>
+    <div class="oee_plot"><scr=<a href="https://plotly.com/~james.booth/0/?share_key=O3GHOfNGwRMOhBQAJoMaQA" target="_blank" title="plotlyOEEGauge" style="display: block; text-align: center;"><img src="https://plotly.com/~james.booth/0.png?share_key=O3GHOfNGwRMOhBQAJoMaQA" alt="plotlyOEEGauge" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+        <script data-plotly="james.booth:0" sharekey-plotly="O3GHOfNGwRMOhBQAJoMaQA" src="https://plotly.com/embed.js" async></script></div>
+
+    <div class="time_series"><scr=<a href="https://plotly.com/~james.booth/5/?share_key=HZ64c21Ofq6p6R2SebVvfL" target="_blank" title="plotlyTimeSeries" style="display: block; text-align: center;"><img src="https://plotly.com/~james.booth/5.png?share_key=HZ64c21Ofq6p6R2SebVvfL" alt="plotlyTimeSeries" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+        <script data-plotly="james.booth:5" sharekey-plotly="HZ64c21Ofq6p6R2SebVvfL" src="https://plotly.com/embed.js" async></script></div>
+
+    <div class="availability_plot"><scr=<a href="https://plotly.com/~james.booth/1/?share_key=vs15D2cOHC7l8rtIivrYEz" target="_blank" title="plotlyAvailabilityGauge" style="display: block; text-align: center;"><img src="https://plotly.com/~james.booth/1.png?share_key=vs15D2cOHC7l8rtIivrYEz" alt="plotlyAvailabilityGauge" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+        <script data-plotly="james.booth:1" sharekey-plotly="vs15D2cOHC7l8rtIivrYEz" src="https://plotly.com/embed.js" async></script></div>
+
+    <div class="performance_plot"><scr=<a href="https://plotly.com/~james.booth/2/?share_key=a0UTC6jc0vrdZX7JpVJPaW" target="_blank" title="plotlyOPerformanceGauge" style="display: block; text-align: center;"><img src="https://plotly.com/~james.booth/2.png?share_key=a0UTC6jc0vrdZX7JpVJPaW" alt="plotlyOPerformanceGauge" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+        <script data-plotly="james.booth:2" sharekey-plotly="a0UTC6jc0vrdZX7JpVJPaW" src="https://plotly.com/embed.js" async></script></div>
+
+    <div class="quality_plot"><scr=<a href="https://plotly.com/~james.booth/3/?share_key=015Ru6b4BWdPtCr2TP5wFT" target="_blank" title="plotlyQualityGauge" style="display: block; text-align: center;"><img src="https://plotly.com/~james.booth/3.png?share_key=015Ru6b4BWdPtCr2TP5wFT" alt="plotlyQualityGauge" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+        <script data-plotly="james.booth:3" sharekey-plotly="015Ru6b4BWdPtCr2TP5wFT" src="https://plotly.com/embed.js" async></script></div>
 </div>
 
 
-<div>
-    <a href="https://plotly.com/~charleyferrari/622/" target="_blank" title="gauge" style="display: block; text-align: center;"><img src="https://plotly.com/~charleyferrari/622.png" alt="gauge" style="max-width: 100%;width: 1000px;"  width="1000" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
-    <script data-plotly="charleyferrari:622" src="https://plotly.com/embed.js" async></script>
-</div>
 
 
 {% endblock content %}

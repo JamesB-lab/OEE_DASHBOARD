@@ -9,6 +9,14 @@ import os.path
 import plotly.graph_objects as go 
 import datetime
 from datetime import date
+import chart_studio.plotly as py
+import chart_studio
+
+
+username = 'james.booth' # your username
+api_key = 'cCmuSWNFC4GOKnshMCr2' # your api key - go to profile > settings > regenerate key
+chart_studio.tools.set_credentials_file(username=username, api_key=api_key)
+
 
 
 df = pd.read_csv(f'C:\\vs_code\\OEE_DASHBOARD\\DATABASE\\datalog.csv', header=0, parse_dates=True, squeeze=True, dayfirst=False)
@@ -79,5 +87,6 @@ fig = go.Figure(go.Indicator(
                  {'range': [0, 50], 'color': "lightgray"},
                  {'range': [50, 100], 'color': "gray"}],
              'threshold' : {'line': {'color': "red", 'width': 4}, 'thickness': 0.75, 'value': 85}}))
+py.plot(fig, filename = 'plotlyOPerformanceGauge', auto_open=True)
 
 fig.show()

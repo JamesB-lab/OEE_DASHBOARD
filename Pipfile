@@ -12,6 +12,7 @@ matplotlib = "*"
 chart-studio = "*"
 auto-py-to-exe = "*"
 tabulate = "*"
+dash = "*"
 
 [dev-packages]
 
