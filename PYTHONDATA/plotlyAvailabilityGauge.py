@@ -1,4 +1,5 @@
-#Plotly Dial/Gauge for OEE for OEE Dashboard#
+#Plotly Dial/Gauge for Availability for OEE Dashboard#
+
 
 from turtle import color
 import numpy as np
@@ -50,14 +51,14 @@ yesterdayPlot = df.loc[df.Datetime == dateYesterday]
 deltaPlot = df.loc[df.Datetime == deltaDate]
 print(f'deltaplot = {deltaPlot}')
 
-OEE = yesterdayPlot['OEE']
-OEE = float(OEE)
+Avl = yesterdayPlot['Availability']
+Avl = float(Avl)
 # print(f'TEST: {OEE}')
 
-OEE_Delta = deltaPlot['OEE']
-OEE_Delta = float(OEE_Delta)
+Avl_Delta = deltaPlot['OEE']
+Avl_Delta = float(Avl_Delta)
 # # OEE_Delta = {'reference': OEE_Delta}
-print(f'TEST: {OEE_Delta}')
+print(f'TEST: {Avl_Delta}')
 
 
 
@@ -69,10 +70,10 @@ import plotly.graph_objects as go
 
 fig = go.Figure(go.Indicator(
     domain = {'x': [0, 1], 'y': [0, 1]},
-    value = OEE,
+    value = Avl,
     mode = "gauge+number+delta",
-    title = {'text': "OEE"},
-    delta = {'reference': OEE_Delta},
+    title = {'text': "Availability"},
+    delta = {'reference': Avl_Delta},
     gauge = {'axis': {'range': [None, 100]},
              'steps' : [
                  {'range': [0, 50], 'color': "lightgray"},
