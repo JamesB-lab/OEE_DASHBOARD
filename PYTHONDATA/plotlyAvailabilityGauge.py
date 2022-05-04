@@ -55,7 +55,7 @@ Avl = yesterdayPlot['Availability']
 Avl = float(Avl)
 # print(f'TEST: {OEE}')
 
-Avl_Delta = deltaPlot['OEE']
+Avl_Delta = deltaPlot['Availability']
 Avl_Delta = float(Avl_Delta)
 # # OEE_Delta = {'reference': OEE_Delta}
 print(f'TEST: {Avl_Delta}')
