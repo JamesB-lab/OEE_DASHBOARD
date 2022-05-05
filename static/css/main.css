@@ -1,7 +1,6 @@
 body {
     background-color: #FAF9F6;
-    background-image: url("/static/images/newOEEBackground.png");
-    font-family: Helvetica;
+    background-image: url("/static/images/bg_dots.png");
    
 }
 
@@ -10,3 +9,59 @@ body {
   grid-template-columns: 1fr 1fr 1fr 
 }
 
+
+/* .sub-image {
+  border: 3px;
+  border-color: red;
+  border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.image {
+  border: 3px;
+  border-color: #000000;
+  border-style: solid;
+  background-color: white;
+  /* margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0; */
+  /* display: block; */
+}
+
+
+
+.oee_plot {
+  border: 3px;
+  border-color: #000000;
+  border-style: solid;
+  background-color: white;
+}
+
+.time_series {
+  border: 3px;
+  border-color: #000000;
+  border-style: solid;
+  background-color: white;
+}
+
+.availability_plot {
+  border: 3px;
+  border-color: #000000;
+  border-style: solid;
+  background-color: white;
+}
+
+.performance_plot {
+  border: 3px;
+  border-color: #000000;
+  border-style: solid;
+  background-color: white;
+}
+
+.quality_plot {
+  border: 3px;
+  border-color: #000000;
+  border-style: solid;
+  background-color: white;
+}
