@@ -30,3 +30,7 @@ class SimpleTests(SimpleTestCase):
     def test_GE3_page_status_code(self):
         response = self.client.get('/ge3/')
         self.assertEqual(response.status_code, 200)
+
+    def test_DA7_page_status_code(self):
+        response = self.client.get('/da7/')
+        self.assertEqual(response.status_code, 200)

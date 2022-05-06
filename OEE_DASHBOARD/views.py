@@ -23,3 +23,6 @@ class BB2PageView(TemplateView):
 
 class GE3PageView(TemplateView):
     template_name = 'ge3.html'
+
+class DA7PageView(TemplateView):
+    template_name = 'da7.html'
