@@ -75,7 +75,7 @@ print(mergedRolling)
 
 #df = px.data.stocks(indexed=True)-1
 fig = px.bar(mergedRolling, x=mergedRolling['RollingDate'], y=["Availability", "Performance", "Quality"], barmode='group')
-fig.update_layout(title = 'Datacon Evo [DA5] 2200+ OEE Trend', xaxis_tickformat = '%d/%m/%Y')
+fig.update_layout(xaxis_tickformat = '%d/%m/%Y')
 #xaxis=dict(tickvals=mergedRolling['RollingDate'], title='Deliveries by Vehicle', titlefont=dict(family='Courier New, monospace', size=18, color='#7f7f7f'),type='category')
 fig.update_xaxes(tickangle= -90, nticks = 50)
 
@@ -91,16 +91,24 @@ fig.add_trace(
     ))
 
 fig.update_layout(
-    title=f"Datacon Evo [DA5] 2200+ OEE Trend {lower_date} to {upper_date}",
+    #title=f"Datacon Evo [DA5] 2200+ OEE Trend {lower_date} to {upper_date}",
     xaxis_title="Date",
     yaxis_title="%",
-    legend_title="Legend Title",
+    legend_title="Legend |",
     font=dict(
         family="Helvetica",
         size=18,
         color="Black"
     )
 )
+
+fig.update_layout(legend=dict(
+    orientation="h",
+    yanchor="top",
+    y=0.99,
+    xanchor="right",
+    x=0.99
+))
 
 py.plot(fig, filename = 'plotlyTimeSeries', auto_open=True)
 
