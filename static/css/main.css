@@ -1,7 +1,6 @@
 body {
     background-color: #FAF9F6;
     background-image: url("/static/images/bg_dots.png");
-   
 }
 
 .grid {
@@ -65,3 +64,4 @@ body {
   border-style: solid;
   background-color: white;
 }
+
