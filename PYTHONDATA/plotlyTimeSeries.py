@@ -77,7 +77,7 @@ print(mergedRolling)
 fig = px.bar(mergedRolling, x=mergedRolling['RollingDate'], y=["Availability", "Performance", "Quality"], barmode='group')
 fig.update_layout(xaxis_tickformat = '%d/%m/%Y')
 #xaxis=dict(tickvals=mergedRolling['RollingDate'], title='Deliveries by Vehicle', titlefont=dict(family='Courier New, monospace', size=18, color='#7f7f7f'),type='category')
-fig.update_xaxes(tickangle= -90, nticks = 50)
+fig.update_xaxes(tickangle= -90, nticks = 50, tickfont_size=10)
 
 fig.update_traces(xperiod0=now, selector=dict(type='bar')) #Adds a marker for the current date to the graph could be x or y
 
@@ -109,6 +109,8 @@ fig.update_layout(legend=dict(
     xanchor="right",
     x=0.99
 ))
+
+fig.add_vline(x=now, line_width=3, line_dash="dash", line_color="green")
 
 py.plot(fig, filename = 'plotlyTimeSeries', auto_open=True)
 
