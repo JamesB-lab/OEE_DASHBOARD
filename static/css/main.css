@@ -68,3 +68,34 @@ body {
   background-color: white;
 }
 
+.clock {
+  display:inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  justify-items: center;
+  align-items: center;
+
+}
+
+.title {
+  display:inline-block;
+  justify-items: end;
+  align-items: end;
+}
+
+/* .clocktitle {
+  display:inline-block;
+  justify-items: end;
+  align-items: end;
+  
+} */
+
+.dateupdate {
+  display:inline-block;
+  font-style: italic;
+  color: red;
+  justify-items: right;
+  align-items: right;
+  text-align: right;
+}
