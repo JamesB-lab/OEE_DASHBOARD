@@ -35,7 +35,7 @@ def run_plotly_Performance():
     ###Code is good up to here###
 
     ###Create variable for dateYesterday##
-    dateYesterday = date.today() - datetime.timedelta(days = 1) #20 - Needs to be adjusted every day to reach 2022-04-14 for test purposes 
+    dateYesterday = date.today() - datetime.timedelta(days = 0) #20 - Needs to be adjusted every day to reach 2022-04-14 for test purposes 
     print(f'Date Yesterday = {dateYesterday}')
     deltaDate = dateYesterday - datetime.timedelta(days = 1)
     print(f'Delta Date = {deltaDate}')
