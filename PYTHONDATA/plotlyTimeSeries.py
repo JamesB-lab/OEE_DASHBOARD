@@ -118,4 +118,4 @@ def run_plotly_TimeSeries():
     py.plot(fig, filename = 'plotlyTimeSeries', auto_open=True)
 
 
-    fig.show() 
+    #fig.show() 

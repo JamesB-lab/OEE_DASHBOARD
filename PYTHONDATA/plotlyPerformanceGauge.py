@@ -91,4 +91,4 @@ def run_plotly_Performance():
                 'threshold' : {'line': {'color': "red", 'width': 4}, 'thickness': 0.75, 'value': 85}}))
     py.plot(fig, filename = 'plotlyOPerformanceGauge', auto_open=True)
 
-    fig.show()
+    #fig.show()

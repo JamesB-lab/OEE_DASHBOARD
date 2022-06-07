@@ -92,4 +92,4 @@ def run_plotly_OEE():
     fig.write_html("PLOTLYEXPORTS\\OEEGauge.html")
     py.plot(fig, filename = 'plotlyOEEGauge', auto_open=True)
 
-    fig.show()
+    #fig.show()
