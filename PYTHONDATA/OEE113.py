@@ -255,93 +255,96 @@ quality_d = place_d / pickup_d #potential issue if div/0
 
 ###PERFORMANCE Subset for Performance Statistics ###
 
-# data2_a = pd.read_fwf(file, skiprows=25, skipfooter=56,   colspecs=[(1,23), (25,33), (36, 45), (47, 56), (57, 65), (65, 76), (76, 87), (87, 98), (98, 109), (109, 120), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
-# dfp_a = pd.DataFrame(data2_a)
-# # print(f'{dfp_a}')
+data2_a = pd.read_fwf('C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\4BLOCKTEST\\01_04.ram', skiprows=25, skipfooter=84,   colspecs=[(1,23), (25,33), (36, 45), (47, 56), (57, 65), (65, 76), (76, 87), (87, 98), (98, 109), (109, 120), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
+dfp_a = pd.DataFrame(data2_a)
+print(f'{dfp_a}')
 
-# data2_b = pd.read_fwf(file, skiprows=53, skipfooter=28,   colspecs=[(1,23), (25,33), (36, 45), (47, 56), (57, 65), (65, 76), (76, 87), (87, 98), (98, 109), (109, 120), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
-# dfp_b = pd.DataFrame(data2_b)
-# # print(f'{dfp_b}')
+data2_b = pd.read_fwf('C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\4BLOCKTEST\\01_04.ram', skiprows=53, skipfooter=56,   colspecs=[(1,23), (25,33), (36, 45), (47, 56), (57, 65), (65, 76), (76, 87), (87, 98), (98, 109), (109, 120), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
+dfp_b = pd.DataFrame(data2_b)
+print(f'{dfp_b}')
 
-# data2_c = pd.read_fwf(file, skiprows=81, skipfooter=0,   colspecs=[(1,23), (25,33), (36, 45), (47, 56), (57, 65), (65, 76), (76, 87), (87, 98), (98, 109), (109, 120), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
-# dfp_c = pd.DataFrame(data2_c)
-# # print(f'{dfp_c}')
+data2_c = pd.read_fwf('C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\4BLOCKTEST\\01_04.ram', skiprows=81, skipfooter=28,   colspecs=[(1,23), (25,33), (36, 45), (47, 56), (57, 65), (65, 76), (76, 87), (87, 98), (98, 109), (109, 120), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
+dfp_c = pd.DataFrame(data2_c)
+print(f'{dfp_c}')
 
-# ###PERFORMANCE OEE Quality Calcs###
+data2_d = pd.read_fwf('C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\4BLOCKTEST\\01_04.ram', skiprows=109, skipfooter=0,   colspecs=[(1,23), (25,33), (36, 45), (47, 56), (57, 65), (65, 76), (76, 87), (87, 98), (98, 109), (109, 120), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
+dfp_d = pd.DataFrame(data2_d)
+print(f'{dfp_d}')
 
-
-# actualOut_a = dfp_a.loc[dfp_a.index[0], 'Total']
-# actualOut_a = int(actualOut_a)
-# PossibleOut = 7010
-# # print(f'Actual Out: {actualOut_a}')
-# # print(type(actualOut_a))
-
-# performance_a = actualOut_a / PossibleOut #error
-# #print(f'Performance_a: {performance_a}')
-
-# actualOut_b = dfp_b.loc[dfp_a.index[0], 'Total']
-# actualOut_b = int(actualOut_b)
-# # print(f'Actual Out: {actualOut_b}')
-# # print(type(actualOut_b))
-
-# performance_b = actualOut_b / PossibleOut #error
-# # print(f'Performance_b: {performance_b}')
-
-# actualOut_c = dfp_c.loc[dfp_c.index[0], 'Total']
-# actualOut_c = int(actualOut_c)
-# #print(f'Actual Out: {actualOut_c}')
-# #print(type(actualOut_c))
-
-# performance_c = actualOut_c / PossibleOut #error
-# #print(f'Performance_c: {performance_c}')
+###PERFORMANCE OEE Quality Calcs###
 
 
-# ###MERGE Dataframe_a & Dataframe_b###
+actualOut_a = dfp_a.loc[dfp_a.index[0], 'Total']
+actualOut_a = int(actualOut_a)
+PossibleOut = 7010
+print(f'Actual Out: {actualOut_a}')
+print(type(actualOut_a))
 
-# availability = (actualProd_a + actualProd_b + actualProd_c) / (possibleProd_a + possibleProd_b + possibleProd_c)
-# #print(f'overall availability {availability}')
 
-# quality = (place_a + place_b + place_c) / (pickup_a + pickup_b + pickup_c)
-# #print(f'overall quality {quality}')
+actualOut_b = dfp_b.loc[dfp_a.index[0], 'Total']
+actualOut_b = int(actualOut_b)
+print(f'Actual Out: {actualOut_b}')
+print(type(actualOut_b))
 
-# performance = (actualOut_a + actualOut_b + actualOut_c) / (PossibleOut + PossibleOut + PossibleOut)
-# #print(f'overall performance {performance}')
+
+actualOut_c = dfp_c.loc[dfp_c.index[0], 'Total']
+actualOut_c = int(actualOut_c)
+print(f'Actual Out: {actualOut_c}')
+print(type(actualOut_c))
+
+actualOut_d = dfp_d.loc[dfp_d.index[0], 'Total']
+actualOut_d = int(actualOut_d)
+print(f'Actual Out: {actualOut_d}')
+print(type(actualOut_d))
 
 
 
+###MERGE Dataframe_a & Dataframe_b###
+
+availability = (actualProd_a + actualProd_b + actualProd_c + actualProd_d) / (possibleProd_a + possibleProd_b + possibleProd_c + possibleProd_d)
+print(f'overall availability {availability}')
+
+quality = (place_a + place_b + place_c + place_d) / (pickup_a + pickup_b + pickup_c + pickup_d)
+print(f'overall quality {quality}')
+
+performance = (actualOut_a + actualOut_b + actualOut_c + actualOut_d) / (PossibleOut + PossibleOut + PossibleOut + PossibleOut)
+print(f'overall performance {performance}')
 
 
-# ###FINAL OEE CACLULATION###
-
-# OEE = availability * performance * quality * 100
-
-# print(f'Availbability = {availability}')
-# print(f'Performance = {performance}')
-# print(f'Quality = {quality}')
-# print(f'OEE = {OEE} %')
 
 
 
-# ###Save Results to csv###
+###FINAL OEE CACLULATION###
 
-# ###Create DataFrame of the results: availability, performance, quality, OEE###
-# ramYear = str(datetime.datetime.now().year)
-# date_text = basename.replace('_','/')
-# date_text = date_text.replace('.RAM','') + '/' + ramYear
-# date_time = pd.to_datetime(date_text, format='%d/%m/%Y').date()
-# print(f' Date_Text = {date_text}')
-# print(f' Date_Time = {date_time}')
+OEE = availability * performance * quality * 100
 
-# dict = {'Datetime': date_time, 'RamDate': basename, 'Availability': availability*100, 'Performance': performance*100, 'Quality': quality*100, 'OEE': OEE}
+print(f'Availbability = {availability}')
+print(f'Performance = {performance}')
+print(f'Quality = {quality}')
+print(f'OEE = {OEE} %')
 
 
-# resultsDF = pd.DataFrame.from_dict(dict, orient='index')
-# resultsTransp = resultsDF.transpose()
+
+###Save Results to csv###
+
+###Create DataFrame of the results: availability, performance, quality, OEE###
+ramYear = str(datetime.datetime.now().year)
+date_text = basename.replace('_','/')
+date_text = date_text.replace('.RAM','') + '/' + ramYear
+date_time = pd.to_datetime(date_text, format='%d/%m/%Y').date()
+print(f' Date_Text = {date_text}')
+print(f' Date_Time = {date_time}')
+
+dict = {'Datetime': date_time, 'RamDate': basename, 'Availability': availability*100, 'Performance': performance*100, 'Quality': quality*100, 'OEE': OEE}
 
 
-# ###Write to csv###
+resultsDF = pd.DataFrame.from_dict(dict, orient='index')
+resultsTransp = resultsDF.transpose()
 
-# resultsTransp.to_csv(r'C:\\vs_code\\OEE_DASHBOARD\\DATABASE\\datalog.csv', index=False, mode='a', header=False)
+
+###Write to csv###
+
+resultsTransp.to_csv(r'C:\\vs_code\\OEE_DASHBOARD\\DATABASE\\datalog.csv', index=False, mode='a', header=False)
 
 
 
