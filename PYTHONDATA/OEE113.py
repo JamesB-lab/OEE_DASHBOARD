@@ -54,95 +54,123 @@ data_b = pd.DataFrame(data_b)
 data_c = pd.DataFrame(data_c)
 data_d = pd.DataFrame(data_d)
 
-print(data_a)
-print(data_b)
-print(data_c)
-print(data_d)
+# print(data_a)
+# print(data_b)
+# print(data_c)
+# print(data_d)
 
 
 
 
 # ###AVAILABILITY DATA_A Convert raw data to dataFrame, subset for timedelata###
-# dftd_a = pd.DataFrame(data_a)
-# dftd_a = dftd_a.drop(axis=0, index =[9,10,11, 12, 13, 14, 15, 16, 17])
-# #print(f'dftd_a data: {dftd_a}')
+dftd_a = pd.DataFrame(data_a)
+dftd_a = dftd_a.drop(axis=0, index =[9,10,11, 12, 13, 14, 15, 16, 17])
+#print(f'dftd_a data: {dftd_a}')
 
-# # ###AVAILABILITY DATA_B###
-# dftd_b = pd.DataFrame(data_b)
-# dftd_b = dftd_b.drop(axis=0, index =[9,10,11, 12, 13, 14, 15, 16, 17])
-# #print(f'dftd_b data: {dftd_b}')
+# ###AVAILABILITY DATA_B###
+dftd_b = pd.DataFrame(data_b)
+dftd_b = dftd_b.drop(axis=0, index =[9,10,11, 12, 13, 14, 15, 16, 17])
+#print(f'dftd_b data: {dftd_b}')
 
-# # ###AVAILABILITY DATA_C###
-# dftd_c = pd.DataFrame(data_c)
-# dftd_c = dftd_c.drop(axis=0, index =[9,10,11, 12, 13, 14, 15, 16, 17])
-# #print(f'dftd_c data: {dftd_c}')
-
-# ###AVAILABILITY Cast Types convert from Object to string/timedelta###
-# dftd_a['Category'] = dftd_a['Category'].astype('string') #Error#
-# dftd_a['System 1'] = pd.to_timedelta(dftd_a['System 1'])
-# dftd_a['System 2'] = pd.to_timedelta(dftd_a['System 2'])
-# #print(f'dftd_a data post cast: {dftd_a}')
-
-# dftd_b['Category'] = dftd_b['Category'].astype('string') #Error#
-# dftd_b['System 1'] = pd.to_timedelta(dftd_b['System 1'])
-# dftd_b['System 2'] = pd.to_timedelta(dftd_b['System 2'])
-# #print(f'dftd_b data post cast: {dftd_b}')
-
-# dftd_c['Category'] = dftd_c['Category'].astype('string') #Error#
-# dftd_c['System 1'] = pd.to_timedelta(dftd_c['System 1'])
-# dftd_c['System 2'] = pd.to_timedelta(dftd_c['System 2'])
-# #print(f'dftd_c data post cast: {dftd_c}')
-
-# ###AVAILABILITY Add extra column for plotting, convert timedelata to float64###
-# dftd_a['System 1'] = dftd_a['System 1'] / pd.Timedelta(hours =1)
-# dftd_a['System 2'] = dftd_a['System 2'] / pd.Timedelta(hours =1)
-
-# # print(f'dftd_a {dftd_a}')
-# # print(f'dftf_a type {dftd_a.dtypes}')
-
-# dftd_b['System 1'] = dftd_b['System 1'] / pd.Timedelta(hours =1)
-# dftd_b['System 2'] = dftd_b['System 2'] / pd.Timedelta(hours =1)
-
-# # print(f'dftd_b {dftd_b}')
-# # print(f'dftf_b type {dftd_b.dtypes}')
-
-# dftd_c['System 1'] = dftd_c['System 1'] / pd.Timedelta(hours =1)
-# dftd_c['System 2'] = dftd_c['System 2'] / pd.Timedelta(hours =1)
-
-# # print(f'dftd_c {dftd_c}')
-# # print(f'dftf_c type {dftd_c.dtypes}')
-
-# ###AVAILABILITY OEE Availability Calcs###
-# ###AVAILABILITY Availability = Actual Production Time / Possible Production Time * 100###
-
-# possibleProd_a = dftd_a.loc[dftd_a.index[2], 'System 2']
-
-# actualProd_a = dftd_a.loc[dftd_a.index[5], 'System 2']
-# #print(f'possibleProd_a: {possibleProd_a}')
-# #print(f'actualProd_a: {actualProd_a}')
+# ###AVAILABILITY DATA_C###
+dftd_c = pd.DataFrame(data_c)
+dftd_c = dftd_c.drop(axis=0, index =[9,10,11, 12, 13, 14, 15, 16, 17])
+#print(f'dftd_c data: {dftd_c}')
 
 
-# availability_a = actualProd_a / possibleProd_a
-# #print(f'availability_a: {availability_a}')
+# ###AVAILABILITY DATA_D###
+dftd_d = pd.DataFrame(data_d)
+dftd_d = dftd_d.drop(axis=0, index =[9,10,11, 12, 13, 14, 15, 16, 17])
+#print(f'dftd_d data: {dftd_d}')
 
 
-# possibleProd_b = dftd_b.loc[dftd_b.index[2], 'System 2']
 
-# actualProd_b = dftd_b.loc[dftd_b.index[5], 'System 2']
-# #print(f'possibleProd_b: {possibleProd_b}')
-# #print(f'actualProd_b: {actualProd_b}')
 
-# availability_b = actualProd_b / possibleProd_b
-# #print(f'availability_b: {availability_b}')
 
-# possibleProd_c = dftd_c.loc[dftd_c.index[2], 'System 2']
+###AVAILABILITY Cast Types convert from Object to string/timedelta###
+dftd_a['Category'] = dftd_a['Category'].astype('string') #Error#
+dftd_a['System 1'] = pd.to_timedelta(dftd_a['System 1'])
+dftd_a['System 2'] = pd.to_timedelta(dftd_a['System 2'])
+#print(f'dftd_a data post cast: {dftd_a}')
 
-# actualProd_c = dftd_c.loc[dftd_c.index[5], 'System 2']
-# #print(f'possibleProd_c: {possibleProd_c}')
-# #print(f'actualProd_c: {actualProd_c}')
+dftd_b['Category'] = dftd_b['Category'].astype('string') #Error#
+dftd_b['System 1'] = pd.to_timedelta(dftd_b['System 1'])
+dftd_b['System 2'] = pd.to_timedelta(dftd_b['System 2'])
+#print(f'dftd_b data post cast: {dftd_b}')
 
-# availability_c = actualProd_c / possibleProd_c
-# #print(f'availability_c: {availability_c}')
+dftd_c['Category'] = dftd_c['Category'].astype('string') #Error#
+dftd_c['System 1'] = pd.to_timedelta(dftd_c['System 1'])
+dftd_c['System 2'] = pd.to_timedelta(dftd_c['System 2'])
+# print(f'dftd_c data post cast: {dftd_c}')
+
+dftd_d['Category'] = dftd_d['Category'].astype('string') #Error#
+dftd_d['System 1'] = pd.to_timedelta(dftd_d['System 1'])
+dftd_d['System 2'] = pd.to_timedelta(dftd_d['System 2'])
+# print(f'dftd_d data post cast: {dftd_d}')
+
+
+
+
+
+###AVAILABILITY Add extra column for plotting, convert timedelata to float64###
+dftd_a['System 1'] = dftd_a['System 1'] / pd.Timedelta(hours =1)
+dftd_a['System 2'] = dftd_a['System 2'] / pd.Timedelta(hours =1)
+# print(f'dftd_a {dftd_a}')
+# print(f'dftf_a type {dftd_a.dtypes}')
+
+dftd_b['System 1'] = dftd_b['System 1'] / pd.Timedelta(hours =1)
+dftd_b['System 2'] = dftd_b['System 2'] / pd.Timedelta(hours =1)
+# print(f'dftd_b {dftd_b}')
+# print(f'dftf_b type {dftd_b.dtypes}')
+
+dftd_c['System 1'] = dftd_c['System 1'] / pd.Timedelta(hours =1)
+dftd_c['System 2'] = dftd_c['System 2'] / pd.Timedelta(hours =1)
+# print(f'dftd_c {dftd_c}')
+# print(f'dftf_c type {dftd_c.dtypes}')
+
+dftd_d['System 1'] = dftd_d['System 1'] / pd.Timedelta(hours =1)
+dftd_d['System 2'] = dftd_d['System 2'] / pd.Timedelta(hours =1)
+# print(f'dftd_d {dftd_d}')
+# print(f'dftf_d type {dftd_d.dtypes}')
+
+
+###AVAILABILITY OEE Availability Calcs###
+
+###AVAILABILITY Availability = Actual Production Time / Possible Production Time * 100###
+
+possibleProd_a = dftd_a.loc[dftd_a.index[2], 'System 2']
+actualProd_a = dftd_a.loc[dftd_a.index[5], 'System 2']
+print(f'possibleProd_a: {possibleProd_a}')
+print(f'actualProd_a: {actualProd_a}')
+
+
+availability_a = actualProd_a / possibleProd_a
+print(f'availability_a: {availability_a}')
+
+
+possibleProd_b = dftd_b.loc[dftd_b.index[2], 'System 2']
+actualProd_b = dftd_b.loc[dftd_b.index[5], 'System 2']
+print(f'possibleProd_b: {possibleProd_b}')
+print(f'actualProd_b: {actualProd_b}')
+
+availability_b = actualProd_b / possibleProd_b
+print(f'availability_b: {availability_b}')
+
+possibleProd_c = dftd_c.loc[dftd_c.index[2], 'System 2']
+actualProd_c = dftd_c.loc[dftd_c.index[5], 'System 2']
+print(f'possibleProd_c: {possibleProd_c}')
+print(f'actualProd_c: {actualProd_c}')
+
+availability_c = actualProd_c / possibleProd_c
+print(f'availability_c: {availability_c}')
+
+possibleProd_d = dftd_d.loc[dftd_d.index[2], 'System 2']
+actualProd_d = dftd_d.loc[dftd_d.index[5], 'System 2']
+print(f'possibleProd_d: {possibleProd_d}')
+print(f'actualProd_d: {actualProd_d}')
+
+availability_d = actualProd_d / possibleProd_d
+print(f'availability_d: {availability_d}')
 
 
 
