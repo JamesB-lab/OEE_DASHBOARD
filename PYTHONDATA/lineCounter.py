@@ -4,6 +4,7 @@ import os
 from OEE29 import run_OEE_29
 from OEE57 import run_OEE_57
 from OEE85 import run_OEE_85
+from OEE113 import run_OEE_113
 
 
 def run_line_counter(file):
@@ -40,6 +41,9 @@ def run_line_counter(file):
     elif count == 85:
         print('File is 85 lines long')
         run_OEE_85(file)
+    elif count == 113:
+        print('File is 113 lines long')
+        run_OEE_113(file)
     else:
         print('Syntax Error file length')
 
