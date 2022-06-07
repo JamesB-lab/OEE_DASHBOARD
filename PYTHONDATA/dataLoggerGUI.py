@@ -1,3 +1,10 @@
+###OEE Datalogger Tool for use in OEE Dashboard. Beta Version 1.3###
+###Updated to include file parsing for RAM files of length 113##
+###Developed by James Booth###
+###For parsing Datacon Evo FWF files of line length 113 only###
+###Last updated 07/06/2022###
+
+
 from distutils import command
 from posixpath import basename
 import tkinter as tk
