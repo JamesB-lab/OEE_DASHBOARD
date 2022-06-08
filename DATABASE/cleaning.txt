@@ -1,0 +1,24 @@
+MMA Beamsplitter,22.
+ime period         	8:,:48	Sinc
+,System
+own time,0:01:
+cheduled downtime,0:00:
+p time,8:13:
+Engineering time,8:00:
+tandby time,0:06:
+roductive time,0:05:
+Loop time,0:00:
+Operator,0:01:
+Handling,0:03:
+perational uptime,99.
+perational utilization,1
+otal utilization,1.
+TBA,0:00:
+TTA,0:00:
+TBF,0:00:
+TTR,0:00:
+icked up components,0
+laced components,0
+omponent statistics,TOTAL
+----------------------,--------
+beam-c,1
