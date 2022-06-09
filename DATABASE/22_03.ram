@@ -1,0 +1,24 @@
+CMMA Beamsplitter             22.03.2022  08:00
+Time period         	8:14:48	Since	21.03.2022  23:45
+System 1    System 2
+Down time             	     0:01:43	     0:01:43
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     8:13:05	     8:13:05
+Engineering time     	     8:00:41	     8:00:41
+Standby time          	     0:06:47	     0:06:47
+Productive time       	     0:05:37	     0:05:37
+Loop time           	     0:00:53	     0:00:04
+Operator            	     0:01:05	     0:03:19
+Handling            	     0:03:39	     0:02:14
+Operational uptime    	       99.6%	       99.6%
+Operational utilization	        1.1%	        1.1%
+Total utilization     	        1.1%	        1.1%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:10	     0:00:00
+MTTR                  	     0:00:02	     0:00:00
+Picked up components            0        2415
+Placed components               0        2410
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+beam-c       1          1          0          0          0          0          0          0          0          0          0
