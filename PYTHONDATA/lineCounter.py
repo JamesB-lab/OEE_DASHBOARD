@@ -7,6 +7,7 @@
 import pandas as pd
 import numpy as np
 import os
+from OEE25 import run_OEE_25
 from OEE29 import run_OEE_29
 from OEE57 import run_OEE_57
 from OEE85 import run_OEE_85
@@ -38,9 +39,9 @@ def run_line_counter(path):
     ##Import raw data as fixed width file (fwf)###
     #data = pd.read_fwf(f'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\RAMFILES\\keeps\\{file}', skiprows=3, skipfooter=7, colspecs=[(0,23), (23,37), (37,-1)], names=['Category', 'System 1', 'System 2'])
 
-    if count == 29:
-        print('File is 29 lines long')
-        run_OEE_29(path)
+    if count == 25:
+        print('File is 25 lines long')
+        run_OEE_25(path)
     elif count == 57:
         print('File is 57 lines long')
         run_OEE_57(path)
