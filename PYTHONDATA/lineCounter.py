@@ -13,7 +13,7 @@ from OEE85 import run_OEE_85
 from OEE113 import run_OEE_113
 
 
-def run_line_counter(file):
+def run_line_counter(path):
 
     #file = '04_03.ram' #29 lines
     #file = '02_03.ram' #57 lines
@@ -21,10 +21,10 @@ def run_line_counter(file):
     #file = file
 
     os.path.join( "C:", "meshes", "as" ) #Add to future versions for correct method
-    file_exists = os.path.exists(file)
-    print(f'File Exists? {file}')
+    file_exists = os.path.exists(path)
+    print(f'File Exists? {path}')
 
-    basename = os.path.basename(file)
+    basename = os.path.basename(path)
 
     basename = basename.replace('.ram', '')
     print(f'basename: {basename}')
@@ -32,7 +32,7 @@ def run_line_counter(file):
 
     ###Count number of lines in the file###
 
-    count = len(open(file).readlines(  ))
+    count = len(open(path).readlines(  ))
     count = count +1
     print(count)
     ##Import raw data as fixed width file (fwf)###
@@ -40,16 +40,16 @@ def run_line_counter(file):
 
     if count == 29:
         print('File is 29 lines long')
-        run_OEE_29(file)
+        run_OEE_29(path)
     elif count == 57:
         print('File is 57 lines long')
-        run_OEE_57(file)
+        run_OEE_57(path)
     elif count == 85:
         print('File is 85 lines long')
-        run_OEE_85(file)
+        run_OEE_85(path)
     elif count == 113:
         print('File is 113 lines long')
-        run_OEE_113(file)
+        run_OEE_113(path)
     else:
         print('Syntax Error file length')
 
