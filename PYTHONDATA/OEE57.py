@@ -153,13 +153,13 @@ quality_b = place_b / pickup_b
 
 data2_a = pd.read_fwf(path, skiprows=25, skipfooter=28,   colspecs=[(0,15), (16,24), (25, 37), (38, 49), (50, 62), (61, 73), (72, 82), (83, 94), (95, 105), (106, 116), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
 dfp_a = pd.DataFrame(data2_a)
-print(f'OEE57 data2_a = {dfp_a}')
-print(dfp_a.loc[dfp_a.index[0], 'InspErr'])
+#print(f'OEE57 data2_a = {dfp_a}')
+#print(dfp_a.loc[dfp_a.index[0], 'InspErr'])
 
 data2_b = pd.read_fwf(path, skiprows=53, skipfooter=0,   colspecs=[(0,15), (16,24), (25, 37), (38, 49), (50, 62), (61, 73), (72, 82), (83, 94), (95, 105), (106, 116), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
 dfp_b = pd.DataFrame(data2_b)
 print(f'OEE57 data2_b = {dfp_b}')
-print(dfp_b.loc[dfp_b.index[0], 'InspErr'])
+#print(f"{dfp_b.loc[dfp_b.index[0], 'InspErr']}")
 
 ###PERFORMANCE OEE Quality Calcs###
 
@@ -204,10 +204,10 @@ performance = (actualOut_a + actualOut_b) / (PossibleOut + PossibleOut)
 
 OEE = availability * performance * quality * 100
 
-# print(f'Availbability = {availability}')
-# print(f'Performance = {performance}')
-# print(f'Quality = {quality}')
-# print(f'OEE = {OEE} %')
+print(f'Availbability = {availability}')
+print(f'Performance = {performance}')
+print(f'Quality = {quality}')
+print(f'OEE = {OEE} %')
 
 
 
