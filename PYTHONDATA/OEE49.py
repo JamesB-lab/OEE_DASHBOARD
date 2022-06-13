@@ -14,7 +14,7 @@ import pprint
 import datetime
 from datetime import date
 
-print('opened function file')
+print('Running OEE49')
 
 
 #DELETE AFTER TEST IS COMPLETE#
@@ -24,25 +24,24 @@ path = 'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\
 basename = os.path.basename(path) #ok
 
 basename = basename.replace('.ram', '') #ok
-print(f'basename: {basename}') #ok
+#print(f'basename: {basename}') #ok
 
 ##Import raw data as fixed width file (fwf)### #not ok, need to fix import drops and merge two dataframes#
-data_a = pd.read_fwf(path, skiprows=3, skipfooter=34, colspecs=[(0,23), (23,37), (37,-1)], names=['Category', 'System 1', 'System 2'])
-#print(f'OEE57 Data{data_a}')
+data_a = pd.read_fwf(path, skiprows=3, skipfooter=27, colspecs=[(0,23), (23,37), (37,-1)], names=['Category', 'System 1', 'System 2'])
+#print(f'OEE49 Data{data_a}')
 
-data_b = pd.read_fwf(path, skiprows=31, skipfooter=6, colspecs=[(0,23), (23,37), (37,-1)], names=['Category', 'System 1', 'System 2'])
-# print(f'OEE57 Data{data_b}')
+data_b = pd.read_fwf(path, skiprows=27, skipfooter=3, colspecs=[(0,23), (23,37), (37,-1)], names=['Category', 'System 1', 'System 2'])
+#print(f'OEE49 Data{data_b}')
 
 ###CONVERT data_a and data_b to dataframe. Agregate into single datafram###
 
 data_a = pd.DataFrame(data_a)
 data_b = pd.DataFrame(data_b)
 
-print(data_a)
-print(data_b)
+# print(f'OEE49: {data_a}')
+# print(f'OEE49: {data_b}')
 
-# data_a = data_a.add(data_b, fill_value=0)
-# print(f'summed datframe {data_a}')
+
 
 
 # ###AVAILABILITY DATA_A Convert raw data to dataFrame, subset for timedelata###
@@ -59,25 +58,25 @@ dftd_b = dftd_b.drop(axis=0, index =[9,10,11, 12, 13, 14, 15, 16, 17])
 dftd_a['Category'] = dftd_a['Category'].astype('string') #Error#
 dftd_a['System 1'] = pd.to_timedelta(dftd_a['System 1'])
 dftd_a['System 2'] = pd.to_timedelta(dftd_a['System 2'])
-print(f'dftd_a data post cast: {dftd_a}')
+#print(f'dftd_a data post cast: {dftd_a}')
 
 dftd_b['Category'] = dftd_b['Category'].astype('string') #Error#
 dftd_b['System 1'] = pd.to_timedelta(dftd_b['System 1'])
 dftd_b['System 2'] = pd.to_timedelta(dftd_b['System 2'])
-print(f'dftd_b data post cast: {dftd_b}')
+#print(f'dftd_b data post cast: {dftd_b}')
 
 # ###AVAILABILITY Add extra column for plotting, convert timedelata to float64###
 dftd_a['System 1'] = dftd_a['System 1'] / pd.Timedelta(hours =1)
 dftd_a['System 2'] = dftd_a['System 2'] / pd.Timedelta(hours =1)
 
-print(f'dftd_a {dftd_a}')
-print(f'dftf_a type {dftd_a.dtypes}')
+# print(f'dftd_a {dftd_a}')
+# print(f'dftf_a type {dftd_a.dtypes}')
 
 dftd_b['System 1'] = dftd_b['System 1'] / pd.Timedelta(hours =1)
 dftd_b['System 2'] = dftd_b['System 2'] / pd.Timedelta(hours =1)
 
-print(f'dftd_b {dftd_b}')
-print(f'dftf_b type {dftd_b.dtypes}')
+# print(f'dftd_b {dftd_b}')
+# print(f'dftf_b type {dftd_b.dtypes}')
 
 ###AVAILABILITY OEE Availability Calcs###
 ###AVAILABILITY Availability = Actual Production Time / Possible Production Time * 100###
@@ -85,22 +84,22 @@ print(f'dftf_b type {dftd_b.dtypes}')
 possibleProd_a = dftd_a.loc[dftd_a.index[2], 'System 2']
 
 actualProd_a = dftd_a.loc[dftd_a.index[5], 'System 2']
-print(f'possibleProd_a: {possibleProd_a}')
-print(f'actualProd_a: {actualProd_a}')
+# print(f'possibleProd_a: {possibleProd_a}')
+# print(f'actualProd_a: {actualProd_a}')
 
 
 availability_a = actualProd_a / possibleProd_a
-print(f'availability_a: {availability_a}')
+#print(f'availability_a: {availability_a}')
 
 
 possibleProd_b = dftd_b.loc[dftd_b.index[2], 'System 2']
 
 actualProd_b = dftd_b.loc[dftd_b.index[5], 'System 2']
-print(f'possibleProd_b: {possibleProd_b}')
-print(f'actualProd_b: {actualProd_b}')
+# print(f'possibleProd_b: {possibleProd_b}')
+# print(f'actualProd_b: {actualProd_b}')
 
 availability_b = actualProd_b / possibleProd_b
-print(f'availability_b: {availability_b}')
+#print(f'availability_b: {availability_b}')
 
 
 
@@ -108,25 +107,25 @@ print(f'availability_b: {availability_b}')
 
 dfq_a = pd.DataFrame(data_a)
 dfq_a = dfq_a.drop(axis=0, index =[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15])
-print(f'OEE57 dfq_a quality dataset: {dfq_a}')
+#print(f'OEE57 dfq_a quality dataset: {dfq_a}')
 
 dfq_b = pd.DataFrame(data_b)
 dfq_b = dfq_b.drop(axis=0, index =[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15])
-print(f'OEE57 dfq_b quality dataset: {dfq_b}')
+#print(f'OEE57 dfq_b quality dataset: {dfq_b}')
 
 
 ###QUALITY Cast Types convert from Object to string/int64###
 dfq_a['Category'] = dfq_a['Category'].astype('string')
 dfq_a['System 2'] = dfq_a['System 2'].astype('int')
 
-print(f'dfq_a {dfq_a}')
-print(f'dfq_a type {dfq_a.dtypes}')
+# print(f'dfq_a {dfq_a}')
+# print(f'dfq_a type {dfq_a.dtypes}')
 
 dfq_b['Category'] = dfq_b['Category'].astype('string')
 dfq_b['System 2'] = dfq_b['System 2'].astype('int')
 
-print(f'dfq_b {dfq_b}')
-print(f'dfq_b type {dfq_b.dtypes}')
+# print(f'dfq_b {dfq_b}')
+# print(f'dfq_b type {dfq_b.dtypes}')
 
 
 ###QUALITY OEE Quality Calcs###
@@ -136,27 +135,27 @@ pickup_a = dfq_a.loc[dfq_a.index[0], 'System 2']
 place_a = dfq_a.loc[dfq_a.index[1], 'System 2']
 quality_a = place_a / pickup_a
 
-print(f'pickup_a {pickup_a}')
-print(f'place_a {place_a}')
-print(f'quality_a {quality_a}')
+# print(f'pickup_a {pickup_a}')
+# print(f'place_a {place_a}')
+# print(f'quality_a {quality_a}')
 
 pickup_b = dfq_b.loc[dfq_b.index[0], 'System 2']
 place_b = dfq_b.loc[dfq_b.index[1], 'System 2']
 quality_b = place_b / pickup_b
 
-print(f'pickup_b {pickup_b}')
-print(f'place_b {place_b}')
-print(f'quality_b {quality_b}')
+# print(f'pickup_b {pickup_b}')
+# print(f'place_b {place_b}')
+# print(f'quality_b {quality_b}')
 
 ###PERFORMANCE Subset for Performance Statistics ###
 
-data2_a = pd.read_fwf(path, skiprows=25, skipfooter=28,   colspecs=[(1,23), (25,33), (36, 45), (47, 56), (57, 65), (65, 76), (76, 87), (87, 98), (98, 109), (109, 120), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
+data2_a = pd.read_fwf(path, skiprows=23, skipfooter=24,   colspecs=[(0,21), (21,31), (3, 45), (47, 56), (57, 65), (65, 76), (76, 87), (87, 98), (98, 109), (109, 120), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
 dfp_a = pd.DataFrame(data2_a)
-print(f'{dfp_a}')
+print(f'OEE49 data2_a = {dfp_a}')
 
 data2_b = pd.read_fwf(path, skiprows=53, skipfooter=0,   colspecs=[(1,23), (25,33), (36, 45), (47, 56), (57, 65), (65, 76), (76, 87), (87, 98), (98, 109), (109, 120), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
 dfp_b = pd.DataFrame(data2_b)
-print(f'{dfp_b}')
+#print(f'OEE49 data2_b = {dfp_b}')
 
 ###PERFORMANCE OEE Quality Calcs###
 
@@ -164,34 +163,34 @@ print(f'{dfp_b}')
 actualOut_a = dfp_a.loc[dfp_a.index[0], 'Total']
 actualOut_a = int(actualOut_a)
 PossibleOut = 7010
-print(f'Actual Out: {actualOut_a}')
-print(type(actualOut_a))
+#print(f'Actual Out: {actualOut_a}')
+#print(type(actualOut_a))
 
 
 
 performance_a = actualOut_a / PossibleOut #error
-print(f'Performance_a: {performance_a}')
+#print(f'Performance_a: {performance_a}')
 
 actualOut_b = dfp_b.loc[dfp_a.index[0], 'Total']
 actualOut_b = int(actualOut_b)
-print(f'Actual Out: {actualOut_b}')
-print(type(actualOut_b))
+#print(f'Actual Out: {actualOut_b}')
+#print(type(actualOut_b))
 
 performance_b = actualOut_b / PossibleOut #error
-print(f'Performance_b: {performance_b}')
+#print(f'Performance_b: {performance_b}')
 
 
 ###MERGE Dataframe_a & Dataframe_b###
 ###FIX THIS MATHS ERROR###
 
 availability = (actualProd_a + actualProd_b) / (possibleProd_a + possibleProd_b)
-print(f'overall availability {availability}')
+#print(f'overall availability {availability}')
 
 quality = (place_a + place_b) / (pickup_a + pickup_b)
-print(f'overall quality {quality}')
+#print(f'overall quality {quality}')
 
 performance = (actualOut_a + actualOut_b) / (PossibleOut + PossibleOut)
-print(f'overall performance {performance}')
+#print(f'overall performance {performance}')
 
 
 
@@ -201,10 +200,10 @@ print(f'overall performance {performance}')
 
 OEE = availability * performance * quality * 100
 
-print(f'Availbability = {availability}')
-print(f'Performance = {performance}')
-print(f'Quality = {quality}')
-print(f'OEE = {OEE} %')
+# print(f'Availbability = {availability}')
+# print(f'Performance = {performance}')
+# print(f'Quality = {quality}')
+# print(f'OEE = {OEE} %')
 
 
 
@@ -215,8 +214,8 @@ ramYear = str(datetime.datetime.now().year)
 date_text = basename.replace('_','/')
 date_text = date_text.replace('.RAM','') + '/' + ramYear
 date_time = pd.to_datetime(date_text, format='%d/%m/%Y').date()
-print(f' Date_Text = {date_text}')
-print(f' Date_Time = {date_time}')
+# print(f' Date_Text = {date_text}')
+# print(f' Date_Time = {date_time}')
 
 dict = {'Datetime': date_time, 'RamDate': basename, 'Availability': availability*100, 'Performance': performance*100, 'Quality': quality*100, 'OEE': OEE}
 
@@ -231,3 +230,4 @@ resultsTransp.to_csv(r'C:\\vs_code\\OEE_DASHBOARD\\DATABASE\\datalog.csv', index
 
 
 
+print('OEE49 program complete')
