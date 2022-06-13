@@ -13,6 +13,9 @@ import chart_studio.plotly as py
 import chart_studio
 
 
+
+
+
 def run_plotly_Availability():
 
     username = 'james.booth' # your username
@@ -33,18 +36,23 @@ def run_plotly_Availability():
 
     ###Code is good up to here###
 
+    ###Create Offset for Business Date###
+    offset = pd.tseries.offsets.BusinessDay(n=1)
+
+
     ###Create variable for dateYesterday##
     dateYesterday = date.today() - datetime.timedelta(days = 0) #20 - Needs to be adjusted every day to reach 2022-04-14 for test purposes 
     print(f'Date Yesterday = {dateYesterday}')
-    deltaDate = dateYesterday - datetime.timedelta(days = 1)
+    deltaDate = dateYesterday - offset
     print(f'Delta Date = {deltaDate}')
 
     ###Code is good up to here, remeber to adjust 'days' value to get real data###
 
     ###Cast Datetime as string for bool Test###
     dateYesterday = str(dateYesterday)
-    deltaDate = str(deltaDate)
-    # print(dateYesterday)
+    deltaDate = str(deltaDate.date())
+    # deltaDate = deltaDate -' 00:00:00'
+    print(f'DeltaDate = {deltaDate}')
 
 
     ###Bool test is optional to check if the data is being correctly parsed###
