@@ -35,17 +35,20 @@ def run_plotly_Quality():
 
     ###Code is good up to here###
 
+    ###Create Offset for Business Date###
+    offset = pd.tseries.offsets.BusinessDay(n=1)
+
     ###Create variable for dateYesterday##
     dateYesterday = date.today() - datetime.timedelta(days = 0) #20 - Needs to be adjusted every day to reach 2022-04-14 for test purposes 
     print(f'Date Yesterday = {dateYesterday}')
-    deltaDate = dateYesterday - datetime.timedelta(days = 1)
+    deltaDate = dateYesterday - offset
     print(f'Delta Date = {deltaDate}')
 
     ###Code is good up to here, remeber to adjust 'days' value to get real data###
 
     ###Cast Datetime as string for bool Test###
     dateYesterday = str(dateYesterday)
-    deltaDate = str(deltaDate)
+    deltaDate = str(deltaDate.date())
     # print(dateYesterday)
 
 
