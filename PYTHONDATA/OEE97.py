@@ -33,19 +33,19 @@ print(f'basename: {basename}') #ok
 
 
 ##Import raw data as fixed width file (fwf)### #not ok, need to fix import drops and merge two dataframes#
-data_a = pd.read_fwf(path, skiprows=3, skipfooter=89, colspecs=[(0,23), (23,37), (37,-1)], names=['Category', 'System 1', 'System 2'])
-#print(f'OEE113 Data{data_a}')
+data_a = pd.read_fwf(path, skiprows=3, skipfooter=75, colspecs=[(0,23), (23,37), (37,-1)], names=['Category', 'System 1', 'System 2'])
+#print(f'OEE97 Data{data_a}')
 
-data_b = pd.read_fwf(path, skiprows=31, skipfooter=61, colspecs=[(0,23), (23,37), (37,-1)], names=['Category', 'System 1', 'System 2'])
-#print(f'OEE113 Data{data_b}')
+data_b = pd.read_fwf(path, skiprows=27, skipfooter=51, colspecs=[(0,23), (23,37), (37,-1)], names=['Category', 'System 1', 'System 2'])
+#print(f'OEE97 Data{data_b}')
 
-data_c = pd.read_fwf(path, skiprows=59, skipfooter=33, colspecs=[(0,23), (23,37), (37,-1)], names=['Category', 'System 1', 'System 2'])
-# print(f'OEE113 Data{data_c}')
-# print(f'OEE113 Data{data_c.shape}')
+data_c = pd.read_fwf(path, skiprows=51, skipfooter=27, colspecs=[(0,23), (23,37), (37,-1)], names=['Category', 'System 1', 'System 2'])
+#print(f'OEE97 Data{data_c}')
+# print(f'OEE97 Data{data_c.shape}')
 
-data_d = pd.read_fwf(path, skiprows=87, skipfooter=6, colspecs=[(0,23), (23,37), (37,-1)], names=['Category', 'System 1', 'System 2'])
-# print(f'OEE113 Data{data_d}')
-# print(f'OEE113 Data{data_d.shape}')
+data_d = pd.read_fwf(path, skiprows=75, skipfooter=3, colspecs=[(0,23), (23,37), (37,-1)], names=['Category', 'System 1', 'System 2'])
+#print(f'OEE97 Data{data_d}')
+# print(f'OEE97 Data{data_d.shape}')
 
 ###CONVERT data_a and data_b to dataframe. Agregate into single dataframe###
 
@@ -255,19 +255,19 @@ quality_d = place_d / pickup_d #potential issue if div/0
 
 ###PERFORMANCE Subset for Performance Statistics ###
 
-data2_a = pd.read_fwf(path, skiprows=25, skipfooter=84,   colspecs=[(1,23), (25,33), (36, 45), (47, 56), (57, 65), (65, 76), (76, 87), (87, 98), (98, 109), (109, 120), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
+data2_a = pd.read_fwf(path, skiprows=23, skipfooter=72,   colspecs=[(0,13), (14,24), (25, 37), (38, 49), (50, 60), (61, 71), (72, 83), (83, 90), (91, 100), (101, 112), (112, 124), (125,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
 dfp_a = pd.DataFrame(data2_a)
 print(f'{dfp_a}')
 
-data2_b = pd.read_fwf(path, skiprows=53, skipfooter=56,   colspecs=[(1,23), (25,33), (36, 45), (47, 56), (57, 65), (65, 76), (76, 87), (87, 98), (98, 109), (109, 120), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
+data2_b = pd.read_fwf(path, skiprows=47, skipfooter=48,   colspecs=[(0,13), (14,24), (25, 37), (38, 49), (50, 60), (61, 71), (72, 83), (83, 90), (91, 100), (101, 112), (112, 124), (125,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
 dfp_b = pd.DataFrame(data2_b)
 print(f'{dfp_b}')
 
-data2_c = pd.read_fwf(path, skiprows=81, skipfooter=28,   colspecs=[(1,23), (25,33), (36, 45), (47, 56), (57, 65), (65, 76), (76, 87), (87, 98), (98, 109), (109, 120), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
+data2_c = pd.read_fwf(path, skiprows=71, skipfooter=24,   colspecs=[(0,13), (14,24), (25, 37), (38, 49), (50, 60), (61, 71), (72, 83), (83, 90), (91, 100), (101, 112), (112, 124), (125,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
 dfp_c = pd.DataFrame(data2_c)
 print(f'{dfp_c}')
 
-data2_d = pd.read_fwf(path, skiprows=109, skipfooter=0,   colspecs=[(1,23), (25,33), (36, 45), (47, 56), (57, 65), (65, 76), (76, 87), (87, 98), (98, 109), (109, 120), (120, 131), (131,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
+data2_d = pd.read_fwf(path, skiprows=95, skipfooter=0,   colspecs=[(0,13), (14,24), (25, 37), (38, 49), (50, 60), (61, 71), (72, 83), (83, 90), (91, 100), (101, 112), (112, 124), (125,-1)], names=['ComponentStatistics', 'Total', 'Useable', 'Reject', 'Inked', 'Pos-Error', 'Vac-Error', 'AM-Err1', 'AM-Err2', 'AM-Err3', 'AM-Err4', 'InspErr' ])
 dfp_d = pd.DataFrame(data2_d)
 print(f'{dfp_d}')
 
@@ -346,6 +346,6 @@ resultsTransp = resultsDF.transpose()
 
 resultsTransp.to_csv(r'C:\\vs_code\\OEE_DASHBOARD\\DATABASE\\datalog.csv', index=False, mode='a', header=False)
 
-
+print('Completed OEE97')
 
 
