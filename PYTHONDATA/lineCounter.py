@@ -4,6 +4,7 @@
 ###For parsing Datacon Evo FWF files of line length 113 only###
 ###Last updated 07/06/2022###
 
+import imp
 import pandas as pd
 import numpy as np
 import os
@@ -12,6 +13,9 @@ from OEE29 import run_OEE_29
 from OEE57 import run_OEE_57
 from OEE85 import run_OEE_85
 from OEE113 import run_OEE_113
+from OEE49 import run_OEE_49
+from OEE73 import run_OEE_73
+from OEE97 import run_OEE_97
 
 
 def run_line_counter(path):
@@ -42,19 +46,19 @@ def run_line_counter(path):
     if count == 25:
         print('File is 25 lines long')
         run_OEE_25(path)
-    elif count == 57:
-        print('File is 57 lines long')
-        run_OEE_57(path)
-    elif count == 85:
-        print('File is 85 lines long')
-        run_OEE_85(path)
-    elif count == 113:
-        print('File is 113 lines long')
-        run_OEE_113(path)
+    elif count == 49:
+        print('File is 49 lines long')
+        run_OEE_49(path)
+    elif count == 73:
+        print('File is 73 lines long')
+        run_OEE_73(path)
+    elif count == 97:
+        print('File is 97 lines long')
+        run_OEE_97(path)
     else:
         print('Syntax Error file length')
 
-if __name__ == '__main__':
-    run_line_counter('07_03.ram')
+# if __name__ == '__main__':
+#     run_line_counter('07_03.ram')
 
 #run_line_counter()
