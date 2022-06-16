@@ -14,11 +14,11 @@ import pprint
 import datetime
 from datetime import date
 
-print('opened function file')
+
 
 def run_OEE_97(path):
 
-
+    print('Running OEE97')
 
     os.path.join( "C:", "meshes", "as" ) #Add to future versions for correct method
     file_exists = os.path.exists(f'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\4BLOCKTEST\\{path}')

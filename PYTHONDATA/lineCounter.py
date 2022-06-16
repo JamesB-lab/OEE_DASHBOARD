@@ -16,6 +16,8 @@ from OEE97 import run_OEE_97
 
 def run_line_counter(path):
 
+    print('Running lineCounter.py')
+
     #file = '04_03.ram' #29 lines
     #file = '02_03.ram' #57 lines
     #file = '07_03.ram' #85 lines

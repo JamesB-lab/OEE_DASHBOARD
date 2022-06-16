@@ -5,6 +5,8 @@ from  watchdog.events import FileSystemEventHandler
 
 def run_ramFilterWatcher():
 
+    print('Running ramFilterWatcher.py')
+
     class RamFileHandler(FileSystemEventHandler):
 
         def __init__(self, targetDir):

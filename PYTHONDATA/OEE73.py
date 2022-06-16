@@ -14,11 +14,12 @@ import pprint
 import datetime
 from datetime import date
 
-print('opened OEE73 function file')
+#print('opened OEE73 function file')
 
 
 def run_OEE_73(path):
 
+    print('Running OEE73')
 
     basename = os.path.basename(path) #ok
 

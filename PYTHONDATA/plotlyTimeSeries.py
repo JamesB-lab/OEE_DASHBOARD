@@ -10,6 +10,8 @@ import chart_studio
 
 def run_plotly_TimeSeries():
 
+    print('Running Plotly Time Series')
+
 
     username = 'james.booth' # your username
     api_key = 'cCmuSWNFC4GOKnshMCr2' # your api key - go to profile > settings > regenerate key

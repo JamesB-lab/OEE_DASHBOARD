@@ -5,6 +5,8 @@ from lineCounter import run_line_counter
 
 def run_cleanedDataWatcher():
 
+    print('Running cleanedDataWatcher.py')
+
     def run_line_counter_Trigger(path):
         print(f'Running lineCounter on {path}')
         run_line_counter(path)

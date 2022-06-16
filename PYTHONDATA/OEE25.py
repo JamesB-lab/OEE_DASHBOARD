@@ -14,13 +14,12 @@ import pprint
 import datetime
 from datetime import date
 
-print('OEE25')
+
 
 def run_OEE_25(path):
 
-    #DELETE AFTER TEST IS COMPLETE#
-    #path = 'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\evo_log_data\\DA5_Copy\\CLEANEDDATARESUBSETTEST\\1_block\\20_05.ram'
-    #DELETE AFTER TEST IS COMPLETE#
+    print('Running OEE25')
+
 
     basename = os.path.basename(path)
 

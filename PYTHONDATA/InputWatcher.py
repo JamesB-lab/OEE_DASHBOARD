@@ -5,6 +5,8 @@ from dataClean import run_Data_Clean
 
 def run_inputWatcher():
 
+    print('Running inputWatcher.py')
+
     def run_Data_Clean_Trigger(path):
         print(f'Running dataClean on {path}')
         run_Data_Clean(path)

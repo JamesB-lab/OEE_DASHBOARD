@@ -14,9 +14,11 @@ import pprint
 import datetime
 from datetime import date
 
-print('Running OEE49')
+
 
 def run_OEE_49(path):
+
+    print('Running OEE49')
 
 
     basename = os.path.basename(path) #ok

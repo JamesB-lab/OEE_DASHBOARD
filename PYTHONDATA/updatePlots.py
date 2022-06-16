@@ -6,7 +6,7 @@ from plotlyTimeSeries import run_plotly_TimeSeries
 
 def __main__():
 
-    print("Run Update Plots Function")
+    print("Running Update Plots Function")
     run_plotly_Availability()
     run_plotly_Performance()
     run_plotly_Quality()
