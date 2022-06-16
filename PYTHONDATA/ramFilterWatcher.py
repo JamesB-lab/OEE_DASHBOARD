@@ -63,13 +63,7 @@ def run_ramFilterWatcher():
         observer.schedule(handler, srcDir, recursive=True)
         observer.start()
         # This is just so the file watcher (observer) keeps looping with a small wait in between
-        try:
-            while True:
-                time.sleep(1)
-
-        except KeyboardInterrupt:
-            observer.stop()
-        observer.join()
+        return observer
 
 
 

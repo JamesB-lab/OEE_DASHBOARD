@@ -35,11 +35,4 @@ def run_inputWatcher():
         observer.schedule(event_handler, path, recursive=True)
         # We start the observer
         observer.start()
-        try:
-            # We need an infinite loop here so the program doesn't terminate
-            while True:
-                time.sleep(1)
-        finally:
-            # We graciously stop the observer and wait for it to finish
-            observer.stop()
-            observer.join()
+        return observer

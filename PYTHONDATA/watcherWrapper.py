@@ -4,7 +4,7 @@ from cleanedDataWatcher import run_cleanedDataWatcher
 
 def __main__():
 
-    print("Running watcher program")
+    print("Running watcher programs")
     run_ramFilterWatcher()
     run_inputWatcher()
     run_cleanedDataWatcher()
