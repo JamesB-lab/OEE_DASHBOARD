@@ -22,7 +22,7 @@ def run_plotly_TimeSeries():
 
 
     #Read raw data from csv, parse dates and make datetime begin with day first, finally convert to dataframe#
-    df = pd.read_csv(f'C:\\vs_code\\OEE_DASHBOARD\\DATABASE\\datalog.csv', header=0, parse_dates=True, squeeze=True, dayfirst=True)
+    df = pd.read_csv(f'P:\\OEE_Dashboard\\Data\\datalog.csv', header=0, parse_dates=True, squeeze=True, dayfirst=True)
     df = pd.DataFrame(df)
     # print(df)
     # print(df.shape)

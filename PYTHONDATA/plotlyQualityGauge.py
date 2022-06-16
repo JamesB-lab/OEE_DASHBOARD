@@ -24,7 +24,7 @@ def run_plotly_Quality():
 
 
 
-    df = pd.read_csv(f'C:\\vs_code\\OEE_DASHBOARD\\DATABASE\\datalog.csv', header=0, parse_dates=True, squeeze=True, dayfirst=False)
+    df = pd.read_csv(f'P:\\OEE_Dashboard\\Data\\datalog.csv', header=0, parse_dates=True, squeeze=True, dayfirst=False)
     df = pd.DataFrame(df)
 
 

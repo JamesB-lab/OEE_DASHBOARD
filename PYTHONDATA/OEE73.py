@@ -283,7 +283,7 @@ def run_OEE_73(path):
 
     ###Write to csv###
 
-    resultsTransp.to_csv(r'C:\\vs_code\\OEE_DASHBOARD\\DATABASE\\datalog.csv', index=False, mode='a', header=False)
+    resultsTransp.to_csv(r'P:\\OEE_Dashboard\\Data\\datalog.csv', index=False, mode='a', header=False)
 
 
     print('Completed OEE73')
