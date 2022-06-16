@@ -9,8 +9,9 @@ def run_ramFilterWatcher():
 
     class RamFileHandler(FileSystemEventHandler):
 
-        def __init__(self, targetDir):
+        def __init__(self, targetDir, badDir):
             self.targetDir = targetDir
+            self.badDir = badDir
             self.valid_ram_lengths = [29,30,57,58,59,85,86,87,88,113,114,115,116,117]
 
 
@@ -42,25 +43,37 @@ def run_ramFilterWatcher():
 
             if not count in self.valid_ram_lengths:
                 print(f'Skipping file {path} which has length {count}')
+                copyFile(path, os.path.join(self.badDir, os.path.basename(path)))
                 return
 
             # Finally we write (copy) the original lines in the target file
+            copyFile(path, os.path.join(self.targetDir, os.path.basename(path)))
+    
+    def copyFile(source, destination):
+        with open(source, 'r') as s:
+            lines = s.readlines()
+        with open(destination, 'w') as d:
+            d.writelines(lines)
+        print(f'Copied file {source} to {destination}')
 
-            copiedFile = os.path.join(self.targetDir, os.path.basename(path))
-            with open(copiedFile,'w') as f:
-                f.writelines(lines)
-            print(f'Copied file{path}')
+
+            # copiedFile = os.path.join(self.targetDir, os.path.basename(path))
+            # with open(copiedFile,'w') as f:
+            #     f.writelines(lines)
+            # print(f'Copied file{path}')
 
 
 
-    def start_ram_watch_and_copy(srcDir, targetDir):
+    def start_ram_watch_and_copy(srcDir, targetDir, badDir):
         # Just in case, create the target parent directory if it doesn't exist already
         if not os.path.exists(targetDir):
             os.mkdir(targetDir)
+        if not os.path.exists(badDir):
+            os.mkdir(badDir)
 
     # Define our custom handler and start it
 
-        handler = RamFileHandler(targetDir)
+        handler = RamFileHandler(targetDir, badDir)
         observer = Observer()
         observer.schedule(handler, srcDir, recursive=True)
         observer.start()
@@ -73,4 +86,4 @@ def run_ramFilterWatcher():
 
     # the script will watch srcDir and copy valid .ram files into targetDir
 
-    start_ram_watch_and_copy(srcDir='P:\\! Evo Stats\\DA5', targetDir='P:\\OEE_Dashboard\\Raw_Data_Input')
+    start_ram_watch_and_copy(srcDir='P:\\! Evo Stats\\DA5', targetDir='P:\\OEE_Dashboard\\Raw_Data_Input', badDir= 'P:\\OEE_Dashboard\\Unhandled')
