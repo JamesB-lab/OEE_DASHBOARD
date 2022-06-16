@@ -20,6 +20,7 @@ def run_inputWatcher():
     # Hence, we protect ourselves with a try-except block
             try:
                 if event.is_directory == False:
+                    print(f'Running DataCean Trigger on {path}')
                     run_Data_Clean_Trigger(event.src_path)
                     # print('True')
                     # print(event)
@@ -27,14 +28,14 @@ def run_inputWatcher():
                 print(err)
 
 
-    if __name__ == "__main__":
-        path = 'P:\\OEE_Dashboard\\Raw_Data_Input'
-        # We create a new instance of our custom handler
-        event_handler = JamesEventHandler()
-        # We create a new watchdog observer
-        observer = Observer()
-        # We tell the observer to watch a 'path' recursively and use the 'event_handler'
-        observer.schedule(event_handler, path, recursive=True)
-        # We start the observer
-        observer.start()
-        return observer
+    
+    path = 'P:\\OEE_Dashboard\\Raw_Data_Input'
+    # We create a new instance of our custom handler
+    event_handler = JamesEventHandler()
+    # We create a new watchdog observer
+    observer = Observer()
+    # We tell the observer to watch a 'path' recursively and use the 'event_handler'
+    observer.schedule(event_handler, path, recursive=True)
+    # We start the observer
+    observer.start()
+    return observer

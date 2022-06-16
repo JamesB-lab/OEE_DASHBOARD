@@ -27,14 +27,14 @@ def run_cleanedDataWatcher():
                 print(err)
 
 
-    if __name__ == "__main__":
-        path = 'P:\\OEE_Dashboard\\Cleaned_Data_Output'
-        # We create a new instance of our custom handler
-        event_handler = JamesEventHandler()
-        # We create a new watchdog observer
-        observer = Observer()
-        # We tell the observer to watch a 'path' recursively and use the 'event_handler'
-        observer.schedule(event_handler, path, recursive=True)
-        # We start the observer
-        observer.start()
-        return observer
+    
+    path = 'P:\\OEE_Dashboard\\Cleaned_Data_Output'
+    # We create a new instance of our custom handler
+    event_handler = JamesEventHandler()
+    # We create a new watchdog observer
+    observer = Observer()
+    # We tell the observer to watch a 'path' recursively and use the 'event_handler'
+    observer.schedule(event_handler, path, recursive=True)
+    # We start the observer
+    observer.start()
+    return observer
