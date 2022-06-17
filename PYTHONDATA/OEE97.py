@@ -13,6 +13,7 @@ import os.path
 import pprint
 import datetime
 from datetime import date
+from updatePlots import run_update_plots
 
 
 
@@ -346,5 +347,7 @@ def run_OEE_97(path):
     resultsTransp.to_csv(r'P:\\OEE_Dashboard\\Data\\datalog.csv', index=False, mode='a', header=False)
 
     print('Completed OEE97')
+    print('Updating Plots')
+    run_update_plots()
 
 

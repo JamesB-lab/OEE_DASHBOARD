@@ -13,6 +13,7 @@ import os.path
 import pprint
 import datetime
 from datetime import date
+from updatePlots import run_update_plots
 
 #print('opened OEE73 function file')
 
@@ -287,4 +288,6 @@ def run_OEE_73(path):
 
 
     print('Completed OEE73')
+    print('Updating Plots')
+    run_update_plots()
 

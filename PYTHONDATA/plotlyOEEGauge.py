@@ -103,7 +103,7 @@ def run_plotly_OEE():
                     {'range': [50, 100], 'color': "gray"}],
                 'threshold' : {'line': {'color': "red", 'width': 4}, 'thickness': 0.75, 'value': 85}}))
 
-    fig.write_html("PLOTLYEXPORTS\\OEEGauge.html")
+    #fig.write_html("PLOTLYEXPORTS\\OEEGauge.html")
     py.plot(fig, filename = 'plotlyOEEGauge', auto_open=False)
 
     #fig.show()

@@ -4,7 +4,7 @@ from plotlyQualityGauge import run_plotly_Quality
 from plotlyOEEGauge import run_plotly_OEE
 from plotlyTimeSeries import run_plotly_TimeSeries
 
-def __main__():
+def run_update_plots():
 
     print("Running Update Plots Function")
     run_plotly_Availability()
@@ -13,4 +13,3 @@ def __main__():
     run_plotly_OEE()
     run_plotly_TimeSeries()
 
-__main__()
