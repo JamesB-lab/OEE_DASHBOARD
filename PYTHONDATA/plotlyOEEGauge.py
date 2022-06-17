@@ -39,7 +39,7 @@ def run_plotly_OEE():
     offset = pd.tseries.offsets.BusinessDay(n=1)
 
     ###Create variable for dateYesterday##
-    dateYesterday = date.today() - datetime.timedelta(days = 0) # Should be 1!!! #20 - Needs to be adjusted every day to reach 2022-04-14 for test purposes 
+    dateYesterday = date.today() - datetime.timedelta(days =0) # Should be 1!!! #20 - Needs to be adjusted every day to reach 2022-04-14 for test purposes 
     print(f'Date Yesterday = {dateYesterday}')
     deltaDate = dateYesterday - offset
     print(f'Delta Date = {deltaDate}')
@@ -103,7 +103,7 @@ def run_plotly_OEE():
                     {'range': [50, 100], 'color': "gray"}],
                 'threshold' : {'line': {'color': "red", 'width': 4}, 'thickness': 0.75, 'value': 85}}))
 
-    fig.write_html("PLOTLYEXPORTS\\OEEGauge.html")
+    #fig.write_html("PLOTLYEXPORTS\\OEEGauge.html")
     py.plot(fig, filename = 'plotlyOEEGauge', auto_open=False)
 
     #fig.show()

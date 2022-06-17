@@ -13,6 +13,7 @@ import os.path
 import pprint
 import datetime
 from datetime import date
+from updatePlots import run_update_plots
 
 
 
@@ -146,5 +147,7 @@ def run_OEE_25(path):
 
 
     print('Program complete')
+    print('Updating plots')
+    run_update_plots()
 
 
