@@ -62,21 +62,31 @@ def run_plotly_Performance():
 
 
     yesterdayPlot = df.loc[df.Datetime == dateYesterday]
+    print(f'YesterdayPlot =\n{yesterdayPlot}')
     #print(f'yesterdayPlot = {yesterdayPlot}')
     deltaPlot = df.loc[df.Datetime == deltaDate]
-    print(f'deltaplot = {deltaPlot}')
+    #print(f'deltaplot = {deltaPlot}')
+    print(f'deltaPlot =\n{deltaPlot}')
 
-    Per = yesterdayPlot['Performance']
-    Per = float(Per)
-    print(f'TEST: {Per}')
+    ###Error check here for 0 values###
 
-    Per_Delta = deltaPlot['Performance']
-    Per_Delta = float(Per_Delta)
-    # # OEE_Delta = {'reference': OEE_Delta}
+    if len(yesterdayPlot) == 0:
+        Per =0
+    else:
+        Per = yesterdayPlot['Performance']
+        Per = float(Per)
+        # print(f'TEST: {Per}')
+
+    if len(deltaPlot) == 0:
+        Per_Delta = 0
+    else:
+        Per_Delta = deltaPlot['Performance']
+        Per_Delta = float(Per_Delta)
+
+    # # Per_Delta = {'reference': Per_Delta}
     print(f'TEST: {Per_Delta}')
 
-
-
+    
 
 
     ##Plot###

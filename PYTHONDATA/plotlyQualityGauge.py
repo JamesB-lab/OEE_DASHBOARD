@@ -63,20 +63,27 @@ def run_plotly_Quality():
 
 
     yesterdayPlot = df.loc[df.Datetime == dateYesterday]
+    print(f'YesterdayPlot =\n{yesterdayPlot}')
     #print(f'yesterdayPlot = {yesterdayPlot}')
     deltaPlot = df.loc[df.Datetime == deltaDate]
-    print(f'deltaplot = {deltaPlot}')
+    #print(f'deltaplot = {deltaPlot}')
+    print(f'deltaPlot =\n{deltaPlot}')
 
-    Qua = yesterdayPlot['Quality']
-    Qua = float(Qua)
-    # print(f'TEST: {OEE}')
+    if len(yesterdayPlot) == 0:
+        Qua =0
+    else:
+        Qua = yesterdayPlot['Quality']
+        Qua = float(Qua)
+        # print(f'TEST: {Qua}')
 
-    Qua_Delta = deltaPlot['Quality']
-    Qua_Delta = float(Qua_Delta)
-    # # OEE_Delta = {'reference': OEE_Delta}
+    if len(deltaPlot) == 0:
+        Qua_Delta = 0
+    else:
+        Qua_Delta = deltaPlot['PQuality']
+        Qua_Delta = float(Qua_Delta)
+
+    # # Qua_Delta = {'reference': Qua_Delta}
     print(f'TEST: {Qua_Delta}')
-
-
 
 
 

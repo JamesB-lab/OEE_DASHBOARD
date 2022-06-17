@@ -61,20 +61,29 @@ def run_plotly_OEE():
 
 
     yesterdayPlot = df.loc[df.Datetime == dateYesterday]
+    print(f'YesterdayPlot =\n{yesterdayPlot}')
     #print(f'yesterdayPlot = {yesterdayPlot}')
     deltaPlot = df.loc[df.Datetime == deltaDate]
-    print(f'deltaplot = {deltaPlot}')
+    #print(f'deltaplot = {deltaPlot}')
+    print(f'deltaPlot =\n{deltaPlot}')
 
-    OEE = yesterdayPlot['OEE']
-    OEE = float(OEE)
-    # print(f'TEST: {OEE}')
+    ###Error check here for 0 values###
 
-    OEE_Delta = deltaPlot['OEE']
-    OEE_Delta = float(OEE_Delta)
+    if len(yesterdayPlot) == 0:
+        OEE =0
+    else:
+        OEE = yesterdayPlot['OEE']
+        OEE = float(OEE)
+        # print(f'TEST: {OEE}')
+
+    if len(deltaPlot) == 0:
+        OEE_Delta = 0
+    else:
+        OEE_Delta = deltaPlot['OEE']
+        OEE_Delta = float(OEE_Delta)
+
     # # OEE_Delta = {'reference': OEE_Delta}
     print(f'TEST: {OEE_Delta}')
-
-
 
 
 

@@ -61,27 +61,33 @@ def run_plotly_Availability():
     DateTestBool = df.Datetime == dateYesterday ##Error here must be string
     #print(DateTestBool)
     DeltaTestBool = df.Datetime == deltaDate ##Error here must be string
-    #print(DeltaTestBool)
-
+    #print(DeltaTestBool
 
 
     yesterdayPlot = df.loc[df.Datetime == dateYesterday]
+    print(f'YesterdayPlot =\n{yesterdayPlot}')
     #print(f'yesterdayPlot = {yesterdayPlot}')
     deltaPlot = df.loc[df.Datetime == deltaDate]
-    print(f'deltaplot = {deltaPlot}')
+    print(f'deltaPlot =\n{deltaPlot}')
+    #print(f'deltaplot = {deltaPlot}')
 
-    Avl = yesterdayPlot['Availability']
-    Avl = float(Avl)
-    # print(f'TEST: {OEE}')
+    ###Error check here for 0 values###
 
-    Avl_Delta = deltaPlot['Availability']
-    Avl_Delta = float(Avl_Delta)
-    # # OEE_Delta = {'reference': OEE_Delta}
+    if len(yesterdayPlot) == 0:
+        Avl =0
+    else:
+        Avl = yesterdayPlot['Availability']
+        Avl = float(Avl)
+        # print(f'TEST: {OEE}')
+
+    if len(deltaPlot) == 0:
+        Avl_Delta = 0
+    else:
+        Avl_Delta = deltaPlot['Availability']
+        Avl_Delta = float(Avl_Delta)
+
+    # # Avl_Delta = {'reference': Avl_Delta}
     print(f'TEST: {Avl_Delta}')
-
-
-
-
 
     ##Plot###
 
