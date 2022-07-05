@@ -39,7 +39,7 @@ def run_plotly_OEE():
     offset = pd.tseries.offsets.BusinessDay(n=1)
 
     ###Create variable for dateYesterday##
-    dateYesterday = date.today() - datetime.timedelta(days = 0) # Should be 1!!! #20 - Needs to be adjusted every day to reach 2022-04-14 for test purposes 
+    dateYesterday = date.today() - datetime.timedelta(days =0) # Should be 1!!! #20 - Needs to be adjusted every day to reach 2022-04-14 for test purposes 
     print(f'Date Yesterday = {dateYesterday}')
     deltaDate = dateYesterday - offset
     print(f'Delta Date = {deltaDate}')

@@ -275,7 +275,7 @@ def run_OEE_73(path):
     print(f' Date_Text = {date_text}')
     print(f' Date_Time = {date_time}')
 
-    dict = {'Datetime': date_time, 'RamDate': basename, 'Availability': availability*100, 'Performance': performance*100, 'Quality': quality*100, 'OEE': OEE}
+    dict = {'Datetime': date_time, 'RamDate': basename, 'Availability': availability*100, 'Performance': performance*100, 'Quality': quality*100, 'OEE': OEE, 'Machine': 'DA5'}
 
 
     resultsDF = pd.DataFrame.from_dict(dict, orient='index')
@@ -288,6 +288,6 @@ def run_OEE_73(path):
 
 
     print('Completed OEE73')
-    print('Updating Plots')
+    print('Updating plots')
     run_update_plots()
 
