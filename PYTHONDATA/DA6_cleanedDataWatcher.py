@@ -28,7 +28,7 @@ def run_cleanedDataWatcher():
 
 
     
-    path = 'P:\\OEE_Dashboard\\DA5\\Cleaned_Data_Output'
+    path = 'P:\\OEE_Dashboard\\DA6\\Cleaned_Data_Output'
     # We create a new instance of our custom handler
     event_handler = JamesEventHandler()
     # We create a new watchdog observer

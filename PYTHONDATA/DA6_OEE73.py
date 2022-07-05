@@ -13,7 +13,7 @@ import os.path
 import pprint
 import datetime
 from datetime import date
-from DA5_updatePlots import run_update_plots
+from DA6_updatePlots import run_update_plots
 
 #print('opened OEE73 function file')
 
@@ -275,7 +275,7 @@ def run_OEE_73(path):
     print(f' Date_Text = {date_text}')
     print(f' Date_Time = {date_time}')
 
-    dict = {'Datetime': date_time, 'RamDate': basename, 'Availability': availability*100, 'Performance': performance*100, 'Quality': quality*100, 'OEE': OEE, 'Machine': 'DA5'}
+    dict = {'Datetime': date_time, 'RamDate': basename, 'Availability': availability*100, 'Performance': performance*100, 'Quality': quality*100, 'OEE': OEE, 'Machine': 'DA6'}
 
 
     resultsDF = pd.DataFrame.from_dict(dict, orient='index')

@@ -29,7 +29,7 @@ def run_inputWatcher():
 
 
     
-    path = 'P:\\OEE_Dashboard\\DA5\\Raw_Data_Input'
+    path = 'P:\\OEE_Dashboard\\DA6\\Raw_Data_Input'
     # We create a new instance of our custom handler
     event_handler = JamesEventHandler()
     # We create a new watchdog observer

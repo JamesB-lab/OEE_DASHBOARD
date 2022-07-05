@@ -32,7 +32,7 @@ def run_plotly_TimeSeries():
     # print(f'pre sorted dates: {df}')
     ###Enter group by here!####
     ###Filter by machine type###
-    df = df[(df['Machine'] == 'DA5')]
+    df = df[(df['Machine'] == 'DA6')]
     #Sort remaining values by datetime#
     df = df.sort_values(by='Datetime', ascending=True)
     # print(f'post sorted dates: {df}')

@@ -30,7 +30,7 @@ def run_plotly_Performance():
     df = df.drop_duplicates(subset=['Datetime', 'RamDate','Availability','Performance','Quality','OEE'], keep="first")
 
     ###Filter by machine type###
-    df = df[(df['Machine'] == 'DA5')]
+    df = df[(df['Machine'] == 'DA6')]
 
 
     #Sort remaining values by datetime#
