@@ -1,5 +1,4 @@
-#Plotly Dial/Gauge for Performance for OEE Dashboard#
-
+#Plotly Dial/Gauge for OEE for OEE Dashboard#
 
 from turtle import color
 import numpy as np
@@ -13,14 +12,14 @@ import chart_studio.plotly as py
 import chart_studio
 
 
-def run_plotly_Performance():
 
-    print('Running Plotly Performance')
+def run_plotly_OEE():
+
+    print('Running Plotly OEE')
 
     username = 'james.booth' # your username
     api_key = 'cCmuSWNFC4GOKnshMCr2' # your api key - go to profile > settings > regenerate key
     chart_studio.tools.set_credentials_file(username=username, api_key=api_key)
-
 
 
     df = pd.read_csv(f'P:\\OEE_Dashboard\\Data\\datalog.csv', header=0, parse_dates=True, squeeze=True, dayfirst=False)
@@ -28,6 +27,10 @@ def run_plotly_Performance():
 
 
     df = df.drop_duplicates(subset=['Datetime', 'RamDate','Availability','Performance','Quality','OEE'], keep="first")
+
+    ###Filter by machine type###
+    df = df[(df['Machine'] == 'DA5')]
+
 
 
     #Sort remaining values by datetime#
@@ -40,7 +43,7 @@ def run_plotly_Performance():
     offset = pd.tseries.offsets.BusinessDay(n=1)
 
     ###Create variable for dateYesterday##
-    dateYesterday = date.today() - datetime.timedelta(days = 0) #20 - Needs to be adjusted every day to reach 2022-04-14 for test purposes 
+    dateYesterday = date.today() - datetime.timedelta(days =0) # Should be 1!!! #20 - Needs to be adjusted every day to reach 2022-04-14 for test purposes 
     print(f'Date Yesterday = {dateYesterday}')
     deltaDate = dateYesterday - offset
     print(f'Delta Date = {deltaDate}')
@@ -71,22 +74,21 @@ def run_plotly_Performance():
     ###Error check here for 0 values###
 
     if len(yesterdayPlot) == 0:
-        Per =0
+        OEE =0
     else:
-        Per = yesterdayPlot['Performance']
-        Per = float(Per)
-        # print(f'TEST: {Per}')
+        OEE = yesterdayPlot['OEE']
+        OEE = float(OEE)
+        # print(f'TEST: {OEE}')
 
     if len(deltaPlot) == 0:
-        Per_Delta = 0
+        OEE_Delta = 0
     else:
-        Per_Delta = deltaPlot['Performance']
-        Per_Delta = float(Per_Delta)
+        OEE_Delta = deltaPlot['OEE']
+        OEE_Delta = float(OEE_Delta)
 
-    # # Per_Delta = {'reference': Per_Delta}
-    print(f'TEST: {Per_Delta}')
+    # # OEE_Delta = {'reference': OEE_Delta}
+    print(f'TEST: {OEE_Delta}')
 
-    
 
 
     ##Plot###
@@ -95,15 +97,17 @@ def run_plotly_Performance():
 
     fig = go.Figure(go.Indicator(
         domain = {'x': [0, 1], 'y': [0, 1]},
-        value = Per,
+        value = OEE,
         mode = "gauge+number+delta",
-        title = {'text': "Performance"},
-        delta = {'reference': Per_Delta},
+        title = {'text': "OEE"},
+        delta = {'reference': OEE_Delta},
         gauge = {'axis': {'range': [None, 100]},
                 'steps' : [
                     {'range': [0, 50], 'color': "lightgray"},
                     {'range': [50, 100], 'color': "gray"}],
                 'threshold' : {'line': {'color': "red", 'width': 4}, 'thickness': 0.75, 'value': 85}}))
-    py.plot(fig, filename = 'plotlyOPerformanceGauge', auto_open=False)
+
+    #fig.write_html("PLOTLYEXPORTS\\OEEGauge.html")
+    py.plot(fig, filename = 'plotlyOEEGauge', auto_open=False)
 
     #fig.show()

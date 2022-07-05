@@ -1,15 +1,15 @@
 import time
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-from lineCounter import run_line_counter
+from DA5_dataClean import run_Data_Clean
 
-def run_cleanedDataWatcher():
+def run_inputWatcher():
 
-    print('Running cleanedDataWatcher.py')
+    print('Running inputWatcher.py')
 
-    def run_line_counter_Trigger(path):
-        print(f'Running lineCounter on {path}')
-        run_line_counter(path)
+    def run_Data_Clean_Trigger(path):
+        print(f'Running dataClean on {path}')
+        run_Data_Clean(path)
 
 
 
@@ -20,7 +20,8 @@ def run_cleanedDataWatcher():
     # Hence, we protect ourselves with a try-except block
             try:
                 if event.is_directory == False:
-                    run_line_counter_Trigger(event.src_path)
+                    print(f'Running DataCean Trigger on {path}')
+                    run_Data_Clean_Trigger(event.src_path)
                     # print('True')
                     # print(event)
             except BaseException as err:
@@ -28,7 +29,7 @@ def run_cleanedDataWatcher():
 
 
     
-    path = 'P:\\OEE_Dashboard\\Cleaned_Data_Output'
+    path = 'P:\\OEE_Dashboard\\Raw_Data_Input'
     # We create a new instance of our custom handler
     event_handler = JamesEventHandler()
     # We create a new watchdog observer

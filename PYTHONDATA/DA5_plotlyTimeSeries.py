@@ -30,6 +30,9 @@ def run_plotly_TimeSeries():
     df = df.drop_duplicates(subset=['Datetime', 'RamDate','Availability','Performance','Quality','OEE'], keep="first")
     # print(f'df shape: {df.shape}')
     # print(f'pre sorted dates: {df}')
+    ###Enter group by here!####
+    ###Filter by machine type###
+    df = df[(df['Machine'] == 'DA5')]
     #Sort remaining values by datetime#
     df = df.sort_values(by='Datetime', ascending=True)
     # print(f'post sorted dates: {df}')
