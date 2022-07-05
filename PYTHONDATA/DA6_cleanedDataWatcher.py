@@ -1,7 +1,7 @@
 import time
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-from DA5_lineCounter import run_line_counter
+from DA6_lineCounter import run_line_counter
 
 def run_cleanedDataWatcher():
 

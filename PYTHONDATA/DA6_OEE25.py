@@ -145,8 +145,8 @@ def run_OEE_25(path):
     resultsTransp.to_csv(r'P:\\OEE_Dashboard\\Data\\datalog.csv', index=False, mode='a', header=False)
 
 
-    print('Program complete')
-    print('Updating plots')
+    print('DA6_Program complete')
+    print('DA6_Updating plots')
     run_update_plots()
 
 
