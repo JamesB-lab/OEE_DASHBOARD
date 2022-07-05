@@ -86,4 +86,4 @@ def run_ramFilterWatcher():
 
     # the script will watch srcDir and copy valid .ram files into targetDir
 
-    start_ram_watch_and_copy(srcDir='P:\\! Evo Stats\\DA5', targetDir='P:\\OEE_Dashboard\\Raw_Data_Input', badDir= 'P:\\OEE_Dashboard\\Unhandled')
+    start_ram_watch_and_copy(srcDir='P:\\! Evo Stats\\DA5', targetDir='P:\\OEE_Dashboard\\DA5\\Raw_Data_Input', badDir= 'P:\\OEE_Dashboard\\DA5\\Unhandled')
