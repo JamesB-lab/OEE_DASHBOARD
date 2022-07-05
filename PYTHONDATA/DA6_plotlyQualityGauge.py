@@ -106,4 +106,4 @@ def run_plotly_Quality():
                 'threshold' : {'line': {'color': "red", 'width': 4}, 'thickness': 0.75, 'value': 85}}))
     py.plot(fig, filename = 'plotlyQualityGauge', auto_open=False)
 
-    #fig.show()
+    fig.show()
