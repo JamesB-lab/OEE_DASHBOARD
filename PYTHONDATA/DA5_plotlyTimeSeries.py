@@ -120,7 +120,7 @@ def run_plotly_TimeSeries():
 
     fig.add_vline(x=now, line_width=3, line_dash="dash", line_color="green")
 
-    py.plot(fig, filename = 'plotlyTimeSeries', auto_open=False)
+    py.plot(fig, filename = 'DA5_plotlyTimeSeries', auto_open=False)
 
 
     #fig.show() 

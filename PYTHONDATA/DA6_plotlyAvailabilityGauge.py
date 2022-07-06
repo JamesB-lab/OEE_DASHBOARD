@@ -107,6 +107,7 @@ def run_plotly_Availability():
                     {'range': [0, 50], 'color': "lightgray"},
                     {'range': [50, 100], 'color': "gray"}],
                 'threshold' : {'line': {'color': "red", 'width': 4}, 'thickness': 0.75, 'value': 85}}))
-    py.plot(fig, filename = 'plotlyAvailabilityGauge', auto_open=False)
+    #Publish plot to chart studio#
+    py.plot(fig, filename = 'DA6_plotlyAvailabilityGauge', auto_open=False)
 
     #fig.show()
