@@ -2,11 +2,8 @@ import pandas as pd
 import os.path
 
 
-#file = '09_05.ram'
-
 def run_Data_Clean(path):
     print(f'Running Data_Clean on {path}')
-
 
     basename = os.path.basename(path) #ok
     print(f'basename: {basename}') #ok
@@ -16,7 +13,7 @@ def run_Data_Clean(path):
     df = pd.DataFrame(rawData)
 
 
-    ignore = ['bmc', 'bmc       0          0          0          0          0          0          0          0          0          0          0']
+    ignore = ['bmc', 'bmc       0          0          0          0']
     df = df[df.Col_1.isin(ignore) == False]
 
     print(f'df new = {df}')
