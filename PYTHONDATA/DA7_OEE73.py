@@ -13,7 +13,7 @@ import os.path
 import pprint
 import datetime
 from datetime import date
-from DA6_updatePlots import run_update_plots
+from DA7_updatePlots import run_update_plots
 
 #print('opened OEE73 function file')
 
@@ -275,7 +275,7 @@ def run_OEE_73(path):
     print(f' Date_Text = {date_text}')
     print(f' Date_Time = {date_time}')
 
-    dict = {'Datetime': date_time, 'RamDate': basename, 'Availability': availability*100, 'Performance': performance*100, 'Quality': quality*100, 'OEE': OEE, 'Machine': 'DA6'}
+    dict = {'Datetime': date_time, 'RamDate': basename, 'Availability': availability*100, 'Performance': performance*100, 'Quality': quality*100, 'OEE': OEE, 'Machine': 'DA7'}
 
 
     resultsDF = pd.DataFrame.from_dict(dict, orient='index')
@@ -287,7 +287,7 @@ def run_OEE_73(path):
     resultsTransp.to_csv(r'P:\\OEE_Dashboard\\Data\\datalog.csv', index=False, mode='a', header=False)
 
 
-    print('Completed OEE73')
-    print('Updating plots')
+    print('DA7 Completed OEE73')
+    print('DA7 Updating plots')
     run_update_plots()
 

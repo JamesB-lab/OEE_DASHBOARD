@@ -287,7 +287,7 @@ def run_OEE_73(path):
     resultsTransp.to_csv(r'P:\\OEE_Dashboard\\Data\\datalog.csv', index=False, mode='a', header=False)
 
 
-    print('Completed OEE73')
-    print('Updating plots')
+    print('DA5 Completed OEE73')
+    print('DA5 Updating plots')
     run_update_plots()
 

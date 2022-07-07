@@ -32,7 +32,7 @@ def run_plotly_TimeSeries():
     # print(f'pre sorted dates: {df}')
     ###Enter group by here!####
     ###Filter by machine type###
-    df = df[(df['Machine'] == 'DA6')]
+    df = df[(df['Machine'] == 'DA7')]
     #Sort remaining values by datetime#
     df = df.sort_values(by='Datetime', ascending=True)
     # print(f'post sorted dates: {df}')
@@ -120,7 +120,7 @@ def run_plotly_TimeSeries():
 
     fig.add_vline(x=now, line_width=3, line_dash="dash", line_color="green")
 
-    py.plot(fig, filename = 'DA6_plotlyTimeSeries', auto_open=False)
+    py.plot(fig, filename = 'DA7_plotlyTimeSeries', auto_open=False)
 
 
     #fig.show() 

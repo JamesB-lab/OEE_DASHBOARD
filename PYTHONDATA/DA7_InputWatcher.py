@@ -1,7 +1,7 @@
 import time
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-from DA6_dataClean import run_Data_Clean
+from DA7_dataClean import run_Data_Clean
 
 def run_inputWatcher():
 
@@ -29,7 +29,7 @@ def run_inputWatcher():
 
 
     
-    path = 'P:\\OEE_Dashboard\\DA6\\Raw_Data_Input'
+    path = 'P:\\OEE_Dashboard\\DA7\\Raw_Data_Input'
     # We create a new instance of our custom handler
     event_handler = JamesEventHandler()
     # We create a new watchdog observer

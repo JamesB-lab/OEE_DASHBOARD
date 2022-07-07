@@ -22,5 +22,5 @@ def run_Data_Clean(path):
     print(f'df new = {df}')
 
 
-    df.to_csv(f'P:\\OEE_Dashboard\\DA6\\Cleaned_Data_Output\\{basename}', index=False, mode='a', header=False)
+    df.to_csv(f'P:\\OEE_Dashboard\\DA7\\Cleaned_Data_Output\\{basename}', index=False, mode='a', header=False)
     #df.to_csv(f'C:\\vs_code\\OEE_DASHBOARD\\DATABASE\\{basename}', index=False, mode='a', header=False)

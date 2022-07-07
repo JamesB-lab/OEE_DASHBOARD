@@ -32,7 +32,7 @@ def run_plotly_Availability():
     df = df.drop_duplicates(subset=['Datetime', 'RamDate','Availability','Performance','Quality','OEE'], keep="first")
 
     ###Filter by machine type###
-    df = df[(df['Machine'] == 'DA6')]
+    df = df[(df['Machine'] == 'DA7')]
 
 
     #Sort remaining values by datetime#
@@ -108,6 +108,6 @@ def run_plotly_Availability():
                     {'range': [50, 100], 'color': "gray"}],
                 'threshold' : {'line': {'color': "red", 'width': 4}, 'thickness': 0.75, 'value': 85}}))
     #Publish plot to chart studio#
-    py.plot(fig, filename = 'DA6_plotlyAvailabilityGauge', auto_open=False)
+    py.plot(fig, filename = 'DA7_plotlyAvailabilityGauge', auto_open=False)
 
     #fig.show()

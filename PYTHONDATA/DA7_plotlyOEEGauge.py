@@ -29,7 +29,7 @@ def run_plotly_OEE():
     df = df.drop_duplicates(subset=['Datetime', 'RamDate','Availability','Performance','Quality','OEE'], keep="first")
 
     ###Filter by machine type###
-    df = df[(df['Machine'] == 'DA6')]
+    df = df[(df['Machine'] == 'DA7')]
 
 
 
@@ -108,6 +108,6 @@ def run_plotly_OEE():
                 'threshold' : {'line': {'color': "red", 'width': 4}, 'thickness': 0.75, 'value': 85}}))
 
     #fig.write_html("PLOTLYEXPORTS\\OEEGauge.html")
-    py.plot(fig, filename = 'DA6_plotlyOEEGauge', auto_open=False)
+    py.plot(fig, filename = 'DA7_plotlyOEEGauge', auto_open=False)
 
     #fig.show()

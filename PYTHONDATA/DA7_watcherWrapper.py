@@ -1,6 +1,6 @@
-from DA6_ramFilterWatcher import run_ramFilterWatcher
-from DA6_InputWatcher import run_inputWatcher
-from DA6_cleanedDataWatcher import run_cleanedDataWatcher
+from DA7_ramFilterWatcher import run_ramFilterWatcher
+from DA7_InputWatcher import run_inputWatcher
+from DA7_cleanedDataWatcher import run_cleanedDataWatcher
 import time
 
 def __main__():

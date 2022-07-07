@@ -233,6 +233,6 @@ def run_OEE_49(path):
 
 
 
-    print('OEE49 program complete')
-    print('Updating plots')
+    print('DA6 OEE49 program complete')
+    print('DA6 Updating plots')
     run_update_plots()
