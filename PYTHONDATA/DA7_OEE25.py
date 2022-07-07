@@ -20,7 +20,7 @@ def run_OEE_25(path):
 
     print('Running OEE25')
 
-    path = 'C:\\Users\\M68153\\OneDrive - Microchip Technology Inc\\Desktop\\Coding\\testEnv\\07_07.ram'
+    
 
     basename = os.path.basename(path)
 
