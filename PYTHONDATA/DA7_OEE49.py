@@ -82,9 +82,9 @@ def run_OEE_49(path):
     ###AVAILABILITY OEE Availability Calcs###
     ###AVAILABILITY Availability = Actual Production Time / Possible Production Time * 100###
 
-    possibleProd_a = dftd_a.loc[dftd_a.index[2], 'System 2']
+    possibleProd_a = dftd_a.loc[dftd_a.index[2], 'System 1']
 
-    actualProd_a = dftd_a.loc[dftd_a.index[5], 'System 2']
+    actualProd_a = dftd_a.loc[dftd_a.index[5], 'System 1']
     # print(f'possibleProd_a: {possibleProd_a}')
     # print(f'actualProd_a: {actualProd_a}')
 
@@ -93,9 +93,9 @@ def run_OEE_49(path):
     #print(f'availability_a: {availability_a}')
 
 
-    possibleProd_b = dftd_b.loc[dftd_b.index[2], 'System 2']
+    possibleProd_b = dftd_b.loc[dftd_b.index[2], 'System 1']
 
-    actualProd_b = dftd_b.loc[dftd_b.index[5], 'System 2']
+    actualProd_b = dftd_b.loc[dftd_b.index[5], 'System 1']
     # print(f'possibleProd_b: {possibleProd_b}')
     # print(f'actualProd_b: {actualProd_b}')
 
@@ -117,13 +117,13 @@ def run_OEE_49(path):
 
     ###QUALITY Cast Types convert from Object to string/int64###
     dfq_a['Category'] = dfq_a['Category'].astype('string')
-    dfq_a['System 2'] = dfq_a['System 2'].astype('int')
+    dfq_a['System 1'] = dfq_a['System 1'].astype('int')
 
     # print(f'dfq_a {dfq_a}')
     # print(f'dfq_a type {dfq_a.dtypes}')
 
     dfq_b['Category'] = dfq_b['Category'].astype('string')
-    dfq_b['System 2'] = dfq_b['System 2'].astype('int')
+    dfq_b['System 1'] = dfq_b['System 1'].astype('int')
 
     # print(f'dfq_b {dfq_b}')
     # print(f'dfq_b type {dfq_b.dtypes}')
@@ -132,16 +132,16 @@ def run_OEE_49(path):
     ###QUALITY OEE Quality Calcs###
     ###QUALITY Quality = Good Count/Total Count * 100 == Placed/Picked#
 
-    pickup_a = dfq_a.loc[dfq_a.index[0], 'System 2']
-    place_a = dfq_a.loc[dfq_a.index[1], 'System 2']
+    pickup_a = dfq_a.loc[dfq_a.index[0], 'System 1']
+    place_a = dfq_a.loc[dfq_a.index[1], 'System 1']
     quality_a = place_a / pickup_a
 
     # print(f'pickup_a {pickup_a}')
     # print(f'place_a {place_a}')
     # print(f'quality_a {quality_a}')
 
-    pickup_b = dfq_b.loc[dfq_b.index[0], 'System 2']
-    place_b = dfq_b.loc[dfq_b.index[1], 'System 2']
+    pickup_b = dfq_b.loc[dfq_b.index[0], 'System 1']
+    place_b = dfq_b.loc[dfq_b.index[1], 'System 1']
     quality_b = place_b / pickup_b
 
     # print(f'pickup_b {pickup_b}')
