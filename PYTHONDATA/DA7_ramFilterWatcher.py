@@ -12,7 +12,7 @@ def run_ramFilterWatcher():
         def __init__(self, targetDir, badDir):
             self.targetDir = targetDir
             self.badDir = badDir
-            self.valid_ram_lengths = [28,29,30,57,58,59,85,86,87,88,112,113,114,115,116,117]
+            self.valid_ram_lengths = [28,29,30,55,56,57,58,59,85,86,87,88,113,114,115,116,117]
 
 
 
