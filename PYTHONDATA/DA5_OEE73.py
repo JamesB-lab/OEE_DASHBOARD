@@ -241,14 +241,27 @@ def run_OEE_73(path):
 
     ###MERGE Dataframe_a & Dataframe_b###
 
-    availability = (actualProd_a + actualProd_b + actualProd_c) / (possibleProd_a + possibleProd_b + possibleProd_c)
-    #print(f'overall availability {availability}')
+    try:
+        availability = (actualProd_a + actualProd_b + actualProd_c) / (possibleProd_a + possibleProd_b + possibleProd_c)
+    
+    except ZeroDivisionError:
+        availability = 0
 
-    quality = (place_a + place_b + place_c) / (pickup_a + pickup_b + pickup_c)
-    #print(f'overall quality {quality}')
 
-    performance = (actualOut_a + actualOut_b + actualOut_c) / (PossibleOut + PossibleOut + PossibleOut)
-    #print(f'overall performance {performance}')
+    try:
+        quality = (place_a + place_b + place_c) / (pickup_a + pickup_b + pickup_c)
+        #print(f'overall quality {quality}')
+
+    except ZeroDivisionError:
+        quality = 0
+
+
+    try:
+        performance = (actualOut_a + actualOut_b + actualOut_c) / (PossibleOut + PossibleOut + PossibleOut)
+        #print(f'overall performance {performance}')
+    
+    except ZeroDivisionError:
+        performance = 0
 
 
 

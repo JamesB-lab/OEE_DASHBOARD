@@ -186,14 +186,27 @@ def run_OEE_49(path):
     ###MERGE Dataframe_a & Dataframe_b###
     ###FIX THIS MATHS ERROR###
 
-    availability = (actualProd_a + actualProd_b) / (possibleProd_a + possibleProd_b)
-    #print(f'overall availability {availability}')
 
-    quality = (place_a + place_b) / (pickup_a + pickup_b)
-    #print(f'overall quality {quality}')
+    try:
+        availability = (actualProd_a + actualProd_b) / (possibleProd_a + possibleProd_b)
+    
 
-    performance = (actualOut_a + actualOut_b) / (PossibleOut + PossibleOut)
-    #print(f'overall performance {performance}')
+    except ZeroDivisionError:
+        availability = 0
+
+
+    try:
+        quality = (place_a + place_b) / (pickup_a + pickup_b)
+    
+    except ZeroDivisionError:
+        quality = 0
+
+    
+    try:
+        performance = (actualOut_a + actualOut_b) / (PossibleOut + PossibleOut)
+    
+    except ZeroDivisionError:
+        performance = 0 
 
 
 

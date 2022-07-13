@@ -5,6 +5,7 @@
 ###Last updated 10/06/2022###
 
 
+from decimal import DivisionByZero
 from turtle import color
 import numpy as np
 import pandas as pd
@@ -59,7 +60,13 @@ def run_OEE_25(path):
     actualProd = dftd.loc[dftd.index[5], 'System 1']
 
 
-    availability = actualProd / possibleProd
+    try:
+        availability = actualProd / possibleProd
+    
+    except DivisionByZero:
+        availability = 0
+
+
     print(f'OEE25 possibleProd = {possibleProd}')
     print(f'OEE25 actualProd = {actualProd}')
     print(f'OEE25 availability = {availability}')
@@ -86,7 +93,14 @@ def run_OEE_25(path):
     pickup = dfq.loc[dfq.index[0], 'System 1']
     place = dfq.loc[dfq.index[1], 'System 1']
 
-    quality = place / pickup
+
+    try:
+        quality = place / pickup
+    
+    except DivisionByZero:
+        quality = 0
+
+
     print(f'OEE25 pickup = {pickup}')
     print(f'OEE25 place = {place}')
     print(f'OEE25 quality = {quality}')
@@ -109,9 +123,12 @@ def run_OEE_25(path):
     print(type(actualOut))
 
 
+    try:
+        performance = actualOut / PossibleOut #error
+        print(performance)
 
-    performance = actualOut / PossibleOut #error
-    print(performance)
+    except DivisionByZero:
+        performance = 0 
 
 
     ###FINAL OEE CACLULATION###

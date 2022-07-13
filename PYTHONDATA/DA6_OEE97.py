@@ -5,6 +5,7 @@
 ###Last updated 07/06/2022###
 
 
+from decimal import DivisionByZero
 from turtle import color
 import numpy as np
 import pandas as pd
@@ -301,14 +302,28 @@ def run_OEE_97(path):
 
     ###MERGE Dataframe_a & Dataframe_b###
 
-    availability = (actualProd_a + actualProd_b + actualProd_c + actualProd_d) / (possibleProd_a + possibleProd_b + possibleProd_c + possibleProd_d)
-    print(f'overall availability {availability}')
 
-    quality = (place_a + place_b + place_c + place_d) / (pickup_a + pickup_b + pickup_c + pickup_d)
-    print(f'overall quality {quality}')
 
-    performance = (actualOut_a + actualOut_b + actualOut_c + actualOut_d) / (PossibleOut + PossibleOut + PossibleOut + PossibleOut)
-    print(f'overall performance {performance}')
+    try:
+        availability = (actualProd_a + actualProd_b + actualProd_c + actualProd_d) / (possibleProd_a + possibleProd_b + possibleProd_c + possibleProd_d)
+        print(f'overall availability {availability}')
+
+    except DivisionByZero:
+        availability = 0
+
+    try:
+        quality = (place_a + place_b + place_c + place_d) / (pickup_a + pickup_b + pickup_c + pickup_d)
+        print(f'overall quality {quality}')
+
+    except DivisionByZero:
+        quality = 0
+
+    try:
+        performance = (actualOut_a + actualOut_b + actualOut_c + actualOut_d) / (PossibleOut + PossibleOut + PossibleOut + PossibleOut)
+        print(f'overall performance {performance}')
+    
+    except DivisionByZero:
+        performance = 0
 
 
 

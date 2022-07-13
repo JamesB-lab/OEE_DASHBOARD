@@ -56,8 +56,12 @@ def run_OEE_25(path):
 
     actualProd = dftd.loc[dftd.index[5], 'System 2']
 
+    try:
+        availability = actualProd / possibleProd
 
-    availability = actualProd / possibleProd
+    except ZeroDivisionError:
+        availability = 0
+
     print(f'OEE25 possibleProd = {possibleProd}')
     print(f'OEE25 actualProd = {actualProd}')
     print(f'OEE25 availability = {availability}')
@@ -84,7 +88,14 @@ def run_OEE_25(path):
     pickup = dfq.loc[dfq.index[0], 'System 2']
     place = dfq.loc[dfq.index[1], 'System 2']
 
-    quality = place / pickup
+
+    try:
+        quality = place / pickup
+
+    except ZeroDivisionError:
+        quality = 0
+
+
     print(f'OEE25 pickup = {pickup}')
     print(f'OEE25 place = {place}')
     print(f'OEE25 quality = {quality}')
@@ -107,8 +118,11 @@ def run_OEE_25(path):
     print(type(actualOut))
 
 
+    try:
+        performance = actualOut / PossibleOut #error
 
-    performance = actualOut / PossibleOut #error
+    except ZeroDivisionError:
+        performance = 0
 
 
 
