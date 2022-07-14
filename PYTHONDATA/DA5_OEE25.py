@@ -1,4 +1,4 @@
-###OEE Calculation Tool for use in OEE Dashboard. Beta Version 1.2###
+###OEE Calculation Tool for use in OEE Dashboard. Production Version 1.0###
 ###Updated to create datetime object when logging each dataframe for easier plotting##
 ###Developed by James Booth###
 ###For parsing Datacon Evo FWF files of line length 25 only###
