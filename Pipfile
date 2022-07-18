@@ -17,6 +17,7 @@ watchdog = "*"
 sqlalchemy = "*"
 opencv-contrib-python = "*"
 pyzbar = "*"
+pyodbc = "*"
 
 [dev-packages]
 
