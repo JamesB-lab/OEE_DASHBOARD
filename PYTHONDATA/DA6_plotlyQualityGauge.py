@@ -81,7 +81,7 @@ def run_plotly_Quality():
     if len(deltaPlot) == 0:
         Qua_Delta = 0
     else:
-        Qua_Delta = deltaPlot['PQuality']
+        Qua_Delta = deltaPlot['Quality']
         Qua_Delta = float(Qua_Delta)
 
     # # Qua_Delta = {'reference': Qua_Delta}
