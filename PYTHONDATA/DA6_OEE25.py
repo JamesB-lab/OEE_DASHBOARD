@@ -63,7 +63,7 @@ def run_OEE_25(path):
     try:
         availability = actualProd / possibleProd
 
-    except DivisionByZero:
+    except ZeroDivisionError:
         availability = 0
     
     print(f'OEE25 possibleProd = {possibleProd}')
@@ -96,7 +96,7 @@ def run_OEE_25(path):
     try:
         quality = place / pickup
     
-    except DivisionByZero:
+    except ZeroDivisionError:
         quality = 0
     
     print(f'OEE25 pickup = {pickup}')
@@ -124,7 +124,7 @@ def run_OEE_25(path):
     try:
         performance = actualOut / PossibleOut #error
 
-    except DivisionByZero:
+    except ZeroDivisionError:
         performance = 0
 
 

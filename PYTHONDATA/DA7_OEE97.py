@@ -307,7 +307,7 @@ def run_OEE_97(path):
         availability = (actualProd_a + actualProd_b + actualProd_c + actualProd_d) / (possibleProd_a + possibleProd_b + possibleProd_c + possibleProd_d)
         print(f'overall availability {availability}')
 
-    except DivisionByZero:
+    except ZeroDivisionError:
         availability = 0
 
 
@@ -315,14 +315,14 @@ def run_OEE_97(path):
         quality = (place_a + place_b + place_c + place_d) / (pickup_a + pickup_b + pickup_c + pickup_d)
         print(f'overall quality {quality}')
 
-    except DivisionByZero:
+    except ZeroDivisionError:
         quality = 0
 
     try:
         performance = (actualOut_a + actualOut_b + actualOut_c + actualOut_d) / (PossibleOut + PossibleOut + PossibleOut + PossibleOut)
         print(f'overall performance {performance}')
 
-    except DivisionByZero:
+    except ZeroDivisionError:
         performance = 0
 
 

@@ -13,6 +13,8 @@ try:
 except ZeroDivisionError:
     performance = 0
 
+
+
 print(performance)
 
 # uptime = 0
