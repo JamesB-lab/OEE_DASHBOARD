@@ -13,6 +13,7 @@ import os.path
 import pprint
 import datetime
 from datetime import date
+from sqlalchemy import create_engine
 from DA5_updatePlots import run_update_plots
 
 
@@ -157,6 +158,20 @@ def run_OEE_25(path):
     ###Write to csv###
 
     resultsTransp.to_csv(r'P:\\OEE_Dashboard\\Data\\datalog.csv', index=False, mode='a', header=False)
+
+    #SQL Connection Windows Authentication#
+
+    Server = 'UKC-VM-SQL01'
+    Database = 'Scorecard'
+    Driver = 'ODBC Driver 17 for SQL Server'
+    Database_con = f'mssql://@{Server}/{Database}?driver={Driver}'
+
+    engine = create_engine(Database_con)
+    con = engine.connect()
+
+    resultsTransp.to_sql('OEELog', con, if_exists='append', index = False)
+
+    #Fin#
 
 
     print('DA5 Program complete')

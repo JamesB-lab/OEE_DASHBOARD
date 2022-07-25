@@ -10,7 +10,7 @@ data = {'Datetime': ['02/03/2022','03/03/2022','04/03/2022','05/03/2022'],
 df = pd.DataFrame(data, columns=['Datetime', 'RamDate', 'Availability', 'Performance', 'Quality', 'OEE', 'Machine'])
 print(df)
 
-#Windows Authentication#
+#SQL Connection Windows Authentication#
 
 Server = 'UKC-VM-SQL01'
 Database = 'Scorecard'
@@ -21,5 +21,9 @@ engine = create_engine(Database_con)
 con = engine.connect()
 
 df.to_sql('OEELog', con, if_exists='append', index = False)
+
+#Fin#
+
+
 
 print('Program Complete')
