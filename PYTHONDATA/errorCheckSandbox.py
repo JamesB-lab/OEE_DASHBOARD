@@ -2,17 +2,24 @@
 
 
 
+from numpy import NaN
+
+
 possible = 0
 
 actual = 0
 
-try:
+# try:
 
-    performance = actual/possible
+#     performance = actual/possible
 
-except ZeroDivisionError:
+# except ZeroDivisionError:
+#     performance = 0
+
+performance = actual/possible
+
+if performance == NaN:
     performance = 0
-
 
 
 print(performance)
