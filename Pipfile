@@ -18,6 +18,8 @@ sqlalchemy = "*"
 opencv-contrib-python = "*"
 pyzbar = "*"
 pyodbc = "*"
+keyboard = "*"
+pygame = "*"
 
 [dev-packages]
 

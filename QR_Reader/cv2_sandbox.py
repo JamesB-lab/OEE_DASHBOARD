@@ -17,7 +17,7 @@ while True:
         print(myData)
 
 
-    #cv2.imshow('result', img)
-    #cv2.waitKey(1)
+    cv2.imshow('result', img)
+    cv2.waitKey(1)
 # code=decode(img)
 # print(code)

@@ -1,5 +1,5 @@
 import pandas as pd
-import pyodbc
+from sqlalchemy import create_engine
 
 
 
@@ -10,10 +10,16 @@ data = {'Datetime': ['02/03/2022','03/03/2022','04/03/2022','05/03/2022'],
 df = pd.DataFrame(data, columns=['Datetime', 'RamDate', 'Availability', 'Performance', 'Quality', 'OEE', 'Machine'])
 print(df)
 
+#Windows Authentication#
 
-conn = pyodbc.connect(driver='{SQL Server Native Client 11.0}', host ='UKC-VM-SQL01', database='Scorecard',user='M68153', password='', trusted_connection='yes')
-c = conn.cursor()
-#c.execute("CREATE TABLE IF NOT EXISTS oeeTest ('Datetime', 'RamDate', 'Availability', 'Performance', 'Quality', 'OEE', 'Machine')")
-conn.commit()
-df.to_sql('OEELog', conn, if_exists='replace', index = False)
-print('program complete')
+Server = 'UKC-VM-SQL01'
+Database = 'Scorecard'
+Driver = 'ODBC Driver 17 for SQL Server'
+Database_con = f'mssql://@{Server}/{Database}?driver={Driver}'
+
+engine = create_engine(Database_con)
+con = engine.connect()
+
+df.to_sql('OEELog', con, if_exists='append', index = False)
+
+print('Program Complete')
