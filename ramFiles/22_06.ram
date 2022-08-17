@@ -1,0 +1,85 @@
+642_PT2                       22.06.2022  07:43
+Time period         	23:43:02	Since	21.06.2022  08:00
+                          System 1    System 2
+Down time             	     0:03:55	     0:03:55
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    23:39:07	    23:39:07
+ Engineering time     	     0:31:26	     0:31:26
+Standby time          	    19:03:03	    19:05:48
+Productive time       	     4:04:38	     4:01:53
+  Loop time           	     3:44:44	     2:34:11
+  Operator            	     0:19:54	     0:52:33
+  Handling            	     0:00:00	     0:35:09
+Operational uptime    	       99.7%	       99.7%
+Operational utilization	       17.1%	       16.9%
+Total utilization     	       17.1%	       16.9%
+MTBA                  	     0:04:41	     0:09:16
+MTTA                  	     0:00:04	     0:00:15
+MTBF                  	     0:00:00	     0:28:36
+MTTR                  	     1:13:47	     0:03:24
+
+Picked up components            0         803                        
+Placed components               0         800                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+           SL10_VCSEL     808        803          3          0          5          0          3          0          0          0          0
+
+
+642_PT1                       22.06.2022  08:00
+Time period         	0:16:58	Since	22.06.2022  07:43
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:16:58	     0:16:58
+ Engineering time     	     0:00:03	     0:00:03
+Standby time          	     0:16:55	     0:16:55
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0         803                        
+Placed components               0         800                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+           SL_PD*****       0          0          0          0          0          0          0          0          0          0          0
+
+
+642_PT1                       22.06.2022  08:26
+Time period         	0:25:39	Since	22.06.2022  08:00
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:25:39	     0:25:39
+ Engineering time     	     0:00:07	     0:00:07
+Standby time          	     0:25:32	     0:25:32
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:03	     0:00:00
+MTTR                  	     0:08:14	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+           SL_PD*****       0          0          0          0          0          0          0          0          0          0          0
+
+

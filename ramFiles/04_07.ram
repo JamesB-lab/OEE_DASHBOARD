@@ -1,0 +1,28 @@
+ZL70102                       04.07.2022  08:00
+Time period         	23:59:53	Since	03.07.2022  08:00
+                          System 1    System 2
+Down time             	     0:17:00	     0:17:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    23:40:01	    23:40:01
+ Engineering time     	     0:00:00	     0:00:00
+Standby time          	    23:40:01	    23:40:01
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       98.8%	       98.8%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+           ZL70102-C*       1          1          0          0          0          0          0          0          0          0          0
+
+

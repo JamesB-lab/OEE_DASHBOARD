@@ -1,0 +1,340 @@
+ZL70571_STRETCHED_PNP_4XTRAYS 21.04.2022  07:37
+Time period         	22:47:22	Since	20.04.2022  08:49
+                          System 1    System 2
+Down time             	     0:10:57	     0:10:57
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    22:36:25	    22:36:25
+ Engineering time     	     0:12:19	     0:12:19
+Standby time          	    11:48:22	    11:47:57
+Productive time       	    10:35:44	    10:36:09
+  Loop time           	    10:12:37	     8:16:26
+  Operator            	     0:23:07	     2:11:04
+  Handling            	     0:00:00	     0:08:39
+Operational uptime    	       99.1%	       99.1%
+Operational utilization	       46.4%	       46.5%
+Total utilization     	       46.4%	       46.5%
+MTBA                  	     0:31:51	     0:31:51
+MTTA                  	     0:00:19	     0:00:18
+MTBF                  	     0:00:00	     0:06:37
+MTTR                  	     0:00:12	     0:00:24
+
+Picked up components            0       10063                        
+Placed components               0       10062                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+    ZL70571_STRETCH-c   10089      10065          2          0         24          0          1          0          0          0          0
+
+
+ZL70590_PNP_4XTRAYS STRETCHED 21.04.2022  07:43
+Time period         	0:06:42	Since	21.04.2022  07:37
+                          System 1    System 2
+Down time             	     0:00:17	     0:00:17
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:06:25	     0:06:25
+ Engineering time     	     0:00:18	     0:00:18
+Standby time          	     0:06:07	     0:06:07
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       95.7%	       95.7%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0       10063                        
+Placed components               0       10062                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+            ZL70590-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+ZL70640                       21.04.2022  07:44
+Time period         	0:00:20	Since	21.04.2022  07:43
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:20	     0:00:20
+ Engineering time     	     0:00:13	     0:00:13
+Standby time          	     0:00:07	     0:00:07
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0       10063                        
+Placed components               0       10062                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+     904150000H LED-c       1          1          0          0          0          0          0          0          0          0          0
+   PFA0276 DETECTOR-c       0          0          0          0          0          0          0          0          0          0          0
+
+
+ZL70641MJX - part 3           21.04.2022  07:44
+Time period         	0:00:14	Since	21.04.2022  07:44
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:14	     0:00:14
+ Engineering time     	     0:00:11	     0:00:11
+Standby time          	     0:00:03	     0:00:03
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0       10063                        
+Placed components               0       10062                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+         SLSA Riser-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+ZL70641MJX-Single Axis - part 121.04.2022  07:45
+Time period         	0:00:50	Since	21.04.2022  07:44
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:50	     0:00:50
+ Engineering time     	     0:00:24	     0:00:24
+Standby time          	     0:00:26	     0:00:26
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0       10063                        
+Placed components               0       10062                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+Searchlight_photo_detector-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+ZL70641MJX-Single Axis - part 221.04.2022  07:45
+Time period         	0:00:16	Since	21.04.2022  07:45
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:16	     0:00:16
+ Engineering time     	     0:00:14	     0:00:14
+Standby time          	     0:00:02	     0:00:02
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0       10063                        
+Placed components               0       10062                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+SLSA Single Mode Vertical Laser-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+ZL70642MJX-SL10 Axis - part 2 21.04.2022  07:46
+Time period         	0:00:19	Since	21.04.2022  07:45
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:19	     0:00:19
+ Engineering time     	     0:00:17	     0:00:17
+Standby time          	     0:00:02	     0:00:02
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0       10063                        
+Placed components               0       10062                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+SL10 Single Mode Vertical Laser-c       0          0          0          0          0          0          0          0          0          0          0
+
+
+ZL70642MJX                    21.04.2022  07:46
+Time period         	0:00:10	Since	21.04.2022  07:46
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:10	     0:00:10
+ Engineering time     	     0:00:08	     0:00:08
+Standby time          	     0:00:02	     0:00:02
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0       10063                        
+Placed components               0       10062                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+Searchlight_photo_detector-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+ZL70643 - Part 3              21.04.2022  07:46
+Time period         	0:00:19	Since	21.04.2022  07:46
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:19	     0:00:19
+ Engineering time     	     0:00:15	     0:00:15
+Standby time          	     0:00:04	     0:00:04
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0       10063                        
+Placed components               0       10062                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+    CMMA RISER COMP-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+ZL70643 PART 1                21.04.2022  07:46
+Time period         	0:00:13	Since	21.04.2022  07:46
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:13	     0:00:13
+ Engineering time     	     0:00:10	     0:00:10
+Standby time          	     0:00:03	     0:00:03
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0       10063                        
+Placed components               0       10062                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+       ASIC Mercury-c       1          1          0          0          0          0          0          0          0          0          0
+           Detector-c       0          0          0          0          0          0          0          0          0          0          0
+
+
+ZL70643 PART 2                21.04.2022  07:51
+Time period         	0:04:18	Since	21.04.2022  07:46
+                          System 1    System 2
+Down time             	     0:01:08	     0:01:08
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:03:10	     0:03:10
+ Engineering time     	     0:02:45	     0:02:45
+Standby time          	     0:00:25	     0:00:25
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       73.6%	       73.6%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0       10063                        
+Placed components               0       10062                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+              VCSEL-c       0          0          0          0          0          0          0          0          0          0          0
+
+
+ZL70590_PNP_4XTRAYS STRETCHED 21.04.2022  08:00
+Time period         	0:09:15	Since	21.04.2022  07:51
+                          System 1    System 2
+Down time             	     0:00:21	     0:00:21
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:08:54	     0:08:54
+ Engineering time     	     0:08:42	     0:08:42
+Standby time          	     0:00:12	     0:00:12
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       96.2%	       96.2%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0       10063                        
+Placed components               0       10062                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+            ZL70590-c       1          1          0          0          0          0          0          0          0          0          0
+
+

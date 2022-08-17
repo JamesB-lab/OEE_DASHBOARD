@@ -1,0 +1,57 @@
+ZL70102                       18.07.2022  07:51
+Time period         	70:48:10	Since	15.07.2022  09:03
+                          System 1    System 2
+Down time             	     0:03:51	     0:03:51
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     7:45:30	     7:45:30
+ Engineering time     	     0:11:07	     0:11:07
+Standby time          	     3:05:42	     3:05:38
+Productive time       	     4:28:41	     4:28:45
+  Loop time           	     3:47:24	     2:52:39
+  Operator            	     0:41:17	     0:58:55
+  Handling            	     0:00:00	     0:37:11
+Operational uptime    	       99.1%	       99.1%
+Operational utilization	       57.2%	       57.2%
+Total utilization     	        6.3%	        6.3%
+MTBA                  	     0:51:18	     0:51:18
+MTTA                  	     0:14:21	     0:14:20
+MTBF                  	     0:00:00	     0:12:44
+MTTR                  	     0:00:04	     0:00:46
+
+Picked up components            0        2905                        
+Placed components               0        2905                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+           ZL70102-C*    2922       2907          0          0         15          0          0          0          0          0          0
+
+
+ZL70102                       18.07.2022  08:00
+Time period         	0:09:00	Since	18.07.2022  07:51
+                          System 1    System 2
+Down time             	     0:06:27	     0:06:27
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:02:33	     0:02:33
+ Engineering time     	     0:00:59	     0:00:59
+Standby time          	     0:01:34	     0:01:34
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       28.3%	       28.3%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+           ZL70102-C*       1          1          0          0          0          0          0          0          0          0          0
+
+

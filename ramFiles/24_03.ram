@@ -1,0 +1,59 @@
+ZL70643 PART 1                24.03.2022  07:39
+Time period         	17:54:52	Since	23.03.2022  13:45
+                          System 1    System 2
+Down time             	     0:24:33	     0:24:33
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    17:30:19	    17:30:19
+ Engineering time     	    10:32:25	    10:32:25
+Standby time          	     0:24:35	     0:24:46
+Productive time       	     6:33:19	     6:33:08
+  Loop time           	     0:45:07	     3:42:55
+  Operator            	     0:30:13	     1:17:18
+  Handling            	     5:17:59	     1:32:55
+Operational uptime    	       97.7%	       97.7%
+Operational utilization	       36.5%	       36.5%
+Total utilization     	       36.5%	       36.5%
+MTBA                  	     0:12:29	     0:12:35
+MTTA                  	     0:00:24	     0:00:25
+MTBF                  	     0:11:21	     0:06:05
+MTTR                  	     0:00:15	     0:00:23
+
+Picked up components            0        2299                        
+Placed components               0        2289                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+       ASIC Mercury-c     924        912          9          0         11          0          9          0          0          0          0
+           Detector-c    1032        900          0         11        143          0          0          0          0          0          0
+
+
+ZL70641MJX-Single Axis - part 224.03.2022  08:00
+Time period         	0:20:33	Since	24.03.2022  07:40
+                          System 1    System 2
+Down time             	     0:00:21	     0:00:21
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:20:12	     0:20:12
+ Engineering time     	     0:19:54	     0:19:54
+Standby time          	     0:00:18	     0:00:18
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       98.2%	       98.2%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0        2299                        
+Placed components               0        2289                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+SLSA Single Mode Vertical Laser-c       1          1          0          0          0          0          0          0          0          0          0
+
+

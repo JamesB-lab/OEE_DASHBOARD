@@ -1,0 +1,116 @@
+ZL70571                       20.07.2022  07:33
+Time period         	19:38:26	Since	19.07.2022  11:55
+                          System 1    System 2
+Down time             	     0:11:56	     0:11:56
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    19:26:30	    19:26:30
+ Engineering time     	     0:16:13	     0:16:13
+Standby time          	    11:50:00	    11:49:58
+Productive time       	     7:20:17	     7:20:19
+  Loop time           	     7:14:26	     3:44:54
+  Operator            	     0:05:51	     3:20:25
+  Handling            	     0:00:00	     0:15:00
+Operational uptime    	       98.9%	       98.9%
+Operational utilization	       37.3%	       37.3%
+Total utilization     	       37.3%	       37.3%
+MTBA                  	     0:22:52	     0:22:52
+MTTA                  	     0:01:53	     0:01:53
+MTBF                  	     0:00:00	     0:02:08
+MTTR                  	     0:00:00	     0:00:47
+
+Picked up components            0        5568                        
+Placed components               0        5568                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+           ZL70571-C*    3387       3387          0          0          0          0          0          0          0          0          0
+
+
+643_PT4                       20.07.2022  08:00
+Time period         	0:26:09	Since	20.07.2022  07:33
+                          System 1    System 2
+Down time             	     0:02:00	     0:02:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:24:09	     0:24:09
+ Engineering time     	     0:15:15	     0:15:15
+Standby time          	     0:04:33	     0:04:33
+Productive time       	     0:04:21	     0:04:21
+  Loop time           	     0:00:51	     0:00:03
+  Operator            	     0:02:19	     0:00:32
+  Handling            	     0:01:11	     0:03:46
+Operational uptime    	       92.3%	       92.3%
+Operational utilization	       16.6%	       16.6%
+Total utilization     	       16.6%	       16.6%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:14	     0:00:14
+MTBF                  	     0:00:19	     0:00:03
+MTTR                  	     0:00:11	     0:00:04
+
+Picked up components            0        5568                        
+Placed components               0        5568                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+           beam-c****       0          0          0          0          0          0          0          0          0          0          0
+
+
+643_PT4                       20.07.2022  10:01
+Time period         	2:01:54	Since	20.07.2022  08:00
+                          System 1    System 2
+Down time             	     0:01:12	     0:01:12
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     2:00:42	     2:00:42
+ Engineering time     	     0:06:36	     0:06:36
+Standby time          	     0:37:22	     0:37:20
+Productive time       	     1:16:44	     1:16:46
+  Loop time           	     0:21:16	     0:25:49
+  Operator            	     0:04:41	     0:26:54
+  Handling            	     0:50:47	     0:24:03
+Operational uptime    	       99.0%	       99.0%
+Operational utilization	       62.9%	       62.9%
+Total utilization     	       62.9%	       62.9%
+MTBA                  	     0:22:39	     0:22:40
+MTTA                  	     0:00:50	     0:00:50
+MTBF                  	     0:05:56	     0:03:05
+MTTR                  	     0:00:31	     0:00:09
+
+Picked up components            0         111                        
+Placed components               0         111                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+           beam-c****     111        111          0          0          0          0          0          0          0          0          0
+
+
+ZL70571                       20.07.2022  13:18
+Time period         	3:16:01	Since	20.07.2022  10:01
+                          System 1    System 2
+Down time             	     0:03:44	     0:03:44
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     3:12:17	     3:12:17
+ Engineering time     	     0:08:40	     0:08:40
+Standby time          	     0:17:10	     0:17:20
+Productive time       	     2:46:27	     2:46:17
+  Loop time           	     2:46:11	     1:19:32
+  Operator            	     0:00:16	     1:26:13
+  Handling            	     0:00:00	     0:00:32
+Operational uptime    	       98.0%	       98.0%
+Operational utilization	       84.9%	       84.8%
+Total utilization     	       84.9%	       84.8%
+MTBA                  	     0:03:14	     0:03:14
+MTTA                  	     0:00:25	     0:00:26
+MTBF                  	     0:00:00	     0:02:55
+MTTR                  	     0:00:00	     0:01:14
+
+Picked up components            0        1222                        
+Placed components               0        1220                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+           ZL70571-C*    1132       1113          1          0         19          0          0          0          0          0          0
+
+

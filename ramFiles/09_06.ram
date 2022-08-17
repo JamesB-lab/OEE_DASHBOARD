@@ -1,0 +1,59 @@
+ZL70641MJX-Single Axis - part 109.06.2022  07:29
+Time period         	16:57:47	Since	08.06.2022  14:31
+                          System 1    System 2
+Down time             	     0:10:36	     0:10:36
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    16:47:11	    16:47:11
+ Engineering time     	     9:26:37	     9:26:37
+Standby time          	     1:22:43	     1:22:55
+Productive time       	     5:57:51	     5:57:39
+  Loop time           	     0:22:45	     1:02:17
+  Operator            	     0:15:48	     0:39:00
+  Handling            	     5:19:18	     4:16:22
+Operational uptime    	       98.9%	       98.9%
+Operational utilization	       35.1%	       35.1%
+Total utilization     	       35.1%	       35.1%
+MTBA                  	     0:04:36	     0:07:25
+MTTA                  	     0:00:54	     0:00:56
+MTBF                  	     0:02:18	     0:02:51
+MTTR                  	     0:00:09	     0:00:13
+
+Picked up components            0         741                        
+Placed components               0         740                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+              SLSA PD     382        345          0          0         37          0          0          0          0          0          0
+           SLSA VCSEL       0          0          0          0          0          0          0          0          0          0          0
+
+
+ZL70642MJX                    09.06.2022  08:00
+Time period         	0:30:49	Since	09.06.2022  07:29
+                          System 1    System 2
+Down time             	     0:05:50	     0:05:50
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:23:56	     0:23:56
+ Engineering time     	     0:17:21	     0:17:21
+Standby time          	     0:06:35	     0:06:35
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       80.4%	       80.4%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0         741                        
+Placed components               0         740                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+                SL_PD       0          0          0          0          0          0          0          0          0          0          0
+
+

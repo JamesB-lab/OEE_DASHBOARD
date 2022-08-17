@@ -1,0 +1,58 @@
+ZL70102_PNP_4xTrays STRETCHED 05.05.2022  07:33
+Time period         	23:33:04	Since	04.05.2022  08:00
+                          System 1    System 2
+Down time             	     0:10:13	     0:10:13
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    23:22:51	    23:22:51
+ Engineering time     	     0:15:35	     0:15:35
+Standby time          	    16:59:32	    17:04:06
+Productive time       	     6:07:44	     6:03:10
+  Loop time           	     6:03:31	     4:12:17
+  Operator            	     0:04:13	     1:47:48
+  Handling            	     0:00:00	     0:03:05
+Operational uptime    	       99.2%	       99.2%
+Operational utilization	       26.0%	       25.7%
+Total utilization     	       26.0%	       25.7%
+MTBA                  	     0:08:11	     0:07:18
+MTTA                  	     0:01:55	     0:01:49
+MTBF                  	     0:00:00	     0:13:20
+MTTR                  	     6:17:09	     0:04:01
+
+Picked up components            0        3119                        
+Placed components               0        3114                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+            ZL70102-c    3144       3121         62          0         23         62          0          0          0          0          0
+
+
+ZL70590_PNP_4XTRAYS STRETCHED 05.05.2022  08:00
+Time period         	0:26:51	Since	05.05.2022  07:33
+                          System 1    System 2
+Down time             	     0:01:00	     0:01:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:25:51	     0:25:51
+ Engineering time     	     0:10:23	     0:10:23
+Standby time          	     0:12:38	     0:12:37
+Productive time       	     0:02:50	     0:02:51
+  Loop time           	     0:02:50	     0:02:31
+  Operator            	     0:00:00	     0:00:13
+  Handling            	     0:00:00	     0:00:07
+Operational uptime    	       96.2%	       96.2%
+Operational utilization	       10.5%	       10.6%
+Total utilization     	       10.5%	       10.6%
+MTBA                  	     0:02:29	     0:02:30
+MTTA                  	     0:00:15	     0:00:15
+MTBF                  	     0:00:00	     0:00:40
+MTTR                  	     0:00:00	     0:00:10
+
+Picked up components            0        3119                        
+Placed components               0        3114                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+            ZL70590-c       7          2          0          0          5          0          0          0          0          0          0
+
+

@@ -1,0 +1,86 @@
+CMMA Beamsplitter             25.03.2022  07:38
+Time period         	14:35:21	Since	24.03.2022  17:02
+                          System 1    System 2
+Down time             	     0:10:25	     0:10:25
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    14:23:01	    14:23:01
+ Engineering time     	     7:39:50	     7:39:50
+Standby time          	     2:51:57	     2:51:52
+Productive time       	     3:51:14	     3:51:19
+  Loop time           	     0:47:37	     1:43:33
+  Operator            	     0:30:49	     0:28:46
+  Handling            	     2:32:48	     1:39:00
+Operational uptime    	       98.8%	       98.8%
+Operational utilization	       26.4%	       26.4%
+Total utilization     	       26.4%	       26.4%
+MTBA                  	     0:25:26	     0:25:26
+MTTA                  	     0:00:31	     0:00:30
+MTBF                  	     0:07:23	     0:00:59
+MTTR                  	     0:01:38	     0:00:33
+
+Picked up components            0        1128                        
+Placed components               0        1128                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+               beam-c     472        452          1          0         20          0          0          0          0          0          0
+
+
+ZL70641MJX - part 3           25.03.2022  08:00
+Time period         	0:22:26	Since	25.03.2022  07:38
+                          System 1    System 2
+Down time             	     0:02:08	     0:02:08
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:20:18	     0:20:18
+ Engineering time     	     0:12:22	     0:12:22
+Standby time          	     0:07:56	     0:07:56
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       90.4%	       90.4%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0        1128                        
+Placed components               0        1128                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+         SLSA Riser-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+ZL70641MJX - part 3           25.03.2022  14:15
+Time period         	6:14:57	Since	25.03.2022  08:00
+                          System 1    System 2
+Down time             	     0:05:34	     0:05:34
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     6:09:23	     6:09:23
+ Engineering time     	     0:06:51	     0:06:51
+Standby time          	     0:25:10	     0:28:41
+Productive time       	     5:37:22	     5:33:51
+  Loop time           	     0:10:44	     0:19:35
+  Operator            	     0:05:15	     4:49:44
+  Handling            	     5:21:23	     0:24:32
+Operational uptime    	       98.5%	       98.5%
+Operational utilization	       89.9%	       89.0%
+Total utilization     	       89.9%	       89.0%
+MTBA                  	     0:30:18	     0:17:42
+MTTA                  	     0:00:38	     0:00:34
+MTBF                  	     0:03:35	     0:01:49
+MTTR                  	     0:00:11	     0:00:15
+
+Picked up components            0         120                        
+Placed components               0         120                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+         SLSA Riser-c     126        121          0          0          5          0          0          0          0          0          0
+
+

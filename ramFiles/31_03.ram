@@ -1,0 +1,28 @@
+ZL70641MJX - part 3           31.03.2022  08:00
+Time period         	23:59:44	Since	30.03.2022  08:00
+                          System 1    System 2
+Down time             	     3:01:20	     3:01:20
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    20:00:40	    20:00:40
+ Engineering time     	     2:14:31	     2:14:31
+Standby time          	    17:46:09	    17:46:09
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       86.8%	       86.8%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     3:58:23	     3:58:23
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+         SLSA Riser       1          1          0          0          0          0          0          0          0          0          0
+
+

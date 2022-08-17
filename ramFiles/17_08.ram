@@ -1,0 +1,30 @@
+643_PT1                       17.08.2022  08:00
+Time period         	24:00:15	Since	16.08.2022  08:00
+                          System 1    System 2
+Down time             	     0:50:19	     0:50:19
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    23:00:49	    23:00:49
+ Engineering time     	     1:14:19	     1:14:19
+Standby time          	    10:08:46	    10:08:40
+Productive time       	    11:37:44	    11:37:50
+  Loop time           	     0:47:51	     4:14:56
+  Operator            	     0:19:47	     5:26:27
+  Handling            	    10:30:06	     1:56:27
+Operational uptime    	       96.4%	       96.4%
+Operational utilization	       48.7%	       48.7%
+Total utilization     	       48.4%	       48.4%
+MTBA                  	     0:06:52	     0:06:33
+MTTA                  	     0:00:31	     0:00:30
+MTBF                  	     0:57:09	     0:04:34
+MTTR                  	     0:00:16	     0:00:42
+
+Picked up components            0        1857                        
+Placed components               0        1851                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+           ASIC_MERCS     928        922          0          2          8          0          0          0          0          0          0
+           Detector-c    1538        935          5         14        617          0          3          3          0          0          0
+
+

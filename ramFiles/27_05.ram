@@ -1,0 +1,28 @@
+ZL70572_PNP_4XTRAYS STRETCHED 27.05.2022  08:00
+Time period         	16:15:32	Since	26.05.2022  15:44
+                          System 1    System 2
+Down time             	     0:01:08	     0:01:08
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    16:14:24	    16:14:24
+ Engineering time     	     0:00:16	     0:00:16
+Standby time          	    13:36:27	    13:36:23
+Productive time       	     2:37:41	     2:37:45
+  Loop time           	     2:34:59	     2:27:54
+  Operator            	     0:02:42	     0:09:17
+  Handling            	     0:00:00	     0:00:34
+Operational uptime    	       99.8%	       99.8%
+Operational utilization	       16.1%	       16.1%
+Total utilization     	       16.1%	       16.1%
+MTBA                  	     0:25:49	     0:25:49
+MTTA                  	     0:02:42	     0:02:42
+MTBF                  	     0:00:00	     0:03:26
+MTTR                  	     0:00:00	     0:09:58
+
+Picked up components            0        6086                        
+Placed components               0        6086                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+            ZL70572-c    2354       2045          0          0        309          0          0          0          0          0          0
+
+

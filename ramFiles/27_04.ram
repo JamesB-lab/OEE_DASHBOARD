@@ -1,0 +1,59 @@
+ZL70572_PNP_4XTRAYS STRETCHED 27.04.2022  07:31
+Time period         	15:22:28	Since	26.04.2022  16:08
+                          System 1    System 2
+Down time             	     0:04:33	     0:04:33
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    15:17:55	    15:17:55
+ Engineering time     	     0:11:38	     0:11:38
+Standby time          	     8:23:24	     8:23:19
+Productive time       	     6:42:53	     6:42:58
+  Loop time           	     6:34:38	     6:01:23
+  Operator            	     0:08:15	     0:40:29
+  Handling            	     0:00:00	     0:01:06
+Operational uptime    	       99.5%	       99.5%
+Operational utilization	       43.6%	       43.6%
+Total utilization     	       43.6%	       43.6%
+MTBA                  	     0:28:14	     0:28:14
+MTTA                  	     0:01:02	     0:01:01
+MTBF                  	     0:00:00	     0:19:04
+MTTR                  	     6:15:34	     0:08:27
+
+Picked up components            0        5013                        
+Placed components               0        5013                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+            ZL70572-c    5039       5015          0          0         24          0          0          0          0          0          0
+
+
+ZL70643 PART 1                27.04.2022  08:00
+Time period         	0:29:25	Since	27.04.2022  07:31
+                          System 1    System 2
+Down time             	     0:01:43	     0:01:43
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:27:42	     0:27:42
+ Engineering time     	     0:14:29	     0:14:29
+Standby time          	     0:09:09	     0:09:01
+Productive time       	     0:04:04	     0:04:12
+  Loop time           	     0:00:33	     0:00:02
+  Operator            	     0:00:06	     0:03:09
+  Handling            	     0:03:25	     0:01:01
+Operational uptime    	       94.1%	       94.1%
+Operational utilization	       13.8%	       14.2%
+Total utilization     	       13.8%	       14.2%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:08	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:06	     0:00:04
+
+Picked up components            0        5013                        
+Placed components               0        5013                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+       ASIC Mercury-c       1          1          0          0          0          0          0          0          0          0          0
+           Detector-c       0          0          0          0          0          0          0          0          0          0          0
+
+

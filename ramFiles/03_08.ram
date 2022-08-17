@@ -1,0 +1,29 @@
+ZL70571                       03.08.2022  08:00
+Time period         	22:00:42	Since	02.08.2022  09:59
+                          System 1    System 2
+Down time             	     0:07:37	     0:07:37
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    21:51:31	    21:51:31
+ Engineering time     	     0:33:09	     0:33:09
+Standby time          	    10:16:35	    10:16:26
+Productive time       	    11:01:47	    11:01:56
+  Loop time           	     9:37:37	     4:17:37
+  Operator            	     1:24:10	     5:40:20
+  Handling            	     0:00:00	     1:03:59
+Operational uptime    	       99.4%	       99.4%
+Operational utilization	       50.1%	       50.1%
+Total utilization     	       50.1%	       50.1%
+MTBA                  	     0:06:36	     0:06:36
+MTTA                  	     0:00:55	     0:00:55
+MTBF                  	     0:00:00	     0:10:00
+MTTR                  	     0:07:21	     0:01:00
+
+Picked up components            0        4163                        
+Placed components               0        4163                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+           ZL70571-C*    2731       2728          0          0          3          0          0          0          0          0          0
+
+

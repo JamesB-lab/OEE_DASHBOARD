@@ -1,0 +1,58 @@
+ZL70642MJX-SL10 Axis - part 2 26.05.2022  08:00
+Time period         	14:23:31	Since	25.05.2022  17:36
+                          System 1    System 2
+Down time             	     0:01:31	     0:01:31
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    14:22:00	    14:22:00
+ Engineering time     	    13:41:12	    13:41:12
+Standby time          	     0:00:45	     0:00:44
+Productive time       	     0:40:03	     0:40:04
+  Loop time           	     0:40:03	     0:05:46
+  Operator            	     0:00:00	     0:01:16
+  Handling            	     0:00:00	     0:33:02
+Operational uptime    	       99.8%	       99.8%
+Operational utilization	        4.6%	        4.6%
+Total utilization     	        4.6%	        4.6%
+MTBA                  	     0:39:48	     0:39:49
+MTTA                  	     0:00:10	     0:00:10
+MTBF                  	     0:00:00	     0:00:45
+MTTR                  	     0:00:00	     0:00:07
+
+Picked up components            0        1411                        
+Placed components               0        1411                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+SL10 Single Mode Vertical Laser-c      11         10          0          0          1          0          0          0          0          0          0
+
+
+ZL70642MJX-SL10 Axis - part 2 26.05.2022  08:23
+Time period         	0:23:06	Since	26.05.2022  08:00
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:23:06	     0:23:06
+ Engineering time     	     0:23:06	     0:23:06
+Standby time          	     0:00:00	     0:00:00
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+SL10 Single Mode Vertical Laser-c       0          0          0          0          0          0          0          0          0          0          0
+
+

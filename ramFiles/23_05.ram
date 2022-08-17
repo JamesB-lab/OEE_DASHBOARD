@@ -1,0 +1,86 @@
+ZL70642MJX-SL10 Axis - part 2 23.05.2022  07:31
+Time period         	66:32:42	Since	20.05.2022  12:58
+                          System 1    System 2
+Down time             	     0:06:04	     0:06:04
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     3:35:33	     3:35:33
+ Engineering time     	     0:17:32	     0:17:32
+Standby time          	     0:15:48	     0:15:47
+Productive time       	     3:02:13	     3:02:14
+  Loop time           	     2:51:28	     1:16:55
+  Operator            	     0:10:45	     0:23:16
+  Handling            	     0:00:00	     1:22:03
+Operational uptime    	       97.2%	       97.2%
+Operational utilization	       82.2%	       82.2%
+Total utilization     	        4.5%	        4.5%
+MTBA                  	     0:29:53	     0:29:53
+MTTA                  	     0:00:09	     0:00:09
+MTBF                  	     0:21:34	     0:05:42
+MTTR                  	     0:00:06	     0:00:12
+
+Picked up components            0         411                        
+Placed components               0         411                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+SL10 Single Mode Vertical Laser-c     413        411          0          0          2          0          0          0          0          0          0
+
+
+ZL70642MJX-SL10 Axis - part 2 23.05.2022  07:44
+Time period         	0:13:24	Since	23.05.2022  07:31
+                          System 1    System 2
+Down time             	     0:02:01	     0:02:01
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:11:23	     0:11:23
+ Engineering time     	     0:09:10	     0:09:10
+Standby time          	     0:02:13	     0:02:13
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       84.9%	       84.9%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+SL10 Single Mode Vertical Laser-c       0          0          0          0          0          0          0          0          0          0          0
+
+
+ZL70642MJX                    23.05.2022  08:00
+Time period         	0:15:33	Since	23.05.2022  07:44
+                          System 1    System 2
+Down time             	     0:01:25	     0:01:25
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:14:08	     0:14:08
+ Engineering time     	     0:10:22	     0:10:22
+Standby time          	     0:03:46	     0:03:46
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       90.8%	       90.8%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+Searchlight_photo_detector-c       1          1          0          0          0          0          0          0          0          0          0
+
+

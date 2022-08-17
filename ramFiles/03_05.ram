@@ -1,0 +1,56 @@
+ZL70641MJX - part 3           03.05.2022  08:00
+Time period         	23:59:26	Since	02.05.2022  08:00
+                          System 1    System 2
+Down time             	     0:17:00	     0:17:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    23:40:35	    23:40:35
+ Engineering time     	    23:40:35	    23:40:35
+Standby time          	     0:00:00	     0:00:00
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       98.8%	       98.8%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+         SLSA Riser-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+ZL70641MJX - part 3           03.05.2022  08:57
+Time period         	0:57:10	Since	03.05.2022  08:00
+                          System 1    System 2
+Down time             	     0:00:27	     0:00:27
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:56:43	     0:56:43
+ Engineering time     	     0:00:21	     0:00:21
+Standby time          	     0:56:22	     0:56:22
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       99.2%	       99.2%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:24:48	     0:24:48
+MTTR                  	     0:17:36	     0:17:36
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+         SLSA Riser-c       1          1          0          0          0          0          0          0          0          0          0
+
+

@@ -1,0 +1,29 @@
+ZL70642MJX                    24.05.2022  08:00
+Time period         	24:00:01	Since	23.05.2022  08:00
+                          System 1    System 2
+Down time             	     0:01:05	     0:01:05
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    23:58:56	    23:58:56
+ Engineering time     	     0:09:28	     0:09:28
+Standby time          	    11:05:43	    11:05:40
+Productive time       	    12:43:45	    12:43:48
+  Loop time           	     0:44:58	     1:41:55
+  Operator            	     0:19:08	     2:02:00
+  Handling            	    11:39:39	     8:59:53
+Operational uptime    	       99.9%	       99.9%
+Operational utilization	       53.0%	       53.0%
+Total utilization     	       53.0%	       53.0%
+MTBA                  	     2:08:52	     2:08:52
+MTTA                  	     0:02:16	     0:02:15
+MTBF                  	     0:06:45	     0:10:57
+MTTR                  	     0:12:40	     0:35:26
+
+Picked up components            0         800                        
+Placed components               0         800                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+Searchlight_photo_detector-c     828        801          0          0         27          0          0          0          0          0          0
+
+

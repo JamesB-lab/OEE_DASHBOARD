@@ -1,0 +1,145 @@
+CMMA Beamsplitter             28.02.2022  07:35
+Time period         	67:48:20	Since	25.02.2022  11:47
+                          System 1    System 2
+Down time             	     0:11:15	     0:11:15
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     5:44:43	     5:44:43
+ Engineering time     	     0:39:01	     0:39:01
+Standby time          	     2:04:25	     2:02:35
+Productive time       	     3:01:17	     3:03:07
+  Loop time           	     0:39:33	     1:15:11
+  Operator            	     0:21:11	     0:51:23
+  Handling            	     2:00:33	     0:56:33
+Operational uptime    	       96.8%	       96.8%
+Operational utilization	       50.9%	       51.4%
+Total utilization     	        4.4%	        4.5%
+MTBA                  	     0:16:18	     0:16:18
+MTTA                  	     0:00:43	     0:00:37
+MTBF                  	     0:02:06	     0:01:05
+MTTR                  	     0:00:13	     0:00:14
+
+Picked up components            0         930                        
+Placed components               0         928                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+               beam-c     449        331          2          0        117          0          2          2          0          0          0
+
+
+CMMA Beamsplitter             28.02.2022  07:41
+Time period         	0:05:58	Since	28.02.2022  07:35
+                          System 1    System 2
+Down time             	     0:05:25	     0:05:25
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:33	     0:00:33
+ Engineering time     	     0:00:24	     0:00:24
+Standby time          	     0:00:09	     0:00:09
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	        9.2%	        9.2%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+               beam-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+ZL70641MJX-Single Axis - part 128.02.2022  08:00
+Time period         	0:19:01	Since	28.02.2022  07:41
+                          System 1    System 2
+Down time             	     0:01:26	     0:01:26
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:17:35	     0:17:35
+ Engineering time     	     0:11:53	     0:11:53
+Standby time          	     0:05:42	     0:05:42
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       92.4%	       92.4%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+Searchlight_photo_detector-c       1          1          0          0          0          0          0          0          0          0          0
+ZL70641MJX-Single Axis - part 1_comp1-b       0          0          0          0          0          0          0          0          0          0          0
+
+
+ZL70641MJX-Single Axis - part 128.02.2022  08:39
+Time period         	0:38:55	Since	28.02.2022  08:00
+                          System 1    System 2
+Down time             	     0:00:53	     0:00:53
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:38:02	     0:38:02
+ Engineering time     	     0:01:38	     0:01:38
+Standby time          	     0:31:54	     0:31:53
+Productive time       	     0:04:30	     0:04:31
+  Loop time           	     0:00:24	     0:00:01
+  Operator            	     0:00:28	     0:03:17
+  Handling            	     0:03:38	     0:01:13
+Operational uptime    	       97.7%	       97.7%
+Operational utilization	       11.5%	       11.6%
+Total utilization     	       11.5%	       11.6%
+MTBA                  	     0:02:55	     0:02:55
+MTTA                  	     0:00:35	     0:00:34
+MTBF                  	     0:06:01	     0:16:10
+MTTR                  	     0:00:07	     0:00:03
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+Searchlight_photo_detector-c       1          1          0          0          0          0          0          0          0          0          0
+ZL70641MJX-Single Axis - part 1_comp1-b       0          0          0          0          0          0          0          0          0          0          0
+
+
+ZL70643 PART 1                28.02.2022  08:42
+Time period         	0:02:26	Since	28.02.2022  08:39
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:02:26	     0:02:26
+ Engineering time     	     0:00:08	     0:00:08
+Standby time          	     0:02:18	     0:02:18
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+       ASIC Mercury-c       1          1          0          0          0          0          0          0          0          0          0
+           Detector-c       0          0          0          0          0          0          0          0          0          0          0
+
+

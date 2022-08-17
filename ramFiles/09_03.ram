@@ -1,0 +1,87 @@
+ZL70642MJX-SL10 Axis - part 2 09.03.2022  08:00
+Time period         	15:49:46	Since	08.03.2022  16:10
+                          System 1    System 2
+Down time             	     0:09:50	     0:09:50
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    15:37:34	    15:37:34
+ Engineering time     	    10:15:01	    10:15:01
+Standby time          	     0:40:49	     0:40:48
+Productive time       	     4:41:44	     4:41:45
+  Loop time           	     3:03:34	     2:23:26
+  Operator            	     1:38:07	     1:05:37
+  Handling            	     0:00:03	     1:12:42
+Operational uptime    	       98.9%	       98.9%
+Operational utilization	       29.7%	       29.7%
+Total utilization     	       29.6%	       29.6%
+MTBA                  	     1:33:13	     1:33:14
+MTTA                  	     0:00:13	     0:00:13
+MTBF                  	     0:02:28	     0:07:44
+MTTR                  	     0:00:04	     0:00:15
+
+Picked up components            0        2213                        
+Placed components               0        2212                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+SL10 Single Mode Vertical Laser-c     802        801          1          0          1          0          1          0          0          0          0
+
+
+ZL70642MJX-SL10 Axis - part 2 09.03.2022  10:22
+Time period         	2:22:42	Since	09.03.2022  08:00
+                          System 1    System 2
+Down time             	     0:00:17	     0:00:17
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     2:22:25	     2:22:25
+ Engineering time     	     0:00:44	     0:00:44
+Standby time          	     2:21:41	     2:21:41
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       99.8%	       99.8%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     2:21:39	     2:21:39
+MTTR                  	     0:00:03	     0:00:03
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+SL10 Single Mode Vertical Laser-c       0          0          0          0          0          0          0          0          0          0          0
+
+
+CMMA Beamsplitter             09.03.2022  16:18
+Time period         	5:55:41	Since	09.03.2022  10:23
+                          System 1    System 2
+Down time             	     0:05:00	     0:05:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     5:50:41	     5:50:41
+ Engineering time     	     0:23:32	     0:23:32
+Standby time          	     0:56:15	     0:56:13
+Productive time       	     4:30:54	     4:30:56
+  Loop time           	     0:36:29	     0:49:57
+  Operator            	     0:04:24	     0:40:11
+  Handling            	     3:50:01	     3:00:48
+Operational uptime    	       98.5%	       98.5%
+Operational utilization	       76.1%	       76.1%
+Total utilization     	       76.1%	       76.1%
+MTBA                  	     0:14:19	     0:14:20
+MTTA                  	     0:00:09	     0:00:09
+MTBF                  	     0:16:43	     0:10:06
+MTTR                  	     0:00:32	     0:00:34
+
+Picked up components            0         220                        
+Placed components               0         220                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+               beam-c     236        221          0          0         15          0          0          0          0          0          0
+
+

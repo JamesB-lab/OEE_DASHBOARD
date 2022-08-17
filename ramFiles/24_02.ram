@@ -1,0 +1,29 @@
+ZL70641MJX-Single Axis - part 224.02.2022  08:00
+Time period         	14:46:07	Since	23.02.2022  17:14
+                          System 1    System 2
+Down time             	     0:04:18	     0:04:18
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    14:41:49	    14:41:49
+ Engineering time     	     0:25:21	     0:25:21
+Standby time          	     7:59:33	     7:59:33
+Productive time       	     6:16:55	     6:16:55
+  Loop time           	     5:15:56	     2:56:42
+  Operator            	     1:00:59	     0:43:42
+  Handling            	     0:00:00	     2:36:31
+Operational uptime    	       99.5%	       99.5%
+Operational utilization	       42.5%	       42.5%
+Total utilization     	       42.5%	       42.5%
+MTBA                  	     6:12:52	     6:12:52
+MTTA                  	     0:00:19	     0:00:19
+MTBF                  	     0:00:00	     0:14:40
+MTTR                  	     0:00:29	     0:00:54
+
+Picked up components            0        1131                        
+Placed components               0        1131                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+SLSA VCSEL     898        897          0          0          1          0          0          0          0          0          0
+
+

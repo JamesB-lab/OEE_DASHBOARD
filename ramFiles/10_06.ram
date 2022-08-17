@@ -1,0 +1,85 @@
+ZL70642MJX                    10.06.2022  07:43
+Time period         	23:43:35	Since	09.06.2022  08:00
+                          System 1    System 2
+Down time             	     0:09:59	     0:09:59
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    23:33:36	    23:33:36
+ Engineering time     	    11:54:46	    11:54:46
+Standby time          	     0:52:57	     0:54:09
+Productive time       	    10:45:53	    10:44:41
+  Loop time           	     1:54:05	     4:56:07
+  Operator            	     1:17:31	     2:11:17
+  Handling            	     7:34:17	     3:37:17
+Operational uptime    	       99.2%	       99.2%
+Operational utilization	       45.3%	       45.2%
+Total utilization     	       45.3%	       45.2%
+MTBA                  	     0:19:41	     0:20:21
+MTTA                  	     0:00:58	     0:01:02
+MTBF                  	     0:01:16	     0:04:52
+MTTR                  	     0:00:06	     0:00:14
+
+Picked up components            0        2203                        
+Placed components               0        2202                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+           SL_PD*****    2504       2203          1          0        300          0          0          0          0          0          0
+
+
+ZL70642MJX-SL10 Axis - part 2 10.06.2022  07:48
+Time period         	0:04:27	Since	10.06.2022  07:43
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:04:27	     0:04:27
+ Engineering time     	     0:00:22	     0:00:22
+Standby time          	     0:04:05	     0:04:05
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0        2203                        
+Placed components               0        2202                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+           SL10 VCSEL       0          0          0          0          0          0          0          0          0          0          0
+
+
+ZL70641MJX - part 3           10.06.2022  08:00
+Time period         	0:11:52	Since	10.06.2022  07:48
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:11:52	     0:11:52
+ Engineering time     	     0:01:45	     0:01:45
+Standby time          	     0:10:07	     0:10:07
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0        2203                        
+Placed components               0        2202                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+         SLSA Riser       1          1          0          0          0          0          0          0          0          0          0
+
+

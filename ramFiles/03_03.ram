@@ -1,0 +1,57 @@
+CMMA Beamsplitter             03.03.2022  07:36
+Time period         	11:24:51	Since	02.03.2022  20:11
+                          System 1    System 2
+Down time             	     0:13:30	     0:13:30
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    11:11:21	    11:11:21
+ Engineering time     	     0:22:23	     0:22:23
+Standby time          	     7:56:45	     7:56:38
+Productive time       	     2:52:13	     2:52:20
+  Loop time           	     0:44:44	     0:56:37
+  Operator            	     0:24:49	     1:07:20
+  Handling            	     1:42:40	     0:48:23
+Operational uptime    	       98.0%	       98.0%
+Operational utilization	       25.1%	       25.1%
+Total utilization     	       25.1%	       25.1%
+MTBA                  	     0:17:40	     0:17:41
+MTTA                  	     0:00:17	     0:00:16
+MTBF                  	     0:02:04	     0:01:11
+MTTR                  	     0:00:18	     0:00:12
+
+Picked up components            0        1128                        
+Placed components               0        1128                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+               beam-c     245        229          0          0         16          0          0          0          0          0          0
+
+
+ZL70642MJX-SL10 Axis - part 2 03.03.2022  08:00
+Time period         	0:23:11	Since	03.03.2022  07:36
+                          System 1    System 2
+Down time             	     0:00:43	     0:00:43
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:22:28	     0:22:28
+ Engineering time     	     0:13:54	     0:13:54
+Standby time          	     0:08:34	     0:08:34
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       96.9%	       96.9%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0        1128                        
+Placed components               0        1128                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+SL10 Single Mode Vertical Laser-c       0          0          0          0          0          0          0          0          0          0          0
+
+

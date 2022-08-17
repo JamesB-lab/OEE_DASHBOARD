@@ -1,0 +1,113 @@
+ZL70572_PNP_4XTRAYS STRETCHED 25.04.2022  07:43
+Time period         	68:12:51	Since	22.04.2022  11:30
+                          System 1    System 2
+Down time             	     0:03:14	     0:03:14
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     5:31:39	     5:31:39
+ Engineering time     	     0:07:08	     0:07:08
+Standby time          	     0:26:36	     0:26:25
+Productive time       	     4:57:55	     4:58:06
+  Loop time           	     4:53:01	     3:55:19
+  Operator            	     0:04:49	     1:00:11
+  Handling            	     0:00:05	     0:02:36
+Operational uptime    	       99.0%	       99.0%
+Operational utilization	       88.9%	       89.0%
+Total utilization     	        7.2%	        7.2%
+MTBA                  	     0:33:37	     0:33:37
+MTTA                  	     0:00:35	     0:00:34
+MTBF                  	     0:00:09	     0:05:04
+MTTR                  	     0:00:05	     0:00:58
+
+Picked up components            0        5315                        
+Placed components               0        5315                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+            ZL70572-c    3173       3148          0         24         49          0          0          0          0          0          0
+
+
+ZL70572_PNP_4XTRAYS STRETCHED 25.04.2022  07:43
+Time period         	0:00:01	Since	25.04.2022  07:43
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:01	     0:00:01
+ Engineering time     	     0:00:01	     0:00:01
+Standby time          	     0:00:00	     0:00:00
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+            ZL70572-c       2          2          0          0          0          0          0          0          0          0          0
+
+
+ZL70571_STRETCHED_PNP_4XTRAYS 25.04.2022  08:00
+Time period         	0:16:58	Since	25.04.2022  07:43
+                          System 1    System 2
+Down time             	     0:00:42	     0:00:42
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:16:16	     0:16:16
+ Engineering time     	     0:05:53	     0:05:53
+Standby time          	     0:01:02	     0:01:01
+Productive time       	     0:09:21	     0:09:22
+  Loop time           	     0:08:57	     0:05:28
+  Operator            	     0:00:24	     0:03:33
+  Handling            	     0:00:00	     0:00:21
+Operational uptime    	       95.8%	       95.8%
+Operational utilization	       55.1%	       55.2%
+Total utilization     	       55.1%	       55.2%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:33	     0:00:32
+MTBF                  	     0:00:00	     0:00:11
+MTTR                  	     0:00:00	     0:00:09
+
+Picked up components            0          88                        
+Placed components               0          88                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+    ZL70571_STRETCH-c      90         90          0          0          0          0          0          0          0          0          0
+
+
+ZL70571_STRETCHED_PNP_4XTRAYS 25.04.2022  09:21
+Time period         	1:21:07	Since	25.04.2022  08:00
+                          System 1    System 2
+Down time             	     0:02:52	     0:02:52
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     1:18:15	     1:18:15
+ Engineering time     	     0:00:26	     0:00:26
+Standby time          	     0:04:59	     0:04:59
+Productive time       	     1:12:50	     1:12:50
+  Loop time           	     1:06:16	     0:55:02
+  Operator            	     0:06:34	     0:08:41
+  Handling            	     0:00:00	     0:09:07
+Operational uptime    	       96.4%	       96.4%
+Operational utilization	       89.7%	       89.7%
+Total utilization     	       89.7%	       89.7%
+MTBA                  	     0:06:51	     0:06:51
+MTTA                  	     0:00:06	     0:00:06
+MTBF                  	     0:00:00	     0:01:44
+MTTR                  	     0:00:00	     0:00:02
+
+Picked up components            0        1037                        
+Placed components               0        1037                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+    ZL70571_STRETCH-c    1038       1038          0          0          0          0          0          0          0          0          0
+
+

@@ -1,0 +1,370 @@
+ZL70642MJX-SL10 Axis - part 2 14.06.2022  07:32
+Time period         	12:15:23	Since	13.06.2022  19:16
+                          System 1    System 2
+Down time             	     0:05:12	     0:05:12
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    12:10:11	    12:10:11
+ Engineering time     	     0:30:57	     0:30:57
+Standby time          	     9:51:34	     9:51:33
+Productive time       	     1:47:40	     1:47:41
+  Loop time           	     1:39:47	     0:45:03
+  Operator            	     0:07:53	     0:20:42
+  Handling            	     0:00:00	     0:41:56
+Operational uptime    	       99.2%	       99.2%
+Operational utilization	       14.6%	       14.6%
+Total utilization     	       14.6%	       14.6%
+MTBA                  	     0:13:39	     0:13:40
+MTTA                  	     0:00:25	     0:00:25
+MTBF                  	     0:00:00	     0:14:38
+MTTR                  	     4:26:30	     0:10:38
+
+Picked up components            0        1816                        
+Placed components               0        1801                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+           SL10 VCSEL     218        217         15          0          1          0         15          0          0          0          0
+
+
+641_PT1                       14.06.2022  07:33
+Time period         	0:00:55	Since	14.06.2022  07:32
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:55	     0:00:55
+ Engineering time     	     0:00:15	     0:00:15
+Standby time          	     0:00:40	     0:00:40
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0        1816                        
+Placed components               0        1801                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+              SLSA PD       0          0          0          0          0          0          0          0          0          0          0
+           SLSA VCSEL       0          0          0          0          0          0          0          0          0          0          0
+
+
+641_PT2                       14.06.2022  07:33
+Time period         	0:00:24	Since	14.06.2022  07:33
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:24	     0:00:24
+ Engineering time     	     0:00:08	     0:00:08
+Standby time          	     0:00:16	     0:00:16
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0        1816                        
+Placed components               0        1801                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+SLSA Single Mode Vertical Laser-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+641_PT3                       14.06.2022  07:34
+Time period         	0:00:39	Since	14.06.2022  07:33
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:39	     0:00:39
+ Engineering time     	     0:00:08	     0:00:08
+Standby time          	     0:00:31	     0:00:31
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0        1816                        
+Placed components               0        1801                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+         SLSA Riser-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+640_PT1                       14.06.2022  07:35
+Time period         	0:00:45	Since	14.06.2022  07:34
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:45	     0:00:45
+ Engineering time     	     0:00:12	     0:00:12
+Standby time          	     0:00:33	     0:00:33
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0        1816                        
+Placed components               0        1801                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+     904150000H LED-c       1          1          0          0          0          0          0          0          0          0          0
+   PFA0276 DETECTOR-c       0          0          0          0          0          0          0          0          0          0          0
+
+
+643_PT1                       14.06.2022  07:35
+Time period         	0:00:28	Since	14.06.2022  07:35
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:28	     0:00:28
+ Engineering time     	     0:00:08	     0:00:08
+Standby time          	     0:00:20	     0:00:20
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0        1816                        
+Placed components               0        1801                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+       ASIC Mercury-c       1          1          0          0          0          0          0          0          0          0          0
+           Detector-c       0          0          0          0          0          0          0          0          0          0          0
+
+
+643_PT2                       14.06.2022  07:37
+Time period         	0:01:39	Since	14.06.2022  07:35
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:01:39	     0:01:39
+ Engineering time     	     0:00:09	     0:00:09
+Standby time          	     0:01:30	     0:01:30
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0        1816                        
+Placed components               0        1801                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+              VCSEL-c       0          0          0          0          0          0          0          0          0          0          0
+
+
+643_PT3                       14.06.2022  07:38
+Time period         	0:00:39	Since	14.06.2022  07:37
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:39	     0:00:39
+ Engineering time     	     0:00:19	     0:00:19
+Standby time          	     0:00:20	     0:00:20
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0        1816                        
+Placed components               0        1801                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+    CMMA RISER COMP-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+643_PT4                       14.06.2022  07:38
+Time period         	0:00:29	Since	14.06.2022  07:38
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:29	     0:00:29
+ Engineering time     	     0:00:09	     0:00:09
+Standby time          	     0:00:20	     0:00:20
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0        1816                        
+Placed components               0        1801                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+               beam-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+642_PT1                       14.06.2022  07:38
+Time period         	0:00:23	Since	14.06.2022  07:38
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:23	     0:00:23
+ Engineering time     	     0:00:09	     0:00:09
+Standby time          	     0:00:14	     0:00:14
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0        1816                        
+Placed components               0        1801                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+           SL_PD*****       0          0          0          0          0          0          0          0          0          0          0
+
+
+642_PT2                       14.06.2022  07:44
+Time period         	0:05:19	Since	14.06.2022  07:38
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:05:19	     0:05:19
+ Engineering time     	     0:00:18	     0:00:18
+Standby time          	     0:05:01	     0:05:01
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0        1816                        
+Placed components               0        1801                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+           SL10 VCSEL       1          1          0          0          0          0          0          0          0          0          0
+
+
+641_PT3                       14.06.2022  08:00
+Time period         	0:16:20	Since	14.06.2022  07:44
+                          System 1    System 2
+Down time             	     0:01:25	     0:01:25
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:14:55	     0:14:55
+ Engineering time     	     0:09:43	     0:09:43
+Standby time          	     0:05:12	     0:05:12
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       91.3%	       91.3%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0        1816                        
+Placed components               0        1801                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+           SLSA Riser       0          0          0          0          0          0          0          0          0          0          0
+
+
+641_PT3                       14.06.2022  10:46
+Time period         	2:46:05	Since	14.06.2022  08:00
+                          System 1    System 2
+Down time             	     0:01:44	     0:01:44
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     2:44:21	     2:44:21
+ Engineering time     	     0:32:49	     0:32:49
+Standby time          	     0:41:48	     0:39:46
+Productive time       	     1:29:44	     1:31:46
+  Loop time           	     0:12:02	     0:33:48
+  Operator            	     0:01:46	     0:44:08
+  Handling            	     1:15:56	     0:13:50
+Operational uptime    	       98.9%	       98.9%
+Operational utilization	       54.0%	       55.2%
+Total utilization     	       54.0%	       55.2%
+MTBA                  	     0:08:09	     0:09:31
+MTTA                  	     0:00:17	     0:00:11
+MTBF                  	     0:02:23	     0:05:46
+MTTR                  	     0:00:09	     0:00:51
+
+Picked up components            0         116                        
+Placed components               0         116                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+           SLSA Riser     118        116          0          0          2          0          0          0          0          0          0
+
+

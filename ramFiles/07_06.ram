@@ -1,0 +1,29 @@
+ZL70571_STRETCHED_PNP_4XTRAYS 07.06.2022  08:00
+Time period         	11:42:52	Since	06.06.2022  20:17
+                          System 1    System 2
+Down time             	     0:01:51	     0:01:51
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    11:41:01	    11:41:01
+ Engineering time     	     0:18:16	     0:18:16
+Standby time          	     8:34:47	     8:34:39
+Productive time       	     2:47:58	     2:48:06
+  Loop time           	     2:46:25	     2:01:24
+  Operator            	     0:01:33	     0:46:02
+  Handling            	     0:00:00	     0:00:40
+Operational uptime    	       99.7%	       99.7%
+Operational utilization	       23.8%	       23.9%
+Total utilization     	       23.8%	       23.9%
+MTBA                  	     0:14:21	     0:13:15
+MTTA                  	     0:00:27	     0:00:24
+MTBF                  	     0:00:00	     0:00:30
+MTTR                  	     0:00:13	     0:00:08
+
+Picked up components            0        2235                        
+Placed components               0        1952                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+    ZL70571_STRETCH-c    2236       2236        283          0          0          0        282          1          0          0          0
+
+

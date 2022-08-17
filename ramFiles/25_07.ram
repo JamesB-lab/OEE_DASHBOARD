@@ -1,0 +1,85 @@
+641_PT1                       25.07.2022  07:32
+Time period         	66:10:27	Since	22.07.2022  13:21
+                          System 1    System 2
+Down time             	     0:04:40	     0:04:40
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     2:28:45	     2:28:45
+ Engineering time     	     1:48:31	     1:48:31
+Standby time          	     0:40:14	     0:40:14
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       96.9%	       96.9%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:05:35
+MTTR                  	     0:00:00	     0:00:03
+
+Picked up components            0         123                        
+Placed components               0         120                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+           SLSA_VCSEL    1199        859          0          0        340          0          0          0          0          0          0
+
+
+641_PT1                       25.07.2022  07:41
+Time period         	0:09:24	Since	25.07.2022  07:32
+                          System 1    System 2
+Down time             	     0:00:02	     0:00:02
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:09:22	     0:09:22
+ Engineering time     	     0:00:16	     0:00:16
+Standby time          	     0:09:06	     0:09:06
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       99.6%	       99.6%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+           SLSA_VCSEL       1          1          0          0          0          0          0          0          0          0          0
+
+
+ZL70571                       25.07.2022  08:00
+Time period         	0:18:35	Since	25.07.2022  07:41
+                          System 1    System 2
+Down time             	     0:01:01	     0:01:01
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:17:34	     0:17:34
+ Engineering time     	     0:08:23	     0:08:23
+Standby time          	     0:02:28	     0:02:27
+Productive time       	     0:06:43	     0:06:44
+  Loop time           	     0:06:43	     0:04:51
+  Operator            	     0:00:00	     0:01:48
+  Handling            	     0:00:00	     0:00:05
+Operational uptime    	       94.5%	       94.5%
+Operational utilization	       36.1%	       36.2%
+Total utilization     	       36.1%	       36.2%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:26	     0:00:25
+MTBF                  	     0:00:00	     0:02:00
+MTTR                  	     0:00:00	     0:00:08
+
+Picked up components            0          63                        
+Placed components               0          63                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+           ZL70571-C*      65         65          0          0          0          0          0          0          0          0          0
+
+

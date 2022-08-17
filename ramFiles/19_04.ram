@@ -1,0 +1,113 @@
+ZL70572_PNP_4XTRAYS STRETCHED 19.04.2022  07:54
+Time period         	119:53:59	Since	14.04.2022  08:00
+                          System 1    System 2
+Down time             	     0:01:00	     0:01:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     3:33:00	     3:33:00
+ Engineering time     	     0:00:00	     0:00:00
+Standby time          	     3:33:00	     3:33:00
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       99.5%	       99.5%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+            ZL70572-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+ZL70572_PNP_4XTRAYS STRETCHED 19.04.2022  08:00
+Time period         	0:06:00	Since	19.04.2022  07:54
+                          System 1    System 2
+Down time             	     0:06:00	     0:06:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:00	     0:00:00
+ Engineering time     	     0:00:00	     0:00:00
+Standby time          	     0:00:00	     0:00:00
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	        0.0%	        0.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+            ZL70572-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+ZL70572_PNP_4XTRAYS STRETCHED 19.04.2022  08:12
+Time period         	0:11:35	Since	19.04.2022  08:00
+                          System 1    System 2
+Down time             	     0:10:37	     0:10:37
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:58	     0:00:58
+ Engineering time     	     0:00:33	     0:00:33
+Standby time          	     0:00:25	     0:00:25
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	        8.3%	        8.3%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+            ZL70572-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+ZL70642MJX                    19.04.2022  09:36
+Time period         	1:23:59	Since	19.04.2022  08:12
+                          System 1    System 2
+Down time             	     0:03:01	     0:03:01
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     1:20:58	     1:20:58
+ Engineering time     	     0:10:11	     0:10:11
+Standby time          	     0:10:44	     0:10:44
+Productive time       	     1:00:03	     1:00:03
+  Loop time           	     0:05:32	     0:09:52
+  Operator            	     0:03:36	     0:14:53
+  Handling            	     0:50:55	     0:35:18
+Operational uptime    	       96.4%	       96.4%
+Operational utilization	       71.5%	       71.5%
+Total utilization     	       71.5%	       71.5%
+MTBA                  	     0:01:01	     0:11:26
+MTTA                  	     0:00:08	     0:00:08
+MTBF                  	     0:01:33	     0:02:13
+MTTR                  	     0:00:05	     0:00:03
+
+Picked up components            0          56                        
+Placed components               0          56                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+Searchlight_photo_detector-c      59         57          0          0          2          0          0          0          0          0          0
+
+

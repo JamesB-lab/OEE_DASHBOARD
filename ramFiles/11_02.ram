@@ -1,0 +1,30 @@
+ZL70641MJX-Single Axis - part 111.02.2022  08:00
+Time period         	14:17:05	Since	10.02.2022  17:43
+                          System 1    System 2
+Down time             	     0:07:45	     0:07:45
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    14:08:24	    14:08:24
+ Engineering time     	     8:33:49	     8:33:49
+Standby time          	     2:29:53	     2:29:45
+Productive time       	     3:04:42	     3:04:50
+  Loop time           	     0:39:53	     1:02:04
+  Operator            	     0:45:35	     0:19:55
+  Handling            	     1:39:14	     1:42:51
+Operational uptime    	       99.0%	       99.0%
+Operational utilization	       21.5%	       21.5%
+Total utilization     	       21.5%	       21.5%
+MTBA                  	     0:16:17	     0:16:17
+MTTA                  	     0:00:29	     0:00:29
+MTBF                  	     0:06:24	     0:05:42
+MTTR                  	     0:01:18	     0:01:12
+
+Picked up components            0      147628                        
+Placed components               0      146498                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+Searchlight_photo_detector-c     452        449          0          0          3          0          0          0          0          0          0
+ZL70641MJX-Single Axis - part 1_comp1-b       0          0          0          0          0          0          0          0          0          0          0
+
+

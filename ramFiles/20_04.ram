@@ -1,0 +1,28 @@
+ZL70642MJX-SL10 Axis - part 2 20.04.2022  08:00
+Time period         	22:24:11	Since	19.04.2022  09:36
+                          System 1    System 2
+Down time             	     0:23:23	     0:23:23
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    21:55:00	    21:55:00
+ Engineering time     	     1:35:28	     1:35:28
+Standby time          	    18:00:07	    18:00:57
+Productive time       	     2:19:25	     2:18:35
+  Loop time           	     2:19:18	     0:19:38
+  Operator            	     0:00:07	     1:38:20
+  Handling            	     0:00:00	     0:20:37
+Operational uptime    	       98.2%	       98.2%
+Operational utilization	       10.4%	       10.3%
+Total utilization     	       10.3%	       10.3%
+MTBA                  	     0:02:01	     0:01:43
+MTTA                  	     0:00:05	     0:00:06
+MTBF                  	     0:00:00	     0:00:23
+MTTR                  	     0:00:01	     0:00:06
+
+Picked up components            0         119                        
+Placed components               0         119                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+SL10 Single Mode Vertical Laser-c      64         63          0          0          1          0          0          0          0          0          0
+
+

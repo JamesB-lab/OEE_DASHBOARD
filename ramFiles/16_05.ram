@@ -1,0 +1,56 @@
+ZL70590_PNP_4XTRAYS STRETCHED 16.05.2022  13:07
+Time period         	76:26:54	Since	13.05.2022  08:40
+                          System 1    System 2
+Down time             	     0:14:26	     0:14:26
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     6:54:33	     6:54:33
+ Engineering time     	     0:17:00	     0:17:00
+Standby time          	     1:59:39	     1:59:46
+Productive time       	     4:37:54	     4:37:47
+  Loop time           	     4:27:30	     3:59:18
+  Operator            	     0:10:24	     0:23:49
+  Handling            	     0:00:00	     0:14:40
+Operational uptime    	       96.6%	       96.6%
+Operational utilization	       64.7%	       64.7%
+Total utilization     	        6.0%	        6.0%
+MTBA                  	     0:36:37	     0:32:02
+MTTA                  	     0:03:22	     0:03:07
+MTBF                  	     0:00:06	     0:05:32
+MTTR                  	     0:00:08	     0:00:11
+
+Picked up components            0        4388                        
+Placed components               0        4388                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+            ZL70590-c    4483       4365          0          0        118          0          0          0          0          0          0
+
+
+ZL70590_PNP_4XTRAYS STRETCHED 16.05.2022  13:08
+Time period         	0:00:32	Since	16.05.2022  13:07
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:32	     0:00:32
+ Engineering time     	     0:00:32	     0:00:32
+Standby time          	     0:00:00	     0:00:00
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+            ZL70590-c       2          2          0          0          0          0          0          0          0          0          0
+
+

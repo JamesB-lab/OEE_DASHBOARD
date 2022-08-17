@@ -1,0 +1,86 @@
+ZL70643 PART 2                21.02.2022  07:36
+Time period         	85:43:22	Since	17.02.2022  17:53
+                          System 1    System 2
+Down time             	     0:05:48	     0:05:48
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     5:24:13	     5:24:13
+ Engineering time     	     0:12:48	     0:12:48
+Standby time          	     0:01:05	     0:02:20
+Productive time       	     5:10:20	     5:09:05
+  Loop time           	     5:03:42	     1:58:02
+  Operator            	     0:06:38	     0:41:22
+  Handling            	     0:00:00	     2:29:41
+Operational uptime    	       98.2%	       98.2%
+Operational utilization	       94.0%	       93.6%
+Total utilization     	        6.0%	        6.0%
+MTBA                  	     2:31:36	     1:41:04
+MTTA                  	     0:00:02	     0:00:17
+MTBF                  	     0:00:00	     0:00:38
+MTTR                  	     0:00:21	     0:00:03
+
+Picked up components            0        1218                        
+Placed components               0        1218                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+              VCSEL-c     565        564          0          0          1          0          0          0          0          0          0
+
+
+ZL70643 PART 2                21.02.2022  07:38
+Time period         	0:01:15	Since	21.02.2022  07:36
+                          System 1    System 2
+Down time             	     0:00:42	     0:00:42
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:33	     0:00:33
+ Engineering time     	     0:00:16	     0:00:16
+Standby time          	     0:00:17	     0:00:17
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       44.0%	       44.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+              VCSEL-c       0          0          0          0          0          0          0          0          0          0          0
+
+
+ZL70642MJX                    21.02.2022  08:00
+Time period         	0:22:43	Since	21.02.2022  07:38
+                          System 1    System 2
+Down time             	     0:02:00	     0:02:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:20:43	     0:20:43
+ Engineering time     	     0:09:45	     0:09:45
+Standby time          	     0:05:57	     0:05:44
+Productive time       	     0:05:01	     0:05:14
+  Loop time           	     0:00:35	     0:00:01
+  Operator            	     0:00:43	     0:01:44
+  Handling            	     0:03:43	     0:03:29
+Operational uptime    	       91.1%	       91.1%
+Operational utilization	       22.0%	       23.0%
+Total utilization     	       22.0%	       23.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:13	     0:00:00
+MTBF                  	     0:01:28	     0:00:00
+MTTR                  	     0:00:19	     0:00:04
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+Searchlight_photo_detector-c       1          1          0          0          0          0          0          0          0          0          0
+           SLWINDOW-c       0          0          0          0          0          0          0          0          0          0          0
+
+

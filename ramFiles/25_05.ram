@@ -1,0 +1,58 @@
+ZL70642MJX                    25.05.2022  08:00
+Time period         	15:23:03	Since	24.05.2022  16:37
+                          System 1    System 2
+Down time             	     0:04:36	     0:04:36
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    15:18:27	    15:18:27
+ Engineering time     	     0:25:08	     0:25:08
+Standby time          	     8:34:20	     8:34:16
+Productive time       	     6:18:59	     6:19:03
+  Loop time           	     0:37:37	     1:35:02
+  Operator            	     0:23:22	     0:26:01
+  Handling            	     5:18:00	     4:18:00
+Operational uptime    	       99.5%	       99.5%
+Operational utilization	       41.0%	       41.0%
+Total utilization     	       41.0%	       41.0%
+MTBA                  	     1:02:25	     1:02:25
+MTTA                  	     0:00:18	     0:00:17
+MTBF                  	     0:08:06	     0:09:02
+MTTR                  	     0:00:09	     0:00:22
+
+Picked up components            0         800                        
+Placed components               0         800                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+Searchlight_photo_detector-c     805        801          0          0          4          0          0          0          0          0          0
+
+
+ZL70642MJX                    25.05.2022  17:36
+Time period         	9:36:25	Since	25.05.2022  08:00
+                          System 1    System 2
+Down time             	     0:11:16	     0:11:16
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     9:25:09	     9:25:09
+ Engineering time     	     0:01:10	     0:01:10
+Standby time          	     0:45:47	     0:45:58
+Productive time       	     8:38:12	     8:38:01
+  Loop time           	     1:07:33	     2:49:33
+  Operator            	     0:40:43	     1:05:20
+  Handling            	     6:49:56	     4:43:08
+Operational uptime    	       98.0%	       98.0%
+Operational utilization	       89.9%	       89.8%
+Total utilization     	       89.9%	       89.8%
+MTBA                  	     0:39:22	     0:34:27
+MTTA                  	     0:00:56	     0:00:53
+MTBF                  	     0:04:40	     0:05:39
+MTTR                  	     0:00:14	     0:00:09
+
+Picked up components            0        1401                        
+Placed components               0        1401                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+Searchlight_photo_detector-c    1405       1402          0          0          3          0          0          0          0          0          0
+
+

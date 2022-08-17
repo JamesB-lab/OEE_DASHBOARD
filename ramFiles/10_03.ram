@@ -1,0 +1,59 @@
+ZL70571_STRETCHED_PNP_4XTRAYS 10.03.2022  07:48
+Time period         	15:29:19	Since	09.03.2022  16:18
+                          System 1    System 2
+Down time             	     0:05:03	     0:05:03
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    15:24:16	    15:24:16
+ Engineering time     	     0:12:50	     0:12:50
+Standby time          	     8:41:27	     8:41:21
+Productive time       	     6:29:59	     6:30:05
+  Loop time           	     0:00:28	     3:50:43
+  Operator            	     0:04:24	     1:59:39
+  Handling            	     6:25:07	     0:39:43
+Operational uptime    	       99.4%	       99.4%
+Operational utilization	       41.9%	       41.9%
+Total utilization     	       41.9%	       41.9%
+MTBA                  	     0:55:30	     0:55:30
+MTTA                  	     0:00:15	     0:00:14
+MTBF                  	     0:09:45	     0:09:38
+MTTR                  	     0:00:02	     0:00:14
+
+Picked up components            0        4591                        
+Placed components               0        4591                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+    ZL70571_STRETCH-c    4373       4372          0          0          1          0          0          0          0          0          0
+
+
+ZL70641MJX-Single Axis - part 110.03.2022  08:00
+Time period         	0:11:55	Since	10.03.2022  07:48
+                          System 1    System 2
+Down time             	     0:01:04	     0:01:04
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:10:51	     0:10:51
+ Engineering time     	     0:10:26	     0:10:26
+Standby time          	     0:00:25	     0:00:25
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       91.0%	       91.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0        4591                        
+Placed components               0        4591                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+Searchlight_photo_detector-c       1          1          0          0          0          0          0          0          0          0          0
+ZL70641MJX-Single Axis - part 1_comp1-b       0          0          0          0          0          0          0          0          0          0          0
+
+

@@ -1,0 +1,29 @@
+ZL70641MJX-Single Axis - part 217.03.2022  08:00
+Time period         	16:05:53	Since	16.03.2022  15:54
+                          System 1    System 2
+Down time             	     0:05:29	     0:05:29
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    16:00:24	    16:00:24
+ Engineering time     	     0:33:10	     0:33:10
+Standby time          	     8:22:02	     8:22:02
+Productive time       	     7:05:12	     7:05:12
+  Loop time           	     6:39:06	     3:12:46
+  Operator            	     0:26:06	     1:18:12
+  Handling            	     0:00:00	     2:34:14
+Operational uptime    	       99.4%	       99.4%
+Operational utilization	       44.0%	       44.0%
+Total utilization     	       44.0%	       44.0%
+MTBA                  	     0:10:15	     0:10:15
+MTTA                  	     0:00:05	     0:00:05
+MTBF                  	     0:00:00	     0:03:14
+MTTR                  	     0:00:12	     0:00:18
+
+Picked up components            0        2126                        
+Placed components               0        2125                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+SLSA Single Mode Vertical Laser-c    1125       1124          0          0          1          0          0          0          0          0          0
+
+

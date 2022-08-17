@@ -1,0 +1,85 @@
+ZL70641MJX - part 3           13.06.2022  07:35
+Time period         	71:35:17	Since	10.06.2022  08:00
+                          System 1    System 2
+Down time             	     0:10:38	     0:10:38
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     5:27:59	     5:27:59
+ Engineering time     	     0:36:20	     0:36:20
+Standby time          	     1:22:30	     1:23:53
+Productive time       	     3:29:09	     3:27:46
+  Loop time           	     0:52:11	     1:15:00
+  Operator            	     0:12:54	     1:17:12
+  Handling            	     2:24:04	     0:55:34
+Operational uptime    	       96.8%	       96.8%
+Operational utilization	       61.7%	       61.3%
+Total utilization     	        4.8%	        4.8%
+MTBA                  	     0:10:06	     0:09:41
+MTTA                  	     0:00:46	     0:00:48
+MTBF                  	     0:24:25	     0:02:54
+MTTR                  	     0:00:05	     0:00:53
+
+Picked up components            0         232                        
+Placed components               0         232                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+         SLSA Riser-c     242        233          0          0          9          0          0          0          0          0          0
+
+
+ZL70641MJX - part 3           13.06.2022  07:56
+Time period         	0:21:11	Since	13.06.2022  07:35
+                          System 1    System 2
+Down time             	     0:18:06	     0:18:06
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:03:05	     0:03:05
+ Engineering time     	     0:00:31	     0:00:31
+Standby time          	     0:02:34	     0:02:34
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       14.5%	       14.5%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+         SLSA Riser-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+ZL70642MJX                    13.06.2022  08:00
+Time period         	0:03:47	Since	13.06.2022  07:56
+                          System 1    System 2
+Down time             	     0:01:04	     0:01:04
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:02:43	     0:02:43
+ Engineering time     	     0:02:19	     0:02:19
+Standby time          	     0:00:24	     0:00:24
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       71.8%	       71.8%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+                SL_PD       0          0          0          0          0          0          0          0          0          0          0
+
+

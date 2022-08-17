@@ -1,0 +1,84 @@
+ZL70641MJX-Single Axis - part 207.03.2022  07:36
+Time period         	65:28:26	Since	04.03.2022  14:08
+                          System 1    System 2
+Down time             	     0:06:02	     0:06:02
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     2:54:20	     2:54:20
+ Engineering time     	     0:12:58	     0:12:58
+Standby time          	     0:11:23	     0:11:21
+Productive time       	     2:29:59	     2:30:01
+  Loop time           	     2:20:55	     1:09:44
+  Operator            	     0:09:04	     1:08:15
+  Handling            	     0:00:00	     0:12:02
+Operational uptime    	       96.6%	       96.6%
+Operational utilization	       83.1%	       83.1%
+Total utilization     	        3.8%	        3.8%
+MTBA                  	     0:23:25	     0:23:26
+MTTA                  	     0:00:04	     0:00:04
+MTBF                  	     0:00:00	     0:02:14
+MTTR                  	     0:00:59	     0:00:25
+
+Picked up components            0        1143                        
+Placed components               0        1143                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+SLSA Single Mode Vertical Laser-c     375        344          0          0         31          0          0          0          0          0          0
+
+
+ZL70641MJX-Single Axis - part 207.03.2022  08:00
+Time period         	0:24:00	Since	07.03.2022  07:36
+                          System 1    System 2
+Down time             	     0:05:52	     0:05:52
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:18:08	     0:18:08
+ Engineering time     	     0:00:00	     0:00:00
+Standby time          	     0:18:08	     0:18:08
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       75.5%	       75.5%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:08:24	     0:00:00
+MTTR                  	     0:01:31	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+SLSA Single Mode Vertical Laser-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+ZL70641MJX-Single Axis - part 207.03.2022  08:13
+Time period         	0:12:19	Since	07.03.2022  08:00
+                          System 1    System 2
+Down time             	     0:01:44	     0:01:44
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:08:56	     0:08:56
+ Engineering time     	     0:06:21	     0:06:21
+Standby time          	     0:02:35	     0:02:35
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       83.7%	       83.7%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+SLSA Single Mode Vertical Laser-c       1          1          0          0          0          0          0          0          0          0          0
+
+

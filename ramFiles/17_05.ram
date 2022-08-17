@@ -1,0 +1,85 @@
+CMMA Beamsplitter             17.05.2022  13:52
+Time period         	24:44:00	Since	16.05.2022  13:08
+                          System 1    System 2
+Down time             	     0:04:40	     0:04:40
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     2:27:46	     2:27:46
+ Engineering time     	     0:29:58	     0:29:58
+Standby time          	     1:46:59	     1:47:13
+Productive time       	     0:10:49	     0:10:35
+  Loop time           	     0:02:30	     0:02:50
+  Operator            	     0:00:43	     0:04:01
+  Handling            	     0:07:36	     0:03:44
+Operational uptime    	       96.9%	       96.9%
+Operational utilization	        7.0%	        6.9%
+Total utilization     	        0.7%	        0.7%
+MTBA                  	     0:06:15	     0:03:08
+MTTA                  	     0:00:06	     0:00:08
+MTBF                  	     0:00:13	     0:00:00
+MTTR                  	     0:00:06	     0:00:13
+
+Picked up components            0          12                        
+Placed components               0          12                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+               beam-c      14         13          0          0          1          0          0          0          0          0          0
+
+
+CMMA Beamsplitter             17.05.2022  14:16
+Time period         	0:23:50	Since	17.05.2022  13:52
+                          System 1    System 2
+Down time             	     0:03:10	     0:03:10
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:19:47	     0:19:47
+ Engineering time     	     0:18:17	     0:18:17
+Standby time          	     0:01:06	     0:01:06
+Productive time       	     0:00:24	     0:00:24
+  Loop time           	     0:00:24	     0:00:10
+  Operator            	     0:00:00	     0:00:10
+  Handling            	     0:00:00	     0:00:04
+Operational uptime    	       86.2%	       86.2%
+Operational utilization	        1.7%	        1.7%
+Total utilization     	        1.6%	        1.6%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:04
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+               beam-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+ZL70590_PNP_4XTRAYS STRETCHED 17.05.2022  19:56
+Time period         	5:40:22	Since	17.05.2022  14:16
+                          System 1    System 2
+Down time             	     0:01:01	     0:01:01
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     5:39:21	     5:39:21
+ Engineering time     	     0:01:38	     0:01:38
+Standby time          	     4:53:47	     5:15:58
+Productive time       	     0:43:56	     0:21:45
+  Loop time           	     0:43:56	     0:19:22
+  Operator            	     0:00:00	     0:02:23
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       99.7%	       99.7%
+Operational utilization	       12.9%	        6.3%
+Total utilization     	       12.9%	        6.3%
+MTBA                  	     0:10:22	     0:07:24
+MTTA                  	     0:01:25	     0:03:50
+MTBF                  	     0:00:00	     1:07:40
+MTTR                  	     0:00:01	     0:00:10
+
+Picked up components            0         334                        
+Placed components               0         334                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+            ZL70590-c     367        336          0          0         31          0          0          0          0          0          0
+
+

@@ -1,0 +1,200 @@
+ZL70641MJX-Single Axis - part 215.03.2022  08:00
+Time period         	16:01:40	Since	14.03.2022  15:59
+                          System 1    System 2
+Down time             	     0:02:07	     0:02:07
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	    15:59:33	    15:59:33
+ Engineering time     	     9:29:59	     9:29:59
+Standby time          	     0:09:14	     0:09:14
+Productive time       	     6:20:20	     6:20:20
+  Loop time           	     5:11:37	     3:33:44
+  Operator            	     1:08:43	     0:27:02
+  Handling            	     0:00:00	     2:19:34
+Operational uptime    	       99.7%	       99.7%
+Operational utilization	       39.5%	       39.5%
+Total utilization     	       39.5%	       39.5%
+MTBA                  	     3:08:16	     3:08:16
+MTTA                  	     0:00:38	     0:00:38
+MTBF                  	     0:13:25	     0:15:19
+MTTR                  	     0:00:25	     0:00:11
+
+Picked up components            0        1008                        
+Placed components               0        1008                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+                  bmc       0          0          0          0          0          0          0          0          0          0          0
+SLSA Single Mode Vertical Laser-c    1010       1009          0          0          1          0          0          0          0          0          0
+
+
+ZL70641MJX-Single Axis - part 215.03.2022  08:21
+Time period         	0:20:21	Since	15.03.2022  08:00
+                          System 1    System 2
+Down time             	     0:00:46	     0:00:46
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:15:14	     0:15:14
+ Engineering time     	     0:15:00	     0:15:00
+Standby time          	     0:00:14	     0:00:14
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       95.2%	       95.2%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+SLSA Single Mode Vertical Laser-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+ZL70641MJX-Single Axis - part 215.03.2022  08:27
+Time period         	0:26:25	Since	15.03.2022  08:00
+                          System 1    System 2
+Down time             	     0:01:36	     0:01:36
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:15:24	     0:15:24
+ Engineering time     	     0:15:09	     0:15:09
+Standby time          	     0:00:15	     0:00:15
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       90.5%	       90.5%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+SLSA Single Mode Vertical Laser-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+ZL70641MJX-Single Axis - part 215.03.2022  08:27
+Time period         	0:00:00	Since	15.03.2022  08:27
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:00	     0:00:00
+ Engineering time     	     0:00:00	     0:00:00
+Standby time          	     0:00:00	     0:00:00
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	        0.0%	        0.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+SLSA Single Mode Vertical Laser-c       1          1          0          0          0          0          0          0          0          0          0
+
+
+ZL70641MJX-Single Axis - part 115.03.2022  15:00
+Time period         	30:45:30	Since	14.03.2022  08:15
+                          System 1    System 2
+Down time             	     0:01:23	     0:01:23
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:00:37	     0:00:37
+ Engineering time     	     0:00:00	     0:00:00
+Standby time          	     0:00:37	     0:00:37
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	       30.8%	       30.8%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+Searchlight_photo_detector-c       1          1          0          0          0          0          0          0          0          0          0
+ZL70641MJX-Single Axis - part 1_comp1-b       0          0          0          0          0          0          0          0          0          0          0
+
+
+ZL70641MJX-Single Axis - part 115.03.2022  15:07
+Time period         	0:06:14	Since	15.03.2022  15:00
+                          System 1    System 2
+Down time             	     0:00:00	     0:00:00
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     0:06:14	     0:06:14
+ Engineering time     	     0:03:28	     0:03:28
+Standby time          	     0:02:46	     0:02:46
+Productive time       	     0:00:00	     0:00:00
+  Loop time           	     0:00:00	     0:00:00
+  Operator            	     0:00:00	     0:00:00
+  Handling            	     0:00:00	     0:00:00
+Operational uptime    	      100.0%	      100.0%
+Operational utilization	        0.0%	        0.0%
+Total utilization     	        0.0%	        0.0%
+MTBA                  	     0:00:00	     0:00:00
+MTTA                  	     0:00:00	     0:00:00
+MTBF                  	     0:00:00	     0:00:00
+MTTR                  	     0:00:00	     0:00:00
+
+Picked up components            0           0                        
+Placed components               0           0                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+Searchlight_photo_detector-c       1          1          0          0          0          0          0          0          0          0          0
+ZL70641MJX-Single Axis - part 1_comp1-b       0          0          0          0          0          0          0          0          0          0          0
+
+
+ZL70642MJX                    15.03.2022  20:20
+Time period         	5:13:05	Since	15.03.2022  15:07
+                          System 1    System 2
+Down time             	     0:16:57	     0:16:57
+Scheduled downtime    	     0:00:00	     0:00:00
+Up time               	     4:54:57	     4:54:57
+ Engineering time     	     0:25:03	     0:25:03
+Standby time          	     1:06:35	     1:06:22
+Productive time       	     3:23:19	     3:23:32
+  Loop time           	     0:43:36	     2:21:30
+  Operator            	     0:19:26	     0:35:41
+  Handling            	     2:20:17	     0:26:21
+Operational uptime    	       94.5%	       94.5%
+Operational utilization	       65.1%	       65.2%
+Total utilization     	       64.9%	       65.0%
+MTBA                  	     0:07:26	     0:07:26
+MTTA                  	     0:01:11	     0:01:11
+MTBF                  	     0:02:40	     0:01:44
+MTTR                  	     0:00:20	     0:00:10
+
+Picked up components            0        1011                        
+Placed components               0        1011                        
+
+Component statistics        TOTALLY USEABLE    REJECT     INKED  POS-ERROR  VAC-ERROR  AM-ERROR1  AM-ERROR2  AM-ERROR3  AM-ERROR4  INSP-ERROR
+----------------------------------------------------------------------------------------------------------------------------------------
+Searchlight_photo_detector-c    1279       1012          0          0        267          0          0          0          0          0          0
+           SLWINDOW-c       0          0          0          0          0          0          0          0          0          0          0
+
+
